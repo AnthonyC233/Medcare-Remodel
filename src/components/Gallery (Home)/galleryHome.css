@@ -1,0 +1,27 @@
+.gallery-link-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-image img {
+  height: 500px;
+  width: 800px;
+}
+
+.gallery-details {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 7rem;
+}
+
+.gallery-details h1 {
+  padding-bottom: 20px;
+}
+
+.gallery-details p {
+  padding-bottom: 20px;
+}

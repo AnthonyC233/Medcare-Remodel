@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Header from './components/Header/Header';
+import About from './components/About (Home)/About';
+import GalleryHome from './components/Gallery (Home)/GalleryHome';
 // import Home from '';
 // import Services from '';
 // import Gallery from '';
@@ -15,6 +17,9 @@ function App() {
     // <Router>
     <div>
       <Header />
+      {/* FOR STYLING FOR NOW */}
+      <About />
+      <GalleryHome />
       {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
