@@ -2,12 +2,21 @@ import React, { useState } from 'react';
 import './header.css';
 
 // Images
+// Page Icons
 import navImg1 from '../../assets/home-outline.svg';
 import navImg2 from '../../assets/create-outline.svg';
 import navImg3 from '../../assets/images-outline.svg';
-import navImg4 from '../../assets/call-outline.svg';
+import navImg4 from '../../assets/mail-outline.svg';
 import navImg5 from '../../assets/clipboard-outline.svg';
 import navImg6 from '../../assets/receipt-outline.svg';
+
+// Social Media Icons
+import navImg7 from '../../assets/logo-facebook.svg';
+import navImg8 from '../../assets/logo-instagram.svg';
+import navImg9 from '../../assets/logo-twitter.svg';
+
+// Phone Icon
+import navImg10 from '../../assets/call-outline.svg';
 
 function Header() {
   // Menu Slider
@@ -20,19 +29,43 @@ function Header() {
     { title: "Gallery", src: navImg3 },
     { title: "Contact", src: navImg4 },
     { title: "Register", src: navImg5, gap: true },
-    { title: "Credit", src: navImg6, gap: true },
+    { title: "Credit", src: navImg6 },
+
+    { title: "Facebook", src: navImg7, gap: true },
+    { title: "Instagram", src: navImg8 },
+    { title: "Twitter", src: navImg9 },
   ]
+
+  
 
   return (
     <header>
       {/* Navbar */}
       <nav className='flex'>
-        <div className={`${ open ? 'w-72' : 'w-20' } duration-300 h-screen p-5 pt-8 bg-indigo-800 fixed`}>
+        {/* Nav Width (w-72 === 18rem || 288px; w-20 === 5rem || 80px) */}
+        <div className={`
+
+        // 1920px - 640px
+        ${ open ? 'w-72' : 'w-20' } duration-300 h-screen p-5 pt-8 bg-blue-900 fixed 
+
+        // 639px (sm)
+        ${ open ? 'sm:h-screen' : 'sm:h-24' } sm:w-screen`
+        }>
+          {/* Menu Arrow Btn */}
           <img 
-          className={`absolute cursor-pointer rounded-full -right-3 top-9 w-7 border-2 border-black bg-white ${!open && 'rotate-180 duration-300'}`} 
-          src={ process.env.PUBLIC_URL + '/left-arrow.png' }  alt="navbar arrow"
+          className={`
+
+          // 1920px - 640px
+          ${!open && 'rotate-[360deg] duration-300'} absolute cursor-pointer rounded-full -right-3 top-9 w-7 border-2 border-black bg-white
+
+          // 639px (sm)
+          sm:right-2
+          `} 
+          src={ process.env.PUBLIC_URL + '/ellipsis.png' }  alt="navbar arrow"
           onClick={ () => setOpen(!open) }>  
           </img>
+
+          {/* Nav Logo */}
           <div className='flex gap-x-4 items-center'>
             <img 
             className={`nav-logo cursor-pointer duration-500 ${open && "rotate-[360deg]"}`}
@@ -40,16 +73,42 @@ function Header() {
             </img>
             <h1 className={`text-white origin-left font-medium text-xl duration-300 ${!open && 'scale-0'} `}>MedCare</h1>
           </div>
+
+          {/* Nav List */}
           <ul className='pt-6'>
             { Menu.map((menu, index) => (
               <li key={index} 
-              className={`text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${ menu.gap ? "mt-9" : "mt-2" } ${index === 0 && 'bg-gray-300'}`}>
-                <img className='nav-icons' src={`${menu.src}`} alt="nav images"></img>
-                <span className={`${!open && 'hidden'} origin-left duration-200`}>{ menu.title }</span>
+              className={`
+
+              // 1920px - 640px
+              text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${ menu.gap ? "mt-9" : "mt-2" } ${index === 0 && 'bg-indigo-50 text-zinc-900'}
+              
+              // 639px (sm)
+              ${!open && 'sm:hidden' }
+              `}>
+                <img className={`
+
+                // 1920px - 640px
+                nav-icons
+
+                // 639px (sm)
+                ${ !open && 'sm:hidden'}
+                
+                `} src={`${menu.src}`} alt="nav images"></img>
+                <span className={`
+
+                   // 1920px - 640px
+                   ${!open && 'hidden'} origin-left duration-200
+
+                   // 639px (sm)
+
+                  `}>{ menu.title }</span>
               </li>
             ))}
           </ul>
         </div>
+
+        {/* Header */}
         <div className='p-7 text-2xl font-semibold flex-1 h-screen'>
           <h1>Home Page</h1>
         </div>
@@ -61,9 +120,7 @@ function Header() {
 
 export default Header;
 
-// LOGO
-// src={process.env.PUBLIC_URL + '/logo192.png'} alt="nav logo"
-
+// { title: "404- 944-2346", src: navImg10, gap: true}
 
 
 
@@ -125,3 +182,17 @@ export default Header;
 // }
 
 // export default Header;
+
+
+// import React from 'react'
+
+// function NavButton(props) {
+
+//     return (
+//       <button className='bg-black text-white font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-cyan-600 duration-500'>
+//         {props.children}
+//       </button>
+//     );
+//   }
+
+// export default NavButton;
