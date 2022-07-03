@@ -14,9 +14,12 @@ function Progress({ done }) {
   }, 1000);
 
   return (
-    <div className="progress-bars-container">
-      <div className="progress">
-        <div className="progress-done" style={style}>
+    <div className="pb-6">
+      <div className="progress-container h-5 w-96 bg-white rounded-full">
+        <div
+          className="progress-done rounded-full text-white flex items-center justify-center flex-col text-center text-xs"
+          style={style}
+        >
           {done}%
         </div>
       </div>

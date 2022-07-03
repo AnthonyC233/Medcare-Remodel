@@ -1,28 +1,7 @@
 /* ABOUT.JS */
-/* TODO: ask james about the navbar thing. because right now it's overlapping the navbar. need to readjust probably */
-.about-section-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* height: 100vh; */
-  margin: 0;
-}
-
-.about-details {
-  background-color: var(--ltGreen);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 7rem;
-}
-
-.progress-bars {
-  background-color: var(--green);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.about-section {
+  /* for the nav bar */
+  padding-left: 5rem;
 }
 
 .progress-bars p {
@@ -30,28 +9,40 @@
 }
 
 /* PROGRESS.JS */
-.progress-bars-container {
-  padding: 10px;
-}
-
-.progress {
-  background-color: white;
-  border-radius: 20px;
-  height: 20px;
-  width: 300px;
-}
-
 .progress-done {
   height: 100%;
   width: 0;
   opacity: 0;
   background: linear-gradient(to right, #e39383, #e3745e);
-  color: white;
   box-shadow: 0 3px 3px -5px #e39383, 0 2px 5px #e3745e;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   /* makes the progress bars grow on refresh */
   transition: 1s ease;
+}
+
+/* 639 changes */
+@media screen and (max-width: 639px) {
+  .about-section {
+    padding: 0;
+  }
+}
+
+/* PHONE RESPONSIVE */
+@media screen and (max-device-width: 526px) {
+  .progress-container {
+    width: 20em;
+  }
+}
+
+/* PHONE RESPONSIVE */
+@media screen and (max-device-width: 430px) {
+  .progress-container {
+    width: 15rem;
+  }
+}
+
+/* iPHONE SE */
+@media screen and (max-device-width: 375px) {
+  .progress-bars {
+    display: none;
+  }
 }
