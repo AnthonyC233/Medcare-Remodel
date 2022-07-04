@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Header from '../components/Header/Header';
+import Nav from '../components/Header/Nav';
 import About from '../components/About (Home)/About';
 import Gallery from '../components/Gallery (Home)/GalleryHome';
 
 const Home = () => {
     return (
         <div>
-            <Header />
+            <Nav />
             <About />
             <Gallery />
         </div>
