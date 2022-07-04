@@ -61,7 +61,7 @@ function Header() {
 
         // 1920px - 640px
         ${
-          open ? 'w-72' : 'w-20'
+          open ? 'w-80' : 'w-20'
         } duration-300 h-screen p-5 pt-8 bg-blue-900 fixed 
 
         // 639px (sm)
@@ -136,7 +136,7 @@ function Header() {
               className={`
 
               // 1920px - 640px
-              text-white origin-left font-medium text-xl duration-300 ${!open && 'scale-0'} 
+              text-white origin-left font-medium text-xl duration-300 ${!open && 'hidden'} 
 
               // 639px (sm)
               ${!open && 'sm:scale-100'}
@@ -162,7 +162,7 @@ function Header() {
 
               `}
             >
-              MedCare
+              MedCare Health Cert
             </h1>
           </div>
 
@@ -199,6 +199,8 @@ function Header() {
               // 1920px - 640px
               pb-4
 
+              // LANDSCAPE
+              // ---------
               // iPhone SE (Landscape)
               iPhoneSE:pb-0
 
@@ -217,6 +219,37 @@ function Header() {
               // SamsungS20Ultra (Landscape)
               SamsungS20Ultra:pb-0
 
+              // iPadAir (Landscape)
+              iPadAir:pb-10
+
+              // iPadMini (Landscape)
+              iPadMini:pb-10
+
+              // HORIZONTAL
+              // ----------
+              // iPhone SE (Horizontal)
+              iPhoneSEH:pb-6
+
+              // iPhoneXR (Horizontal)
+              iPhoneXRH:pb-16
+
+              // iPhone12Pro (Horizontal)
+              iPhone12ProH:pb-10
+
+              // Pixel5 (Horizontal)
+              Pixel5H:pb-10
+
+              // SamsungS8 (Horizontal)
+              SamsungS8H:pb-8
+
+              // SamsungS20Ultra (Horizontal)
+              SamsungS20UltraH:pb-16
+
+              // iPadAir (Horizontal)
+              iPadAirH:pb-20
+
+              // iPadMini (Horizontal)
+              iPadMiniH:pb-20
 
             `}>
               <ul className="pt-6">
@@ -229,7 +262,8 @@ function Header() {
                   text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
                     menu.gap ? 'mt-9' : 'mt-2'
                   } ${index === 0 && 'bg-indigo-50 text-zinc-900'}
-                  
+                  h-9
+
                   // 639px (sm)
                   ${!open && 'sm:hidden'}
 
@@ -286,20 +320,58 @@ function Header() {
               // 1920px - 640px
               pb-4
 
+
+              // LANDSCAPE
+              // ---------
               // iPhone SE (Landscape)
-              iPhoneSE:pb-0 pt-6
+              iPhoneSE:pb-0 iPhoneSE:pt-6
+
+              // iPhone XR (Landscape)
+              iPhoneXR:pb-0 iPhoneXR:pt-6
 
               // iPhone12Pro (Landscape)
-              iPhone12Pro:pb-0 pt-6
+              iPhone12Pro:pb-0 iPhone12Pro:pt-6
 
               // Pixel5 (Landscape)
-              Pixel5:pb-0 pt-6
+              Pixel5:pb-0 Pixel5:pt-6
 
               // SamsungS8 (Landscape)
-              SamsungS8:pb-0 pt-6
+              SamsungS8:pb-0 SamsungS8:pt-6
 
               // SamsungS20Ultra (Landscape)
-              SamsungS20Ultra:pb-0 pt-6
+              SamsungS20Ultra:pb-0 SamsungS20Ultra:pt-6
+
+              // iPadAir (Landscape)
+              iPadAir:pb-20
+
+              // iPadMini (Landscape)
+              iPadMini:pb-20
+
+              // HORIZONTAL
+              // ---------
+              // iPhone SE (Horizontal)
+              iPhoneSEH:pb-6
+
+              // iPhoneXR (Horizontal)
+              iPhoneXRH:pb-16
+
+              // iPhone12Pro (Horizontal)
+              iPhone12ProH:pb-10
+
+              // Pixel5 (Horizontal)
+              Pixel5H:pb-10
+
+              // SamsungS8 (Horizontal)
+              SamsungS8H:pb-8
+
+              // SamsungS20Ultra (Horizontal)
+              SamsungS20UltraH:pb-28
+
+              // iPadAir (Horizontal)
+              iPadAirH:pb-20
+
+              // iPadMini (Horizontal)
+              iPadMiniH:pb-36
 
 
             `}>
@@ -311,6 +383,7 @@ function Header() {
                   text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
                     menu.gap ? 'mt-9' : 'mt-2'
                   }
+                  h-9
                   
                   // 639px (sm)
                   ${!open && 'sm:hidden'}
@@ -365,26 +438,61 @@ function Header() {
             {/* RIGHT MENU */}
             <div className={`
 
-              // 1920px - 640px
-              pb-4
+            // 1920px - 640px
+            pb-4
 
-              // iPhone SE (Landscape)
-              iPhoneSE:pb-0 pt-6
+            // LANDSCAPE
+            // ---------
 
-              // iPhoneXR (Landscape)
-              iPhoneXR:pb-0
+            // iPhone SE (Landscape)
+            iPhoneSE:pb-0 iPhoneSE:pt-6
 
-              // iPhone12Pro (Landscape)
-              iPhone12Pro:pb-0
+            // iPhone XR (Landscape)
+            iPhoneXR:pb-0 iPhoneXR:pt-6
 
-              // Pixel5 (Landscape)
-              Pixel5:pb-0
+            // iPhone12Pro (Landscape)
+            iPhone12Pro:pb-0 iPhone12Pro:pt-6
 
-              // SamsungS8 (Landscape)
-              SamsungS8:pb-0
+            // Pixel5 (Landscape)
+            Pixel5:pb-0 Pixel5:pt-6
 
-              // SamsungS20Ultra (Landscape)
-              SamsungS20Ultra:pb-0
+            // SamsungS8 (Landscape)
+            SamsungS8:pb-0 SamsungS8:pt-6
+
+            // SamsungS20Ultra (Landscape)
+            SamsungS20Ultra:pb-0 SamsungS20Ultra:pt-6
+
+            // iPadAir (Landscape)
+              iPadAir:pb-28
+
+            // iPadMini (Landscape)
+            iPadMini:pb-16
+
+            // HORIZONTAL
+            // ---------
+            // iPhone SE (Horizontal)
+            iPhoneSEH:pb-10
+
+            // iPhoneXR (Horizontal)
+            iPhoneXRH:pb-44
+
+            // iPhone12Pro (Horizontal)
+            iPhone12ProH:pb-40
+
+            // Pixel5 (Horizontal)
+            Pixel5H:pb-44
+
+            // SamsungS8 (Horizontal)
+            SamsungS8H:pb-24
+
+            // SamsungS20Ultra (Horizontal)
+            SamsungS20UltraH:pb-40
+
+            // iPadAir (Horizontal)
+            iPadAirH:pb-96
+
+            //iPadMini (Horizontal)
+            iPadMiniH:pb-52
 
 
             `}>
@@ -396,6 +504,7 @@ function Header() {
                   text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
                     menu.gap ? 'mt-9' : 'mt-2'
                   } 
+                  h-9
                   
                   // 639px (sm)
                   ${!open && 'sm:hidden'}
@@ -445,7 +554,33 @@ function Header() {
                 ))}
               </ul>
             </div>
+          </div>
+          
+          {/* BOTTOM MENU PARENT DIV */}
+          <div className={`
+          
+          // 1920px - 640px
+          flex relative
 
+          // iPhone SE (Landscape)
+          iPhoneSE:justify-end iPhoneSE:right-9
+
+          // iPhoneXR (Landscape)
+          iPhoneXR:justify-end iPhoneXR:right-28
+
+          // iPhone12Pro (Landscape)
+          iPhone12Pro:justify-end iPhone12Pro:right-24
+        
+          // Pixel5 (Landscape)
+          Pixel5:justify-end Pixel5:right-24
+
+          // SamsungS8 (Landscape)
+          SamsungS8:justify-end SamsungS8:right-14        
+
+          // SamsungS20Ultra (Landscape)
+          SamsungS20Ultra:justify-end SamsungS20Ultra:right-28
+          
+          `}>
             {/* BOTTOM MENU */}
             <div className={`
               
@@ -455,7 +590,9 @@ function Header() {
                   <li key={index} className={`
 
                   // 1920px - 640px
-                  text-gray-300 text-xs flex items-center gap-x-4 p-2
+                  text-gray-300 text-xxs flex items-center gap-x-4 p-2 h-10
+
+
                   `}>
                     <img 
                       className={`
@@ -465,6 +602,25 @@ function Header() {
                       
                       // 639px (sm)
                       ${!open && 'sm:hidden'}
+
+                      // iPhoneSE (Landscape)
+                      ${!open && 'iPhoneSE:hidden'}
+
+                      // iPhoneXR (Landscape)
+                      ${!open && 'iPhoneXR:hidden'}
+
+                      // iPhone12Pro (Landscape)
+                      ${!open && 'iPhone12Pro:hidden'}
+
+                      // Pixel5 (Landscape)
+                      ${!open && 'Pixel5:hidden'} 
+
+                      // SamsungS8 (Landscape)
+                      ${!open && 'SamsungS8:hidden'} 
+
+                      // SamsungS20Ultra (Landscape)
+                      ${!open && 'SamsungS20Ultra:hidden'} 
+
                       `}
                       src={`${menu.src}`}
                       alt="right nav images"
@@ -486,9 +642,7 @@ function Header() {
         </div>
 
         {/* Header */}
-        <div className="p-7 text-2xl font-semibold flex-1 h-screen">
-          <h1>Home Page</h1>
-        </div>
+       
       </nav>
     </header>
   );
