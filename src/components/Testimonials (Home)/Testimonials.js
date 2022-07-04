@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './testimonials.css';
 
 // https://www.npmjs.com/package/react-owl-carousel
@@ -46,6 +46,8 @@ function Testimonials() {
     },
   ];
 
+  const [testimonialsList, setTestimonialsList] = useState(studentTestimonials);
+
   return (
     <section>
       <div className="testimonials-section">
@@ -64,40 +66,12 @@ function Testimonials() {
           loop
           margin={10}
         >
-          <div className="item">
-            <p>"{studentTestimonials.testimony}"</p>
-            <p>M. Gallego</p>
-          </div>
-
-          <div className="item">
-            <p>"hi"</p>
-            <p>M. Gallego</p>
-          </div>
-
-          <div className="item">
-            <p>"hi"</p>
-            <p>M. Gallego</p>
-          </div>
-
-          <div className="item">
-            <p>"hi"</p>
-            <p>M. Gallego</p>
-          </div>
-
-          <div className="item">
-            <p>"hi"</p>
-            <p>M. Gallego</p>
-          </div>
-
-          <div className="item">
-            <p>"hi"</p>
-            <p>M. Gallego</p>
-          </div>
-
-          <div className="item">
-            <p>"hi"</p>
-            <p>M. Gallego</p>
-          </div>
+          {testimonialsList.map((item, index) => (
+            <div className="item">
+              <p>"{item.testimony}"</p>
+              <p>- {item.name}</p>
+            </div>
+          ))}
         </OwlCarousel>
       </div>
     </section>
