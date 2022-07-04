@@ -3,6 +3,18 @@
     height: 40px;
 }
 
-.nav-icons {
+.left-nav-icons {
+    width: 20px;
+}
+
+.middle-nav-icons {
+    width: 20px;
+}
+
+.right-nav-icons {
+    width: 20px;
+}
+
+.bottom-nav-icons {
     width: 20px;
 }

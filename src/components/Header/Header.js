@@ -15,25 +15,40 @@ import navImg7 from '../../assets/logo-facebook.svg';
 import navImg8 from '../../assets/logo-instagram.svg';
 import navImg9 from '../../assets/logo-twitter.svg';
 
-// Phone Icon
+// Phone, Email, and Copyright Icons
 import navImg10 from '../../assets/call-outline.svg';
+import navImg11 from '../../assets/at-circle-outline.svg';
+import navImg12 from '../../assets/globe-outline.svg';
 
 function Header() {
   // Menu Slider
   const [open, setOpen] = useState(false);
 
   // Menu Links
-  const Menu = [
-    { title: 'Homepage', src: navImg1 },
-    { title: 'Services', src: navImg2 },
-    { title: 'Gallery', src: navImg3 },
-    { title: 'Contact', src: navImg4 },
-    { title: 'Register', src: navImg5, gap: true },
-    { title: 'Credit', src: navImg6 },
+  const LeftMenu = [
+    { title: 'Homepage', src: navImg1, pathway: '/' },
+    { title: 'Services', src: navImg2, pathway: '/services' },
+    { title: 'Gallery', src: navImg3, pathway: '/gallery' },
+    { title: 'Contact', src: navImg4, pathway: '/contact' },
+  ];
 
-    { title: 'Facebook', src: navImg7, gap: true },
+  const MiddleMenu = [
+    // Will have link to doc
+    { title: 'Register', src: navImg5, },
+    { title: 'Credit', src: navImg6, pathway: '/credit' },
+  ];
+
+  const RightMenu = [
+    // Will have social media links
+    { title: 'Facebook', src: navImg7 },
     { title: 'Instagram', src: navImg8 },
     { title: 'Twitter', src: navImg9 },
+  ];
+
+  const BottomMenu = [
+    { title: '404- 944-2346', src: navImg10 },
+    // { title: 'support@medcarehealthcert.com', src: navImg11 },
+    { title: '2022 MedCare HealthCert', src: navImg12 },
   ];
 
   return (
@@ -50,27 +65,66 @@ function Header() {
         } duration-300 h-screen p-5 pt-8 bg-blue-900 fixed 
 
         // 639px (sm)
-        ${open ? 'sm:h-screen' : 'sm:h-24'} sm:w-screen`}
+        ${open ? 'sm:h-screen' : 'sm:h-24'} sm:w-screen
+        
+        // iPhone SE (Landscape)
+        // ${open ? 'iPhoneSE:h-screen' : 'iPhoneSE:h-24'} iPhoneSE:w-screen
+
+        // iPhoneXR (Landscape)
+        ${open ? 'iPhoneXR:h-screen' : 'iPhoneXR:h-24'} iPhoneXR:w-screen
+
+        // iPhone12Pro (Landscape)
+        ${open ? 'iPhone12Pro:h-screen' : 'iPhone12Pro:h-24'} iPhone12Pro:w-screen
+
+        // Pixel5 (Landscape)
+        ${open ? 'Pixel5:h-screen' : 'Pixel5:h-24'} Pixel5:w-screen
+
+        // SamsungS8 (Landscape)
+        ${open ? 'SamsungS8:h-screen' : 'SamsungS8:h-24'} SamsungS8:w-screen
+
+        // SamsungS20Ultra (Landscape)
+        ${open ? 'SamsungS20Ultra:h-screen' : 'SamsungS20Ultra:h-24'} SamsungS20Ultra:w-screen
+
+        `}
+
         >
           {/* Menu Arrow Btn */}
           <img
             className={`
 
           // 1920px - 640px
-          ${
-            !open && 'rotate-[360deg] duration-300'
-          } absolute cursor-pointer rounded-full -right-3 top-9 w-7 border-2 border-black bg-white
+          ${!open && 'rotate-[180deg] duration-300'} absolute cursor-pointer rounded-full -right-3 top-9 w-7 border-2 border-black bg-white
 
           // 639px (sm)
-          sm:right-2
+          sm:right-5 sm:rotate-[-90deg] ${open && 'sm:rotate-[-270deg] sm:duration-300'}
+
+          // iPhone SE (Landscape)
+          iPhoneSE:right-5 iPhoneSE:rotate-[-90deg] ${open && 'iPhoneSE:rotate-[-270deg] iPhoneSE:duration-300'}
+
+          // iPhoneXR (Landscape)
+          iPhoneXR:right-5 iPhoneXR:rotate-[-90deg] ${open && 'iPhoneXR:rotate-[-270deg] iPhoneXR:duration-300'}
+
+          // iPhone12Pro (Landscape)
+          iPhone12Pro:right-5 iPhone12Pro:rotate-[-90deg] ${open && 'iPhone12Pro:rotate-[-270deg] iPhone12Pro:duration-300'}
+
+          // Pixel5 (Landscape)
+          Pixel5:right-5 Pixel5:rotate-[-90deg] ${open && 'Pixel5:rotate-[-270deg] Pixel5:duration-300'}
+
+          // SamsungS8 (Landscape)
+          SamsungS8:right-5 SamsungS8:rotate-[-90deg] ${open && 'SamsungS8:rotate-[-270deg] SamsungS8:duration-300'}
+
+          // SamsungS20Ultra (Landscape)
+          SamsungS20Ultra:right-5 SamsungS20Ultra:rotate-[-90deg] ${open && 'SamsungS20Ultra:rotate-[-270deg] SamsungS20Ultra:duration-300'}
+
+
           `}
-            src={process.env.PUBLIC_URL + '/ellipsis.png'}
+            src={process.env.PUBLIC_URL + '/left-arrow.png'}
             alt="navbar arrow"
             onClick={() => setOpen(!open)}
           ></img>
 
           {/* Nav Logo */}
-          <div className="flex gap-x-4 items-center">
+          <div className="nav-list flex gap-x-4 items-center">
             <img
               className={`nav-logo cursor-pointer duration-500 ${
                 open && 'rotate-[360deg]'
@@ -79,58 +133,356 @@ function Header() {
               alt="nav logo"
             ></img>
             <h1
-              className={`text-white origin-left font-medium text-xl duration-300 ${
-                !open && 'scale-0'
-              } `}
+              className={`
+
+              // 1920px - 640px
+              text-white origin-left font-medium text-xl duration-300 ${!open && 'scale-0'} 
+
+              // 639px (sm)
+              ${!open && 'sm:scale-100'}
+              
+              // iPhone SE (Landscape)
+              ${!open && 'iPhoneSE:scale-100'}
+
+              // iPhoneXR (Landscape)
+              ${!open && 'iPhoneXR:scale-100'}
+
+              // iPhone12Pro (Landscape)
+              ${!open && 'iPhone12Pro:scale-100'}
+
+              // Pixel5 (Landscape)
+              ${!open && 'Pixel5:scale-100'}
+
+              // SamsungS8 (Landscape)
+              ${!open && 'SamsungS8:scale-100'}
+
+              // SamsungS20Ultra (Landscape)
+              ${!open && 'SamsungS20Ultra:scale-100'}
+
+
+              `}
             >
               MedCare
             </h1>
           </div>
 
-          {/* Nav List */}
-          <ul className="pt-6">
-            {Menu.map((menu, index) => (
-              <li
-                key={index}
-                className={`
+          {/* NAV LIST PARENT DIV */}
+          <div className={`
+          
+              // 1920px - 640px
+              grid grid-cols-1
+
+              // iPhone SE (Landscape)
+              iPhoneSE:grid-cols-3
+
+              // iPhoneXR (Landscape)
+              iPhoneXR:grid-cols-3
+
+              // iPhone12Pro (Landscape)
+              iPhone12Pro:grid-cols-3
+
+              // Pixel5 (Landscape)
+              Pixel5:grid-cols-3
+
+              // SamsungS8 (Landscape)
+              SamsungS8:grid-cols-3
+
+              // SamsungS20Ultra (Landscape)
+              SamsungS20Ultra:grid-cols-3
+
+
+          `}>
+
+            {/* LEFT MENU */}
+            <div className={`
 
               // 1920px - 640px
-              text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
-                menu.gap ? 'mt-9' : 'mt-2'
-              } ${index === 0 && 'bg-indigo-50 text-zinc-900'}
-              
-              // 639px (sm)
-              ${!open && 'sm:hidden'}
-              `}
-              >
-                <img
-                  className={`
+              pb-4
 
-                // 1920px - 640px
-                nav-icons
+              // iPhone SE (Landscape)
+              iPhoneSE:pb-0
 
-                // 639px (sm)
-                ${!open && 'sm:hidden'}
-                
-                `}
-                  src={`${menu.src}`}
-                  alt="nav images"
-                ></img>
-                <span
-                  className={`
+              // iPhoneXR (Landscape)
+              iPhoneXR:pb-0
 
-                   // 1920px - 640px
-                   ${!open && 'hidden'} origin-left duration-200
+              // iPhone12Pro (Landscape)
+              iPhone12Pro:pb-0
 
-                   // 639px (sm)
+              // Pixel5 (Landscape)
+              Pixel5:pb-0
+
+              // SamsungS8 (Landscape)
+              SamsungS8:pb-0
+
+              // SamsungS20Ultra (Landscape)
+              SamsungS20Ultra:pb-0
+
+
+            `}>
+              <ul className="pt-6">
+                {LeftMenu.map((menu, index) => (
+                  <li
+                    key={index}
+                    className={`
+
+                  // 1920px - 640px
+                  text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
+                    menu.gap ? 'mt-9' : 'mt-2'
+                  } ${index === 0 && 'bg-indigo-50 text-zinc-900'}
+                  
+                  // 639px (sm)
+                  ${!open && 'sm:hidden'}
+
+                  // iPhone SE (Landscape)
+                  ${!open && 'iPhoneSE:hidden'} iPhoneSE:grid grid-cols-4
+
+                  // iPhoneXR (Landscape)
+                  ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
+
+                  // iPhone12Pro (Landscape)
+                  ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
+
+                  // Pixel5 (Landscape)
+                  ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
+
+                  // SamsungS8 (Landscape)
+                  ${!open && 'SamsungS8:hidden'} SamsungS8:grid grid-cols-4
+
+                  // SamsungS20Ultra (Landscape)
+                  ${!open && 'SamsungS20Ultra:hidden'} SamsungS20Ultra:grid grid-cols-4
+
 
                   `}
-                >
-                  {menu.title}
-                </span>
-              </li>
-            ))}
-          </ul>
+                  >
+                    <img
+                      className={`
+
+                      // 1920px - 640px
+                      left-nav-icons
+
+                      // 639px (sm)
+                      ${!open && 'sm:hidden'}
+                    `}
+                      src={`${menu.src}`}
+                      alt="left nav images"
+                    ></img>
+                    <span
+                      className={`
+
+                      // 1920px - 640px
+                      ${!open && 'hidden'} origin-left duration-200
+                      `}
+                    >
+                      {menu.title}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* MIDDLE MENU */}
+            <div className={`
+
+              // 1920px - 640px
+              pb-4
+
+              // iPhone SE (Landscape)
+              iPhoneSE:pb-0 pt-6
+
+              // iPhone12Pro (Landscape)
+              iPhone12Pro:pb-0 pt-6
+
+              // Pixel5 (Landscape)
+              Pixel5:pb-0 pt-6
+
+              // SamsungS8 (Landscape)
+              SamsungS8:pb-0 pt-6
+
+              // SamsungS20Ultra (Landscape)
+              SamsungS20Ultra:pb-0 pt-6
+
+
+            `}>
+              <ul>
+                {MiddleMenu.map((menu, index) => (
+                  <li key={index} className={`
+
+                  // 1920px - 640px
+                  text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
+                    menu.gap ? 'mt-9' : 'mt-2'
+                  }
+                  
+                  // 639px (sm)
+                  ${!open && 'sm:hidden'}
+
+                  // iPhone SE (Landscape)
+                  ${!open && 'iPhoneSE:hidden'} iPhoneSE:grid grid-cols-4
+
+                  // iPhoneXR (Landscape)
+                  ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
+
+                  // iPhone12Pro (Landscape)
+                  ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
+
+                  // Pixel5 (Landscape)
+                  ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
+
+                  // SamsungS8 (Landscape)
+                  ${!open && 'SamsungS8:hidden'} SamsungS8:grid grid-cols-4
+
+                  // SamsungS20Ultra (Landscape)
+                  ${!open && 'SamsungS20Ultra:hidden'} SamsungS20Ultra:grid grid-cols-4
+
+
+                  `}
+                  >
+                    <img 
+                      className={`
+                      
+                      // 1920px - 640px
+                      middle-nav-icons
+
+                      // 639px (sm)
+                      ${!open && 'sm:hidden'}
+                      `}
+                      src={`${menu.src}`}
+                      alt="middle nav images"
+                    ></img>
+                    <span 
+                      className={`
+
+                      // 1920px - 640px
+                      ${!open && 'hidden'} origin-left duration-200
+                    `}
+                    >
+                      {menu.title}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* RIGHT MENU */}
+            <div className={`
+
+              // 1920px - 640px
+              pb-4
+
+              // iPhone SE (Landscape)
+              iPhoneSE:pb-0 pt-6
+
+              // iPhoneXR (Landscape)
+              iPhoneXR:pb-0
+
+              // iPhone12Pro (Landscape)
+              iPhone12Pro:pb-0
+
+              // Pixel5 (Landscape)
+              Pixel5:pb-0
+
+              // SamsungS8 (Landscape)
+              SamsungS8:pb-0
+
+              // SamsungS20Ultra (Landscape)
+              SamsungS20Ultra:pb-0
+
+
+            `}>
+              <ul>
+                {RightMenu.map((menu, index) => (
+                  <li key={index} className={`
+
+                  // 1920px - 640px
+                  text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
+                    menu.gap ? 'mt-9' : 'mt-2'
+                  } 
+                  
+                  // 639px (sm)
+                  ${!open && 'sm:hidden'}
+
+                  // iPhone SE (Landscape)
+                  ${!open && 'iPhoneSE:hidden'} iPhoneSE:grid grid-cols-4
+
+                  // iPhoneXR (Landscape)
+                  ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
+
+                  // iPhone12Pro (Landscape)
+                  ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
+
+                  // Pixel5 (Landscape)
+                  ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
+
+                  // SamsungS8 (Landscape)
+                  ${!open && 'SamsungS8:hidden'} SamsungS8:grid grid-cols-4
+
+                  // SamsungS20Ultra (Landscape)
+                  ${!open && 'SamsungS20Ultra:hidden'} SamsungS20Ultra:grid grid-cols-4
+
+
+                  `}>
+                    <img 
+                      className={`
+                      
+                      // 1920px - 640px
+                      right-nav-icons
+                      
+                      // 639px (sm)
+                      ${!open && 'sm:hidden'}
+                      `}
+                      src={`${menu.src}`}
+                      alt="right nav images"
+                    ></img>
+                    <span 
+                      className={`
+
+                      // 1920px - 640px
+                      ${!open && 'hidden'} origin-left duration-200
+                    `}
+                    >
+                      {menu.title}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* BOTTOM MENU */}
+            <div className={`
+              
+            `}>
+              <ul>
+                {BottomMenu.map((menu, index) => (
+                  <li key={index} className={`
+
+                  // 1920px - 640px
+                  text-gray-300 text-xs flex items-center gap-x-4 p-2
+                  `}>
+                    <img 
+                      className={`
+                      
+                      // 1920px - 640px
+                      bottom-nav-icons
+                      
+                      // 639px (sm)
+                      ${!open && 'sm:hidden'}
+                      `}
+                      src={`${menu.src}`}
+                      alt="right nav images"
+                    ></img>
+                    <span 
+                      className={`
+
+                      // 1920px - 640px
+                      ${!open && 'hidden'} origin-left duration-200
+                    `}
+                    >
+                      {menu.title}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
 
         {/* Header */}
@@ -143,74 +495,3 @@ function Header() {
 }
 
 export default Header;
-
-// { title: "404- 944-2346", src: navImg10, gap: true}
-
-// import { useLocation } from 'react-router-dom';
-// import NavButton from './NavButton';
-// import './header.css';
-
-// function Header() {
-
-//   // Links (State)
-//   let Links = [
-//     { name: "HOME", link: "/"},
-//     { name: "SERVICES", link: "/"},
-//     { name: "GALLERY", link: "/"},
-//     { name: "CONTACT", link: "/"},
-//   ];
-
-//   // Nav Toggle (State)
-//   let [open, setOpen] = useState(false);
-
-//   return (
-//     <div>
-//       <div>
-
-//         {/* Navbar */}
-//         <nav className='shadow-md w-full fixed top-0 left-0'>
-//           <div className='md:flex items-center justify-between bg-blue py-4 md:px-10 px-7'>
-//             <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800'>
-//               {/* ICON GOES IN SPAN */}
-//               <span className='text-3xl text-indigo-600 mr-1 pt-2'></span>
-//               MedCare Health Cert
-//             </div>
-
-//             {/* Toggle Btn */}
-//             <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
-//             <ion-icon name={ open ? 'close-circle' : 'menu' }></ion-icon>
-//             </div>
-
-//             <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${ open ? 'top-20' : 'top-[-490px]' }`}>
-//               {
-//                 Links.map((link) => (
-//                   <li key={ link.name } className='md:ml-8 text-xl md:my-0 my-7'>
-//                     <a href={ link.link } className='text-gray-800 hover:text-gray-400 durration-500'>{ link.name }</a>
-//                   </li>
-//                 ))
-//               }
-//               <NavButton>
-//                 Register Here
-//               </NavButton>
-//             </ul>
-//           </div>
-//         </nav>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Header;
-
-// import React from 'react'
-
-// function NavButton(props) {
-
-//     return (
-//       <button className='bg-black text-white font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-cyan-600 duration-500'>
-//         {props.children}
-//       </button>
-//     );
-//   }
-
-// export default NavButton;
