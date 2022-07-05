@@ -67,9 +67,9 @@ function Testimonials() {
           margin={10}
         >
           {testimonialsList.map((item, index) => (
-            <div className="item">
+            <div className="item p-10">
               <p>"{item.testimony}"</p>
-              <p>- {item.name}</p>
+              <p className="text-center p-5">- {item.name}</p>
             </div>
           ))}
         </OwlCarousel>
