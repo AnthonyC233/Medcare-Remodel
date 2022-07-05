@@ -7,7 +7,7 @@ function About() {
   return (
     <section>
       <div className="about-section grid grid-cols-2 lg:grid-cols-1">
-        <div className="p-20 lg:p-10 bg-ltGreen flex items-center justify-center flex-col text-left">
+        <div className="py-20 pl-28 pr-9 bg-ltGreen flex items-center justify-center flex-col text-left hi">
           <h1 className="pb-5">ABOUT US</h1>
           <p>
             Welcome to MedCare HealthCert! At our school, we pride ourselves in
@@ -15,6 +15,7 @@ function About() {
             Nurses. Our school is open to all college students majoring in any
             of the sciences.
           </p>
+          <br></br>
           <p>
             We offer clinical training and certifications in the following:
             Phlebotomy, Medical Assistant (CCMA), Patient Care Technician (PCT),
@@ -42,7 +43,7 @@ function About() {
           </p> */}
         </div>
         {/* Progress bar can be customized by changing the "done=" value */}
-        <div className="progress-bars p-20 bg-green flex items-center justify-center flex-col">
+        <div className="progress-bars p-20 bg-green flex items-center justify-center flex-col hi">
           <p>AVERAGE CLASS SIZE</p>
           <Progress done="30" />
           <p>AVERAGE GRADUATION RATE</p>
