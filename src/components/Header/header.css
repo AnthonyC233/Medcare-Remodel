@@ -1,4 +1,4 @@
-
+/* Nav.js */
 .nav-logo {
     height: 40px;
 }
@@ -17,4 +17,24 @@
 
 .bottom-nav-icons {
     width: 18px;
+}
+
+/* Header.js */
+.header-link-section {
+/* for the navbar */
+/* padding-left: 5rem; */
+}
+  
+
+/* FIX FOR 1023px (lg) SCREENS */
+.header-image img {
+height: 500px;
+width: 800px;
+}
+  
+/* 639 changes */
+@media screen and (max-width: 639px) {
+    .gallery-link-section {
+        padding: 0;
+    }
 }

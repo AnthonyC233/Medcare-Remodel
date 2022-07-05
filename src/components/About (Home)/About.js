@@ -8,7 +8,7 @@ function About() {
     <section>
       <div className="about-section grid grid-cols-2 lg:grid-cols-1">
         <div className="py-20 pl-28 pr-9 bg-ltGreen flex items-center justify-center flex-col text-left hi">
-          <h1 className="pb-5">ABOUT US</h1>
+          <h1 className="pb-5 text-3xl font-medium font-['Mingzat']">ABOUT US</h1>
           <p>
             Welcome to MedCare HealthCert! At our school, we pride ourselves in
             gapping bridges for our students to become future MDs, PAs and
