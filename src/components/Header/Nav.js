@@ -55,11 +55,14 @@ function Nav() {
   return (
     <header>
       {/* Navbar */}
-      <nav className="flex">
+      <nav className="flex z-50">
         {/* Nav Width (w-72 === 18rem || 288px; w-20 === 5rem || 80px) */}
         <div
           className={`
 
+        // ALL SIZES
+        z-40
+          
         // 1920px - 640px
         ${
           open ? 'w-80' : 'w-20'
@@ -163,7 +166,7 @@ function Nav() {
 
               `}
             >
-              MedCare Health Cert
+              MedCare
             </h1>
           </div>
 

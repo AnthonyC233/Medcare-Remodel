@@ -15,7 +15,7 @@ function GalleryHome() {
         </div>
 
         <div className="p-20 lg:p-10 flex items-center justify-center flex-col text-center hi">
-          <h1 className="pb-5">GALLERY</h1>
+          <h1 className="pb-5 text-3xl font-medium font-['Mingzat']">GALLERY</h1>
           <p className="pb-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
