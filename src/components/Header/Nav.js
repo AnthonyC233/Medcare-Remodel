@@ -66,28 +66,28 @@ function Nav() {
         // 1920px - 640px
         ${
           open ? 'w-80' : 'w-20'
-        } duration-300 h-screen p-5 pt-8 bg-blue-900 fixed 
+        }  h-screen p-5 pt-8 bg-slate-200 fixed 
 
         // 639px (sm)
-        ${open ? 'sm:h-screen' : 'sm:h-24'} sm:w-screen
+        ${open ? 'sm:h-screen' : 'sm:h-24 sm:w-24'} sm:w-screen sm:duration-300
         
         // iPhone SE (Landscape)
-        // ${open ? 'iPhoneSE:h-screen' : 'iPhoneSE:h-24'} iPhoneSE:w-screen
+        // ${open ? 'iPhoneSE:h-screen' : 'iPhoneSE:h-24'} iPhoneSE:w-screen iPhoneSE:duration-300
 
         // iPhoneXR (Landscape)
-        ${open ? 'iPhoneXR:h-screen' : 'iPhoneXR:h-24'} iPhoneXR:w-screen
+        ${open ? 'iPhoneXR:h-screen' : 'iPhoneXR:h-24'} iPhoneXR:w-screen iPhoneXR:duration-300
 
         // iPhone12Pro (Landscape)
-        ${open ? 'iPhone12Pro:h-screen' : 'iPhone12Pro:h-24'} iPhone12Pro:w-screen
+        ${open ? 'iPhone12Pro:h-screen' : 'iPhone12Pro:h-24'} iPhone12Pro:w-screen iPhone12Pro:duration-300
 
         // Pixel5 (Landscape)
-        ${open ? 'Pixel5:h-screen' : 'Pixel5:h-24'} Pixel5:w-screen
+        ${open ? 'Pixel5:h-screen' : 'Pixel5:h-24'} Pixel5:w-screen Pixel5:duration-300
 
         // SamsungS8 (Landscape)
-        ${open ? 'SamsungS8:h-screen' : 'SamsungS8:h-24'} SamsungS8:w-screen
+        ${open ? 'SamsungS8:h-screen' : 'SamsungS8:h-24'} SamsungS8:w-screen SamsungS8:duration-300
 
         // SamsungS20Ultra (Landscape)
-        ${open ? 'SamsungS20Ultra:h-screen' : 'SamsungS20Ultra:h-24'} SamsungS20Ultra:w-screen
+        ${open ? 'SamsungS20Ultra:h-screen' : 'SamsungS20Ultra:h-24'} SamsungS20Ultra:w-screen SamsungS20Ultra:duration-300
 
         `}
 
@@ -140,7 +140,7 @@ function Nav() {
               className={`
 
               // 1920px - 640px
-              text-white origin-left font-medium text-xl duration-300 ${!open && 'hidden'} 
+              text-white origin-left font-medium text-xl duration-300 ${!open && 'hidden'} drop-shadow-md hover:drop-shadow-xl
 
               // 639px (sm)
               ${!open && 'sm:scale-100'}
@@ -166,7 +166,7 @@ function Nav() {
 
               `}
             >
-              MedCare
+              MedCare HealthCert
             </h1>
           </div>
 
@@ -263,7 +263,7 @@ function Nav() {
                     className={`
 
                   // 1920px - 640px
-                  text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
+                  text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
                     menu.gap ? 'mt-9' : 'mt-2'
                   } ${index === 0 && 'bg-indigo-50 text-zinc-900'}
                   h-9
@@ -384,7 +384,7 @@ function Nav() {
                   <li key={index} className={`
 
                   // 1920px - 640px
-                  text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
+                  text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
                     menu.gap ? 'mt-9' : 'mt-2'
                   }
                   h-9
@@ -505,7 +505,7 @@ function Nav() {
                   <li key={index} className={`
 
                   // 1920px - 640px
-                  text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
+                  text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
                     menu.gap ? 'mt-9' : 'mt-2'
                   } 
                   h-9
@@ -594,7 +594,7 @@ function Nav() {
                   <li key={index} className={`
 
                   // 1920px - 640px
-                  text-gray-300 text-xxs flex items-center gap-x-4 p-2 h-10
+                  text-zinc-900 text-xxs flex items-center gap-x-4 p-2 h-10
 
 
                   `}>
