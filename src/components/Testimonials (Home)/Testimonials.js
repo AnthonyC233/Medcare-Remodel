@@ -48,6 +48,17 @@ function Testimonials() {
 
   const [testimonialsList, setTestimonialsList] = useState(studentTestimonials);
 
+  const settings = {
+    responsive: {
+      767: {
+        items: 1,
+      },
+      1023: {
+        items: 3,
+      },
+    },
+  };
+
   return (
     <section>
       <div className="testimonials-section">
@@ -58,6 +69,7 @@ function Testimonials() {
 
         <OwlCarousel
           className="testimonials-owl-carousel owl-theme p-10"
+          {...settings}
           items="3"
           autoplay
           center

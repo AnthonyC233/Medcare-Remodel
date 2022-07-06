@@ -5,17 +5,21 @@ import gallery from '../../assets/home-gallery.png';
 function GalleryHome() {
   return (
     <section>
-      <div className="gallery-link-section grid grid-cols-2 lg:grid-cols-1">
-        <div className="gallery-image">
-          <img
-            src={gallery}
-            alt="gallery-home-link"
-            className="object-contain md:object-scale-down"
-          ></img>
+      <div className="grid grid-cols-2 lg:grid-cols-1">
+        <div className="p-10">
+          <div className="pl-24">
+            <img
+              src={gallery}
+              alt="gallery-home-link"
+              className="object-contain md:object-scale-down"
+            ></img>
+          </div>
         </div>
 
-        <div className="p-20 lg:p-10 flex items-center justify-center flex-col text-center hi">
-          <h1 className="pb-5 text-3xl font-medium font-['Mingzat']">GALLERY</h1>
+        <div className="p-10 flex items-center justify-center flex-col text-center">
+          <h1 className="pb-5 text-3xl font-medium font-['Mingzat']">
+            GALLERY
+          </h1>
           <p className="pb-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.

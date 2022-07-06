@@ -8,8 +8,8 @@
   opacity: 0.2;
   transform: scale3d(0.8, 0.8, 1);
   transition: all 0.3s ease-in-out;
-  /* height: 240px;
-  width: 740px; */
+  height: 310px;
+  width: 500px;
 }
 
 /* To make the center testimony stand out */

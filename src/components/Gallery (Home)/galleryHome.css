@@ -1,16 +1,11 @@
-.gallery-link-section {
-  /* for the navbar */
-  padding-left: 5rem;
-}
-
-.gallery-image img {
+/* .gallery-image img {
   height: 500px;
   width: 800px;
-}
+} */
 
 /* 639 changes */
-@media screen and (max-width: 639px) {
+/* @media screen and (max-width: 639px) {
   .gallery-link-section {
     padding: 0;
   }
-}
+} */
