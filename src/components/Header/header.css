@@ -27,12 +27,21 @@
   
 
 /* FIX FOR 1023px (lg) SCREENS */
+
+.header-bg-color {
+    background: #FFFAFB;
+}
+
 .header-image img {
 height: 500px;
 width: 800px;
 }
   
 /* 639 changes */
+.page {
+    grid-template-columns: 60vw auto;
+}
+
 @media screen and (max-width: 639px) {
     .gallery-link-section {
         padding: 0;

@@ -3,14 +3,17 @@ module.exports = {
   theme: {
     // Can now customize font sizes
     fontSize: {
+      // CUSTOM BREAKPOINTS
       xxs: '.625rem',
       xs: '.75rem',
+      // DEFAULT BREAKPOINTS
       sm: '.875rem',
       tiny: '.875rem',
       base: '1rem',
       lg: '1.125rem',
       xl: '1.25rem',
       '2xl': '1.5rem',
+      // EXTRA BREAKPOINTS
       '3xl': '1.875rem',
       '4xl': '2.25rem',
       '5xl': '3rem',
@@ -34,6 +37,10 @@ module.exports = {
 
         sm: { max: '639px' },
         // => @media (max-width: 639px) { ... }
+
+        // CUSTOM
+        header: { max: '858px' },
+        // => @media (max-width: 858px) { ... }
 
         // LANDSCAPE
         // ---------
@@ -61,31 +68,31 @@ module.exports = {
         iPadMini: { raw: '(width: 1024px) and (height: 768px)' },
         // iPadAirH (Landscape) => @media (width: 1024px) and (height: 768px)
 
-        // HORIZONTAL
+        // VERTICAL
         // ----------
         iPhoneSEH: { raw: '(width: 375px) and (height: 667px)' },
-        // iPhoneSE (Horizontal) => @media (width: 375px) and (height: 667px)
+        // iPhoneSE (Vertical) => @media (width: 375px) and (height: 667px)
 
         iPhoneXRH: { raw: '(width: 414px) and (height: 896px)' },
-        // iPhoneXR (Horizontal) => @media (width: 414px) and (height: 896px)
+        // iPhoneXR (Vertical) => @media (width: 414px) and (height: 896px)
 
         iPhone12ProH: { raw: '(width: 390px) and (height: 844px)' },
-        // iPhone12Pro (Horizontal) => @media (width: 390px) and (height: 844px)
+        // iPhone12Pro (Vertical) => @media (width: 390px) and (height: 844px)
 
         Pixel5H: { raw: '(width: 393px) and (height: 851px)' },
-        // Pixel5 (Horizontal) => @media (width: 393px) and (height: 851px)
+        // Pixel5 (Vertical) => @media (width: 393px) and (height: 851px)
 
         SamsungS8H: { raw: '(width: 360px) and (height: 740px)' },
-        // SamsungS8 (Horizontal) => @media (width: 360px) and (height: 740px)
+        // SamsungS8 (Vertical) => @media (width: 360px) and (height: 740px)
 
         SamsungS20UltraH: { raw: '(width: 412px) and (height: 915px)' },
-        // SamsungS20Ultra (Horizontal) => @media (width: 412px) and (height: 915px)
+        // SamsungS20Ultra (Vertical) => @media (width: 412px) and (height: 915px)
 
         iPadAirH: { raw: '(width: 820px) and (height: 1180px)' },
-        // iPadAirH (Horizontal) => @media (width: 820px) and (height: 1180px)
+        // iPadAirH (Vertical) => @media (width: 820px) and (height: 1180px)
 
         iPadMiniH: { raw: '(width: 768px) and (height: 1024px)' },
-        // iPadAirH (Horizontal) => @media (width: 768px) and (height: 1024px)
+        // iPadAirH (Vertical) => @media (width: 768px) and (height: 1024px)
       },
       // Adding hexcodes for colors to use with tailwind classes
       colors: {
