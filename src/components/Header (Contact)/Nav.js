@@ -61,7 +61,7 @@ function Nav() {
           className={`
 
         // ALL SIZES
-        z-40 shadow-lg shadow-black
+        z-50 shadow-lg shadow-black
           
         // 1920px - 640px
         ${
@@ -97,7 +97,7 @@ function Nav() {
             className={`
 
           // 1920px - 640px
-          ${!open && 'rotate-[180deg] duration-300'} absolute cursor-pointer rounded-full -right-3 top-9 w-7 border-2 border-black bg-white
+          ${!open && 'rotate-[180deg] duration-300'} absolute cursor-pointer rounded-full -right-1 top-9 w-7 border-2 border-black bg-white
 
           // 639px (sm)
           sm:right-5 sm:rotate-[-90deg] ${open && 'sm:rotate-[-270deg] sm:duration-300'}
@@ -638,15 +638,15 @@ function Nav() {
                         alt="right nav images"
                       ></img>
                     </a>
-                    <a href={`${menu.pathway}`}
+                    <span
                       className={`
 
                       // 1920px - 640px
-                      ${!open && 'hidden'} origin-left duration-200
+                      ${!open && 'hidden'} origin-left duration-200 
                     `}
                     >
                       {menu.title}
-                    </a>
+                    </span>
                   </li>
                 ))}
               </ul>
