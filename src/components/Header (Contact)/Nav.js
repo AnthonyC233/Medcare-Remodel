@@ -605,38 +605,40 @@ function Nav() {
 
 
                   `}>
-                    <img 
-                      className={`
-                      
-                      // 1920px - 640px
-                      bottom-nav-icons
-                      
-                      // 639px (sm)
-                      ${!open && 'sm:hidden'}
+                    <a href={`${menu.pathway}`}>
+                      <img 
+                        className={`
+                        
+                        // 1920px - 640px
+                        bottom-nav-icons
+                        
+                        // 639px (sm)
+                        ${!open && 'sm:hidden'}
 
-                      // iPhoneSE (Landscape)
-                      ${!open && 'iPhoneSE:hidden'}
+                        // iPhoneSE (Landscape)
+                        ${!open && 'iPhoneSE:hidden'}
 
-                      // iPhoneXR (Landscape)
-                      ${!open && 'iPhoneXR:hidden'}
+                        // iPhoneXR (Landscape)
+                        ${!open && 'iPhoneXR:hidden'}
 
-                      // iPhone12Pro (Landscape)
-                      ${!open && 'iPhone12Pro:hidden'}
+                        // iPhone12Pro (Landscape)
+                        ${!open && 'iPhone12Pro:hidden'}
 
-                      // Pixel5 (Landscape)
-                      ${!open && 'Pixel5:hidden'} 
+                        // Pixel5 (Landscape)
+                        ${!open && 'Pixel5:hidden'} 
 
-                      // SamsungS8 (Landscape)
-                      ${!open && 'SamsungS8:hidden'} 
+                        // SamsungS8 (Landscape)
+                        ${!open && 'SamsungS8:hidden'} 
 
-                      // SamsungS20Ultra (Landscape)
-                      ${!open && 'SamsungS20Ultra:hidden'} 
+                        // SamsungS20Ultra (Landscape)
+                        ${!open && 'SamsungS20Ultra:hidden'} 
 
-                      `}
-                      src={`${menu.src}`}
-                      alt="right nav images"
-                    ></img>
-                    <span 
+                        `}
+                        src={`${menu.src}`}
+                        alt="right nav images"
+                      ></img>
+                    </a>
+                    <a href={`${menu.pathway}`}
                       className={`
 
                       // 1920px - 640px
@@ -644,7 +646,7 @@ function Nav() {
                     `}
                     >
                       {menu.title}
-                    </span>
+                    </a>
                   </li>
                 ))}
               </ul>

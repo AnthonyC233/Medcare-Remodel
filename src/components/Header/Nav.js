@@ -643,7 +643,6 @@ function Nav() {
                       ></img>
                     </a>
                     <a href={`${menu.pathway}`}
-  <span
 
                       className={`
 
