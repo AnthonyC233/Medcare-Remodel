@@ -6,6 +6,7 @@ module.exports = {
       // CUSTOM BREAKPOINTS
       xxs: '.625rem',
       xs: '.75rem',
+      smaller: '.85rem',
       // DEFAULT BREAKPOINTS
       sm: '.875rem',
       tiny: '.875rem',
