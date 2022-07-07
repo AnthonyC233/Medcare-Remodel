@@ -1,8 +1,11 @@
 import React from 'react';
-import header1 from '../../assets/header-1.png';
 import './header.css';
 
+// Images for the header change per page
+import header1 from '../../assets/header-1.png';
+
 function Header() {
+
   return (
     <section class="text-gray-600 body-font">
       <div class="
@@ -106,7 +109,7 @@ function Header() {
           2xl:mb-0
 
         // iPhoneXR | Vertical
-          iPhoneXRH:pb-6
+          iPhoneXRH:pb-9
 
         // SamsungS20Ultra | Vertical
           SamsungS20UltraH:pb-14
