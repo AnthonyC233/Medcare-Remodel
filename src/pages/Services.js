@@ -1,11 +1,13 @@
 import React from 'react';
 
-import Header from '../components/Header/Header';
+import Nav from '../components/Header/Nav';
+import Grid from '../components/Grid (Services)/serviceGrid';
 
 const Services = () => {
     return (
         <div>
-            <Header />
+            <Nav />
+            <Grid />
         </div>
     )
 }
