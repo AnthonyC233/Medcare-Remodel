@@ -75,36 +75,64 @@ function Testimonials() {
   };
 
   return (
-    <section>
+    <section className="grid grid-cols-1">
+      {/* TESTIMONIALS HEADER SECTION */}
+      {/* 36: 144px | 12: 48px | Original pl-24: 96px*/}
       <div
-        className="testimonials-section md:pl-20 sm:p-0 xsm:p-0 xxsm:p-0
-                  SamsungS20UltraH:p-0
-                  SamsungS8H:p-0
-                  Pixel5H:p-0
-                  iPhone12ProH:p-0
-                  iPhoneXRH:p-0
-                  iPhoneSEH:p-0     "
-      >
-        <div className="p-10 text-center">
-          <h1 className="pb-2 text-3xl font-medium font-['Mingzat'] text-center">
-            OUR GRAD TESTIMONIALS
-          </h1>
-          <p>What our students say about us</p>
-        </div>
+        className="flex justify-center items-center flex-col
 
-        <div className="p-3">
-          <OwlCarousel
-            className="testimonials-owl-carousel owl-theme"
-            {...settings}
-          >
-            {testimonialsList.map((item, index) => (
-              <div className="item drop-shadow-xl p-10">
-                <p>"{item.testimony}"</p>
-                <p className="text-center">- {item.name}</p>
-              </div>
-            ))}
-          </OwlCarousel>
-        </div>
+        // BASE
+        pl-36 py-12 pr-12
+
+        // SMALL SCREEN
+        sm:p-0 sm:p-9
+
+        // PHONES | LANDSCAPE
+        SamsungS20Ultra:pl-12
+        SamsungS8:pl-12
+        Pixel5:pl-12
+        iPhone12Pro:pl-12
+        iPhoneXR:pl-12
+        iPhoneSE:pl-12 
+        GalaxyFold:pl-12
+        "
+      >
+        <h1 className="pb-3 text-3xl font-semibold font-['Mingzat'] text-center">
+          OUR GRAD TESTIMONIALS
+        </h1>
+        <p>What our students say about us</p>
+      </div>
+
+      {/* OWL CAROUSEL SECTION */}
+      <div
+        className="p-3
+        // BASE
+        pl-36 pr-12
+        
+        // SMALL SCREEN
+        sm:p-0 sm:p-9
+
+        // PHONES | LANDSCAPE
+        SamsungS20Ultra:pl-12
+        SamsungS8:pl-12
+        Pixel5:pl-12
+        iPhone12Pro:pl-12
+        iPhoneXR:pl-12
+        iPhoneSE:pl-12 
+        GalaxyFold:pl-12
+        "
+      >
+        <OwlCarousel
+          className="testimonials-owl-carousel owl-theme"
+          {...settings}
+        >
+          {testimonialsList.map((item, index) => (
+            <div className="item drop-shadow-xl p-10">
+              <p>"{item.testimony}"</p>
+              <p className="text-center">- {item.name}</p>
+            </div>
+          ))}
+        </OwlCarousel>
       </div>
     </section>
   );

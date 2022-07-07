@@ -7,6 +7,7 @@ import header4 from '../../assets/header-4.png';
 function Header() {
 
   return (
+
     <section class="text-gray-600 body-font">
       <div class="
       
@@ -22,6 +23,7 @@ function Header() {
       ">
 
         <div className='
+
         
         // Base
           w-2/6 top-0
@@ -38,9 +40,11 @@ function Header() {
         </div>
 
         {/* Text Div (Parent to Button Div) */}
+
         <div class="text-center w-2/3 ">
           <h1 class="title-font sm:text-4xl text-4xl mb-4 font-medium text-gray-900 font-['Inter']">Contact Us</h1>
           <p class="mb-8 leading-relaxed">Have any questions for us? If you're interested in our program and or have any remarks or concerns, let us know! Our Team will get back to you as soon as possible.</p>
+
         </div>
       </div>
 

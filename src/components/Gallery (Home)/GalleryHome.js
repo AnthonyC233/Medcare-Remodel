@@ -1,54 +1,76 @@
 import React from 'react';
 import './galleryHome.css';
-import gallery from '../../assets/home-gallery.png';
+import galleryPic from '../../assets/home-gallery.png';
+
+// PATH TO GALLERY PAGE FROM BUTTON
+import { useNavigate } from 'react-router-dom';
 
 function GalleryHome() {
+  let navigate = useNavigate();
+
+  function galleryLink() {
+    navigate('/gallery');
+  }
+
   return (
-    <section>
-      <div className="grid grid-cols-2 lg:grid-cols-1">
-        <div className="flex items-center justify-center">
-          <div
-            className="gallery-image
-            xsm:hidden 
-            // xl:p-24
-            // lg:p-0
-            // md:p-0
+    <section className="grid grid-cols-2 lg:grid-cols-1">
+      {/* GALLERY IMAGE SECTION */}
+      {/* 36: 144px | 12: 48px | Original pl-24: 96px*/}
+      <div
+        className="gallery-image
 
-            // PHONES | LANDSCAPE
-            SamsungS20Ultra:p-0
-            SamsungS8:p-0
-            Pixel5:p-0
-            iPhone12Pro:p-0
-            iPhoneXR:p-0
-            iPhoneSE:p-0         
-          "
+        // BASE
+        pl-36 py-12 pr-12
+
+        // SMALL SCREEN
+        sm:pl-12 sm:py-0
+
+        "
+      >
+        <img src={galleryPic} alt="home-gallery" className=""></img>
+      </div>
+
+      {/* GALLERY LINK SECTION */}
+      <div
+        className="flex justify-center items-center flex-col
+      
+        // BASE
+        pl-12 py-12 pr-12
+
+        lg:pl-36
+
+        sm:pr-36 sm:py-0
+
+        // PHONES | LANDSCAPE
+        SamsungS20Ultra:pl-12
+        SamsungS8:pl-12
+        Pixel5:pl-12
+        iPhone12Pro:pl-12
+        iPhoneXR:pl-12
+        iPhoneSE:pl-12 
+        GalaxyFold:pl-12
+        "
+      >
+        <h1 className="pb-5 text-3xl font-semibold font-['Mingzat']">
+          BECOME APART OF OUR FAMILY
+        </h1>
+        <p>
+          We offer studying material, exam prep as well as clinical training for
+          all your medical procedures. National Certification testing is
+          available at the location of your choice which are all nationally
+          recognized.
+        </p>
+        <br></br>
+        <p>
+          The Bureau of Labor states, “Certification leads to a higher salary
+          and more employment opportunity”. With a competitive medical
+          professional field on the rise, let’s get the ball rolling!
+        </p>
+        <div className="p-5">
+          <button
+            onClick={galleryLink}
+            className="inline-flex text-white bg-galleryButton border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-sm"
           >
-            <img
-              src={gallery}
-              alt="gallery-home-link"
-              className="object-scale-down GalaxyFold:hidden GalaxyFoldH:hidden"
-            ></img>
-          </div>
-        </div>
-
-        {/* lg and smaller will apply:pl-24 */}
-        <div className="flex items-center justify-center flex-col p-20 pl-36 sm:p-10">
-          <h1 className="pb-5 text-3xl font-medium font-['Mingzat']">
-            BECOME APART OF OUR FAMILY
-          </h1>
-          <p>
-            We offer studying material, exam prep as well as clinical training
-            for all your medical procedures. National Certification testing is
-            available at the location of your choice which are all nationally
-            recognized.
-          </p>
-          <br></br>
-          <p className="pb-7">
-            The Bureau of Labor states, “Certification leads to a higher salary
-            and more employment opportunity”. With a competitive medical
-            professional field on the rise, let’s get the ball rolling!
-          </p>
-          <button className="inline-flex text-white bg-galleryButton border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-sm">
             See Our Students at Work
           </button>
         </div>
