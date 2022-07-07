@@ -18,7 +18,6 @@ import navImg9 from '../../assets/logo-twitter.svg';
 
 // Phone, Email, and Copyright Icons
 import navImg10 from '../../assets/call-outline.svg';
-import navImg11 from '../../assets/at-circle-outline.svg';
 import navImg12 from '../../assets/globe-outline.svg';
 
 function Nav() {
@@ -701,7 +700,7 @@ function Nav() {
                     className={`
 
                   // 1920px - 640px
-                  text-zinc-900 text-xxs flex items-center gap-x-4 p-2 h-10
+                  text-zinc-900 text-xxs flex items-center gap-x-4 p-2 h-10 
 
 
                   `}
@@ -744,7 +743,7 @@ function Nav() {
                       className={`
 
                       // 1920px - 640px
-                      ${!open && 'hidden'} origin-left duration-200
+                      ${!open && 'hidden'} origin-left duration-200 
                     `}
                     >
                       {menu.title}
