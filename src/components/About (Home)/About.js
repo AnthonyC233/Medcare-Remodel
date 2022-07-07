@@ -55,7 +55,6 @@ function About() {
 
         sm:hidden
 
-
         // PHONES | LANDSCAPE
         SamsungS20Ultra:pl-12
         SamsungS8:pl-12
