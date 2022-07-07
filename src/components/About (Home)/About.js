@@ -13,37 +13,39 @@ function About() {
 
             // WHEN NAV BAR GOES UP 
             sm:p-0  
-          
-            // SAMSUNG GALAXY S20 ULTRA | Landscape
-            SamsungS20Ultra:p-0"
+
+            // PHONES | LANDSCAPE
+            iPhoneSE:p-0
+            iPhoneXR:p-0
+            iPhone12Pro:p-0
+            Pixel5:p-0
+            SamsungS8:p-0
+            SamsungS20Ultra:p-0
+            GalaxyFoldH:p-0"
           >
             <h1 className="pb-5 text-3xl font-medium font-['Mingzat']">
               ABOUT US
             </h1>
             <p>
-              Welcome to MedCare HealthCert! At our school, we pride ourselves
-              in gapping bridges for our students to become future MDs, PAs and
-              Nurses. Our school is open to all college students majoring in any
-              of the sciences.
+              At our school, we pride ourselves in gapping bridges for our
+              students to become future MDs, PAs and Nurses. Our school is open
+              to all college students majoring in any of the sciences.
             </p>
             <br></br>
             <p>
-              We offer clinical training and certifications in the following:
-              Phlebotomy, Medical Assistant (CCMA), Patient Care Technician
-              (PCT), EKG Technician, Medical Insurance, Billing and Coding
-              (MIBC), Certified Medical Administrative Assistant (CMAA), and
-              Certified Electronic Health Record Specialist (CEHRS).
+              We are a flexible, accelerated, and affordable certification
+              school for undergraduate and graduate science majors.
             </p>
           </div>
         </div>
         {/* Progress bar can be customized by changing the "done=" value */}
-        <div className="p-10 progress-bars bg-green flex items-center justify-center flex-col">
-          <p className="pb-2">AVERAGE CLASS SIZE</p>
-          <Progress done="30" />
-          <p className="pb-2">AVERAGE GRADUATION RATE</p>
-          <Progress done="75" />
-          <p className="pb-2">AVERAGE JOB GET</p>
-          <Progress done="90" />
+        <div className="p-10 progress-bars bg-green flex items-center justify-center flex-col xxsm:hidden">
+          <p className="pb-2">AVERAGE CERTIFICATION COMPLETION</p>
+          <Progress done="80" />
+          <p className="pb-2">AVERAGE GRADUATES EMPLOYED</p>
+          <Progress done="80" />
+          <p className="pb-2">AVERAGE FUN</p>
+          <Progress done="100" />
         </div>
       </div>
     </section>

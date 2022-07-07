@@ -38,6 +38,12 @@ module.exports = {
         sm: { max: '639px' },
         // => @media (max-width: 639px) { ... }
 
+        xsm: { max: '400px' },
+        // => @media (max-width: 639px) { ... }
+
+        xxsm: { max: '252px' },
+        // => @media (max-width: 252px) { ... }
+
         // CUSTOM
         header: { max: '858px' },
         // => @media (max-width: 858px) { ... }
@@ -68,6 +74,9 @@ module.exports = {
         iPadMini: { raw: '(width: 1024px) and (height: 768px)' },
         // iPadAirH (Landscape) => @media (width: 1024px) and (height: 768px)
 
+        GalaxyFold: { raw: '(width: 653px) and (height: 280px)' },
+        // GalaxyFold (Landscape) => @media (width: 653px) and (height: 280px)
+
         // VERTICAL
         // ----------
         iPhoneSEH: { raw: '(width: 375px) and (height: 667px)' },
@@ -93,6 +102,9 @@ module.exports = {
 
         iPadMiniH: { raw: '(width: 768px) and (height: 1024px)' },
         // iPadAirH (Vertical) => @media (width: 768px) and (height: 1024px)
+
+        GalaxyFoldH: { raw: '(width: 280px) and (height: 653px)' },
+        // GalaxyFoldH (Vertical) => @media (width: 280px) and (height: 653px)
       },
       // Adding hexcodes for colors to use with tailwind classes
       colors: {

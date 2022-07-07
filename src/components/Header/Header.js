@@ -5,7 +5,8 @@ import './header.css';
 function Header() {
   return (
     <section class="text-gray-600 body-font">
-      <div class="
+      <div
+        class="
 
       // Base
       container mx-auto flex px-5 pt-24 pb-24 flex-row lg:flex-col items-center
@@ -17,10 +18,11 @@ function Header() {
         sm:pb-0
 
       
-      ">
-
+      "
+      >
         {/* Text Div */}
-        <div class="
+        <div
+          class="
         
         // Base
           flex-grow w-1/2 pl-24 flex flex-col items-center text-center 
@@ -61,13 +63,23 @@ function Header() {
         // SamsungS20Ultra | Landscape
         SamsungS20Ultra:pl-0
 
+        // GalaxyFold | Landscape
+        GalaxyFold:pl-0
+
         
-        ">
-          <h1 class="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full lg:text-5xl lg:w-full font-['Inter']">Welcome to MedCare HealthCert
+        "
+        >
+          <h1 class="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full lg:text-5xl lg:w-full font-['Inter']">
+            Welcome to MedCare HealthCert
           </h1>
-          <p class="mb-8 leading-relaxed font-['Mingzat']">RSVP to one of our orientations on the link below and come experience how you can learn while having fun. 
-          Congratulations on taking your first step in becoming a medical professional by gaining your certification and clinical experience.</p>
-          <div class="
+          <p class="mb-8 leading-relaxed font-['Mingzat']">
+            RSVP to one of our orientations on the link below and come
+            experience how you can learn while having fun. Congratulations on
+            taking your first step in becoming a medical professional by gaining
+            your certification and clinical experience.
+          </p>
+          <div
+            class="
           
           // Base
           flex justify-center relative
@@ -90,14 +102,21 @@ function Header() {
           // SamsungS20Ultra | Vertical
             SamsungS20UltraH:w-fit
 
+          // GalaxyFold | Vertical
+          GalaxyFoldH:w-fit
 
-          ">
-            <button class="inline-flex text-white bg-galleryButton border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg">Orientation RSVP</button>
+
+          "
+          >
+            <button class="inline-flex text-white bg-galleryButton border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg">
+              Orientation RSVP
+            </button>
           </div>
         </div>
 
         {/* Img Div */}
-        <div class="
+        <div
+          class="
         
         // Base
         max-w-lg  w-5/6 mb-10
@@ -111,8 +130,13 @@ function Header() {
         // SamsungS20Ultra | Vertical
           SamsungS20UltraH:pb-14
         
-        ">
-          <img class="object-cover object-center rounded" alt="hero" src={header1}></img>
+        "
+        >
+          <img
+            class="object-cover object-center rounded"
+            alt="hero"
+            src={header1}
+          ></img>
         </div>
       </div>
     </section>
@@ -121,7 +145,6 @@ function Header() {
 
 export default Header;
 
-
 // min-width vs max-width (Breakpoints)
 // md === 2xl
-// 
+//
