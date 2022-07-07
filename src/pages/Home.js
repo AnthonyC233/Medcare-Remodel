@@ -6,16 +6,14 @@ import Gallery from '../components/Gallery (Home)/GalleryHome';
 import Testimonials from '../components/Testimonials (Home)/Testimonials';
 
 const Home = () => {
-
   return (
     <div>
       <Nav />
       <About />
       <Gallery />
-      <Testimonials />
+      {/* <Testimonials /> */}
     </div>
   );
 };
 
 export default Home;
- 

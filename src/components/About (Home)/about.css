@@ -14,3 +14,37 @@
   /* makes the progress bars grow on refresh */
   transition: 1s ease;
 }
+
+/* SMALL SCREEN */
+/* @media screen and (min-width: 639px) { */
+/* SMALL SCREEN AND ABOVE */
+/* .progress-container {
+    padding-left: 144px;
+  }
+} */
+
+/* LARGE SCREEN */
+/* @media screen and (min-width: 1023px) { */
+/* LARGE SCREEN AND ABOVE */
+/* .progress-container {
+    padding-left: 48px;
+  }
+} */
+
+/* GALAXY FOLD | LANDSCAPE MODE */
+/* THIS SIZE AND ABOVE */
+/* @media screen and (min-device-width: 653px),
+  screen and (min-device-height: 280px) {
+  .progress-container {
+    padding-left: 48px;
+  }
+} */
+
+/* GALAXY FOLD | LANDSCAPE MODE */
+/* THIS SIZE AND BELOW */
+/* @media screen and (max-device-width: 915px),
+  screen and (max-device-height: 412px) {
+  .progress-container {
+    padding-left: 48px;
+  }
+} */
