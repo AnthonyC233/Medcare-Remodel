@@ -48,31 +48,63 @@ function Testimonials() {
 
   const [testimonialsList, setTestimonialsList] = useState(studentTestimonials);
 
+  const settings = {
+    loop: true,
+    center: true,
+    items: 2,
+    margin: 0,
+    autoplay: true,
+    dots: true,
+    nav: true,
+    merge: false,
+    mergeFit: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      480: {
+        items: 1,
+      },
+      768: {
+        items: 2,
+      },
+      992: {
+        items: 2,
+      },
+    },
+  };
+
   return (
     <section>
-      <div className="testimonials-section">
-        <div className="text-center">
-          <h1>OUR GRAD TESTIMONIALS</h1>
+      <div
+        className="testimonials-section md:pl-20 sm:p-0 xsm:p-0 xxsm:p-0
+                  SamsungS20UltraH:p-0
+                  SamsungS8H:p-0
+                  Pixel5H:p-0
+                  iPhone12ProH:p-0
+                  iPhoneXRH:p-0
+                  iPhoneSEH:p-0     "
+      >
+        <div className="p-10 text-center">
+          <h1 className="pb-2 text-3xl font-medium font-['Mingzat'] text-center">
+            OUR GRAD TESTIMONIALS
+          </h1>
           <p>What our students say about us</p>
         </div>
 
-        <OwlCarousel
-          className="testimonials-owl-carousel owl-theme p-10"
-          items="3"
-          autoplay
-          center
-          nav
-          dots
-          loop
-          margin={10}
-        >
-          {testimonialsList.map((item, index) => (
-            <div className="item p-10">
-              <p>"{item.testimony}"</p>
-              <p className="text-center p-5">- {item.name}</p>
-            </div>
-          ))}
-        </OwlCarousel>
+        <div className="p-3">
+          <OwlCarousel
+            className="testimonials-owl-carousel owl-theme"
+            {...settings}
+          >
+            {testimonialsList.map((item, index) => (
+              <div className="item drop-shadow-xl p-10">
+                <p>"{item.testimony}"</p>
+                <p className="text-center">- {item.name}</p>
+              </div>
+            ))}
+          </OwlCarousel>
+        </div>
       </div>
     </section>
   );

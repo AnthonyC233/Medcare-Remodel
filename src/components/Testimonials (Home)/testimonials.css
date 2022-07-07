@@ -1,19 +1,13 @@
-.testimonials-section {
-  /* for the navbar */
-  padding-left: 5rem;
-}
-
 .item {
   background-color: var(--testimony);
-  opacity: 0.2;
+  opacity: 0.5;
   transform: scale3d(0.8, 0.8, 1);
   transition: all 0.3s ease-in-out;
-  /* height: 240px;
-  width: 740px; */
 }
 
 /* To make the center testimony stand out */
 .testimonials-owl-carousel .owl-item.active.center .item {
   opacity: 1;
   transform: scale3d(1, 1, 1);
+  background-color: var(--blue);
 }

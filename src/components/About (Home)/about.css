@@ -1,11 +1,7 @@
 /* ABOUT.JS */
-.hi {
-  /* for the nav bar */
-  /* padding-left: 5rem; */
-}
-
 .progress-bars p {
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /* PROGRESS.JS */
@@ -17,32 +13,4 @@
   box-shadow: 0 3px 3px -5px #e39383, 0 2px 5px #e3745e;
   /* makes the progress bars grow on refresh */
   transition: 1s ease;
-}
-
-/* 639 changes */
-@media screen and (max-width: 639px) {
-  .about-section {
-    padding: 0;
-  }
-}
-
-/* PHONE RESPONSIVE */
-@media screen and (max-device-width: 526px) {
-  .progress-container {
-    width: 20em;
-  }
-}
-
-/* PHONE RESPONSIVE */
-@media screen and (max-device-width: 430px) {
-  .progress-container {
-    width: 15rem;
-  }
-}
-
-/* iPHONE SE */
-@media screen and (max-device-width: 375px) {
-  .progress-bars {
-    display: none;
-  }
 }
