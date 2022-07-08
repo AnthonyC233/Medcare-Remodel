@@ -1,5 +1,4 @@
 import React from 'react';
-import './galleryHome.css';
 import galleryPic from '../../assets/home-gallery.png';
 
 // PATH TO GALLERY PAGE FROM BUTTON
@@ -27,7 +26,11 @@ function GalleryHome() {
 
         "
       >
-        <img src={galleryPic} alt="home-gallery" className=""></img>
+        <img
+          src={galleryPic}
+          alt="home-gallery"
+          className="object-cover object-center"
+        ></img>
       </div>
 
       {/* GALLERY LINK SECTION */}
