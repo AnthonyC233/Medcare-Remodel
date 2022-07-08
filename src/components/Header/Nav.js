@@ -66,7 +66,9 @@ function Nav() {
         ${open ? 'w-80' : 'w-20'}  h-screen p-5 pt-8 bg-slate-200 fixed 
 
         // 639px (sm)
-        ${open ? 'sm:h-screen' : 'sm:h-24 sm:w-24'} sm:w-screen sm:duration-300 sm:shadow-none
+        ${
+          open ? 'sm:h-screen' : 'sm:h-24 sm:w-24'
+        } sm:w-screen sm:duration-300 sm:shadow-none
         
         // iPhone SE (Landscape)
         // ${
@@ -365,8 +367,8 @@ function Nav() {
                         alt="left nav images"
                       ></img>
                     </a>
-                    <a href={`${menu.pathway}`}
-                      
+                    <a
+                      href={`${menu.pathway}`}
                       className={`
 
                       // 1920px - 640px
@@ -490,9 +492,8 @@ function Nav() {
 
                   `}
                   >
-
                     <a href={`${menu.pathway}`}>
-                      <img 
+                      <img
                         className={`
                         
                         // 1920px - 640px
@@ -505,7 +506,8 @@ function Nav() {
                         alt="middle nav images"
                       ></img>
                     </a>
-                    <a href={`${menu.pathway}`} 
+                    <a
+                      href={`${menu.pathway}`}
                       className={`
 
                       // 1920px - 640px
@@ -626,9 +628,10 @@ function Nav() {
                   ${!open && 'GalaxyFold:hidden'} GalaxyFold:grid grid-cols-4
 
 
-                  `}>
+                  `}
+                  >
                     <a href={`${menu.pathway}`}>
-                      <img 
+                      <img
                         className={`
                         
                         // 1920px - 640px
@@ -641,8 +644,8 @@ function Nav() {
                         alt="right nav images"
                       ></img>
                     </a>
-                    <a href={`${menu.pathway}`}
-
+                    <a
+                      href={`${menu.pathway}`}
                       className={`
 
                       // 1920px - 640px
@@ -756,7 +759,7 @@ function Nav() {
         </div>
       </nav>
       {/* Header */}
-      <Header />
+      {/* <Header /> */}
     </header>
   );
 }
