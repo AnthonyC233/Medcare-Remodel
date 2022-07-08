@@ -12,7 +12,7 @@ function contactInfo() {
             <div class="
             
             // Base
-            container px-5 pt-10 pb-24 mx-auto flex flex-wrap 
+            container px-5 pt-10 pb-24 mx-auto flex flex-wrap ml-5
 
             // 1023px | lg
             lg:mx-10
@@ -42,7 +42,9 @@ function contactInfo() {
                         <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
 
                             {/* Icon Container */}
-                            <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                            <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0 
+                            
+                            SamsungS20UltraH:hidden">
                                 <img 
                                 src={contactIcon1} 
                                 alt="Email icon on contact page"
@@ -98,7 +100,7 @@ function contactInfo() {
                                 <h3 class="
                                 
                                 // Base
-                                text-gray-900 text-lg title-font font-medium mb-3
+                                text-gray-900 text-base title-font font-medium mb-3
                                 
                                 // 639px | sm
                                 sm:text-smaller

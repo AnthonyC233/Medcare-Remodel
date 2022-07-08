@@ -97,10 +97,10 @@ function Nav() {
             className={`
 
           // 1920px - 640px
-          ${!open && 'rotate-[180deg] duration-300'} absolute cursor-pointer rounded-full -right-1 top-9 w-7 border-2 border-black bg-white
+          ${!open && 'rotate-[180deg] duration-300'} absolute cursor-pointer rounded-full right-1 top-20 w-7 border-2 border-black bg-white
 
           // 639px (sm)
-          sm:right-5 sm:rotate-[-90deg] ${open && 'sm:rotate-[-270deg] sm:duration-300'}
+          sm:right-5 sm:rotate-[-90deg] ${open && 'sm:rotate-[-270deg] sm:duration-300'} sm:top-10
 
           // iPhone SE (Landscape)
           iPhoneSE:right-5 iPhoneSE:rotate-[-90deg] ${open && 'iPhoneSE:rotate-[-270deg] iPhoneSE:duration-300'}
