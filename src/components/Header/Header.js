@@ -71,7 +71,7 @@ function Header() {
         
         "
         >
-          <h1 className="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full lg:text-5xl lg:w-full font-['Inter']">
+          <h1 className="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full xl:text-4xl lg:text-5xl lg:w-full font-['Inter']">
             Welcome to MedCare HealthCert
           </h1>
           <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden">
@@ -127,10 +127,13 @@ function Header() {
           className="
         
         // Base
-        max-w-lg  w-5/6 mb-10
+          w-5/6 mb-10
 
         // 1535px | 2xl 
           2xl:mb-0
+
+        // 1023px | lg  
+          lg:max-w-lg
 
         // iPhoneXR | Vertical
           iPhoneXRH:pb-9

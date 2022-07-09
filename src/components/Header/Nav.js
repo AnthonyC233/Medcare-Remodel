@@ -34,15 +34,15 @@ function Nav() {
 
   const MiddleMenu = [
     // Will have link to doc
-    { title: 'Register', src: navImg5 },
+    { title: 'Register', src: navImg5, pathway: 'https://docs.google.com/forms/d/e/1FAIpQLSeN5gkyLOgwY10k-v8oOXCGx2rJiw_BosrU5DJtsmaeWI25EQ/viewform' },
     { title: 'Credit', src: navImg6, pathway: '/credit' },
   ];
 
   const RightMenu = [
     // Will have social media links
-    { title: 'Facebook', src: navImg7 },
-    { title: 'Instagram', src: navImg8 },
-    { title: 'Twitter', src: navImg9 },
+    { title: 'Facebook', src: navImg7, pathway: 'https://www.facebook.com/MedCares' },
+    { title: 'Instagram', src: navImg8, pathway: 'https://www.instagram.com/medcares1/' },
+    { title: 'Twitter', src: navImg9, pathway: 'https://twitter.com/medcareinfos' },
   ];
 
   const BottomMenu = [
@@ -52,7 +52,7 @@ function Nav() {
   ];
 
   return (
-    <header>
+    <header className='overflow-x-visible'>
       {/* Navbar */}
       <nav className="flex z-50">
         {/* Nav Width (w-72 === 18rem || 288px; w-20 === 5rem || 80px) */}
@@ -60,7 +60,7 @@ function Nav() {
           className={`
 
         // ALL SIZES
-        z-40 shadow-lg shadow-black
+        z-40 shadow-lg shadow-black overflow-hidden
           
         // 1920px - 640px
         ${open ? 'w-80' : 'w-20'}  h-screen p-5 pt-8 bg-slate-200 fixed 
@@ -191,58 +191,63 @@ function Nav() {
           ></img>
 
           {/* Nav Logo */}
-          <div className="nav-list flex gap-x-4 items-center overflow-hidden">
-            <img
-              className={`nav-logo cursor-pointer duration-500 ${
-                open && 'rotate-[360deg]'
-              }`}
-              src={process.env.PUBLIC_URL + '/logo192.png'}
-              alt="nav logo"
-            ></img>
-            <h1
-              className={`
+          
+          <a href={`/`}>
+            <div className="nav-list flex gap-x-4 items-center overflow-hidden">
+              <img
+                className={`nav-logo cursor-pointer duration-500 ${
+                  open && 'rotate-[360deg]'
+                }`}
+                src={process.env.PUBLIC_URL + '/logo192.png'}
+                alt="nav logo"
+              ></img>
+              <h1
+                className={`
 
-              // 1920px - 640px
+                // 1920px - 640px
 
-              text-white origin-left font-medium text-xl duration-300 ${
-                !open && 'hidden'
-              } drop-shadow-md hover:drop-shadow-xl
-
-
-              // 639px (sm)
-              ${!open && 'sm:scale-100'}
-              
-              // iPhone SE (Landscape)
-              ${!open && 'iPhoneSE:scale-100'}
-
-              // iPhoneXR (Landscape)
-              ${!open && 'iPhoneXR:scale-100'}
-
-              // iPhone12Pro (Landscape)
-              ${!open && 'iPhone12Pro:scale-100'}
-
-              // Pixel5 (Landscape)
-              ${!open && 'Pixel5:scale-100'}
-
-              // SamsungS8 (Landscape)
-              ${!open && 'SamsungS8:scale-100'}
-
-              // SamsungS20Ultra (Landscape)
-              ${!open && 'SamsungS20Ultra:scale-100'}
-
-              // GalaxyFold (Landscape)
-              ${!open && 'GalaxyFold:scale-100'}
+                text-white origin-left font-medium text-xl duration-300 ${
+                  !open && 'hidden'
+                } drop-shadow-md hover:drop-shadow-xl
 
 
-              `}
-            >
-              MedCare HealthCert
-            </h1>
-          </div>
+                // 639px (sm)
+                ${!open && 'sm:scale-100'}
+                
+                // iPhone SE (Landscape)
+                ${!open && 'iPhoneSE:scale-100'}
+
+                // iPhoneXR (Landscape)
+                ${!open && 'iPhoneXR:scale-100'}
+
+                // iPhone12Pro (Landscape)
+                ${!open && 'iPhone12Pro:scale-100'}
+
+                // Pixel5 (Landscape)
+                ${!open && 'Pixel5:scale-100'}
+
+                // SamsungS8 (Landscape)
+                ${!open && 'SamsungS8:scale-100'}
+
+                // SamsungS20Ultra (Landscape)
+                ${!open && 'SamsungS20Ultra:scale-100'}
+
+                // GalaxyFold (Landscape)
+                ${!open && 'GalaxyFold:scale-100'}
+
+
+                `}
+              >
+                MedCare HealthCert
+              </h1>
+            </div>
+          </a>
 
           {/* NAV LIST PARENT DIV */}
           <div
             className={`
+
+            overflow-hidden
           
               // 1920px - 640px
               grid grid-cols-1
@@ -390,7 +395,7 @@ function Nav() {
                           className={`
 
                           // 1920px - 640px
-                          left-nav-icons
+                          left-nav-icons 
 
                           // 639px (sm)
                           ${!open && 'sm:hidden'}
@@ -488,7 +493,8 @@ function Nav() {
             >
               <ul>
                 {MiddleMenu.map((menu, index) => (
-                  <a href={`${menu.pathway}`}>
+                  // `rel="nonreferrer"` instructs the browser, when navigating to the target resource, to omit the Referer header and otherwise leak no referrer information — and additionally to behave as if the noopener keyword were also specified.
+                  <a href={`${menu.pathway}`} target="_blank" rel="noreferrer">
                     <li
                       key={index}
                       className={`
@@ -631,7 +637,8 @@ function Nav() {
             >
               <ul>
                 {RightMenu.map((menu, index) => (
-                  <a href={`${menu.pathway}`}>
+                  // `rel="nonreferrer"` instructs the browser, when navigating to the target resource, to omit the Referer header and otherwise leak no referrer information — and additionally to behave as if the noopener keyword were also specified.
+                  <a href={`${menu.pathway}`} target="_blank" rel="noreferrer">
                     <li
                       key={index}
                       className={`
@@ -674,7 +681,9 @@ function Nav() {
 
                     `}
                     >
-                      <span href={`${menu.pathway}`}>
+                      <span href={`${menu.pathway}
+                      
+                      `}>
                         <img
                           className={`
                           
@@ -683,6 +692,7 @@ function Nav() {
                           
                           // 639px (sm)
                           ${!open && 'sm:hidden'}
+                          
                           `}
                           src={`${menu.src}`}
                           alt="right nav images"
