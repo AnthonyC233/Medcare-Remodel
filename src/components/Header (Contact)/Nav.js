@@ -18,7 +18,6 @@ import navImg9 from '../../assets/logo-twitter.svg';
 
 // Phone, Email, and Copyright Icons
 import navImg10 from '../../assets/call-outline.svg';
-import navImg11 from '../../assets/at-circle-outline.svg';
 import navImg12 from '../../assets/globe-outline.svg';
 
 function Nav() {
@@ -61,12 +60,38 @@ function Nav() {
           className={`
 
         // ALL SIZES
-        z-50 shadow-lg shadow-black
+        z-40 shadow-lg shadow-black
           
         // 1920px - 640px
         ${open ? 'w-80' : 'w-20'}  h-screen p-5 pt-8 bg-slate-200 fixed 
 
-        // 639px (sm)
+        // iPhoneSE (Landscape)
+          iPhoneSE:shadow-none
+
+        // iPhoneXR (Landscape)
+          iPhoneXR:shadow-none
+
+        // iPhone12Pro (Landscape)
+          iPhone12Pro:shadow-none
+
+        // Pixel5 (Landscape)
+          Pixel5:shadow-none
+
+        // SamsungS8 (Landscape)
+          SamsungS8:shadow-none
+
+        // SamsungS20Ultra (Landscape)
+          SamsungS20Ultra:shadow-none
+
+        // GalaxyFold (Landscape)
+          GalaxyFold:shadow-none
+        
+        // iPadAir
+          iPadAir:overflow-y-hidden
+
+        // iPadMini
+          iPadMini:overflow-y-hidden
+
         ${
           open ? 'sm:h-screen' : 'sm:h-24 sm:w-24'
         } sm:w-screen sm:duration-300 sm:shadow-none
@@ -101,6 +126,11 @@ function Nav() {
           open ? 'SamsungS20Ultra:h-screen' : 'SamsungS20Ultra:h-24'
         } SamsungS20Ultra:w-screen SamsungS20Ultra:duration-300
 
+        // GalaxyFold (Landscape)
+        ${
+          open ? 'GalaxyFold:h-screen' : 'GalaxyFold:h-24'
+        } GalaxyFold:w-screen GalaxyFold:duration-300
+
         `}
         >
           {/* Menu Arrow Btn */}
@@ -108,41 +138,50 @@ function Nav() {
             className={`
 
           // 1920px - 640px
-          ${!open && 'rotate-[180deg] duration-300'} absolute cursor-pointer rounded-full right-1 top-20 w-7 border-2 border-black bg-white
+          ${
+            !open && 'rotate-[180deg] duration-300'
+          } absolute cursor-pointer rounded-full right-1 top-20 w-7 border-2 border-black bg-white
 
           // 639px (sm)
-          sm:right-5 sm:rotate-[-90deg] ${open && 'sm:rotate-[-270deg] sm:duration-300'} sm:top-10
+          sm:right-5 sm:rotate-[-90deg] ${
+            open && 'sm:rotate-[-270deg] sm:duration-300'
+          } sm:top-10
 
           // iPhone SE (Landscape)
           iPhoneSE:right-5 iPhoneSE:rotate-[-90deg] ${
             open && 'iPhoneSE:rotate-[-270deg] iPhoneSE:duration-300'
-          }
+          } iPhoneSE:top-10
 
           // iPhoneXR (Landscape)
           iPhoneXR:right-5 iPhoneXR:rotate-[-90deg] ${
             open && 'iPhoneXR:rotate-[-270deg] iPhoneXR:duration-300'
-          }
+          } iPhoneXR:top-10
 
           // iPhone12Pro (Landscape)
           iPhone12Pro:right-5 iPhone12Pro:rotate-[-90deg] ${
             open && 'iPhone12Pro:rotate-[-270deg] iPhone12Pro:duration-300'
-          }
+          } iPhone12Pro:top-10
 
           // Pixel5 (Landscape)
           Pixel5:right-5 Pixel5:rotate-[-90deg] ${
             open && 'Pixel5:rotate-[-270deg] Pixel5:duration-300'
-          }
+          } Pixel5:top-10
 
           // SamsungS8 (Landscape)
           SamsungS8:right-5 SamsungS8:rotate-[-90deg] ${
             open && 'SamsungS8:rotate-[-270deg] SamsungS8:duration-300'
-          }
+          } SamsungS8:top-10
 
           // SamsungS20Ultra (Landscape)
           SamsungS20Ultra:right-5 SamsungS20Ultra:rotate-[-90deg] ${
             open &&
             'SamsungS20Ultra:rotate-[-270deg] SamsungS20Ultra:duration-300'
-          }
+          } SamsungS20Ultra:top-10
+
+          // GalaxyFold (Landscape)
+          GalaxyFold:right-5 GalaxyFold:rotate-[-90deg] ${
+            open && 'GalaxyFold:rotate-[-270deg] GalaxyFold:duration-300'
+          } GalaxyFold:top-10
 
 
           `}
@@ -164,9 +203,11 @@ function Nav() {
               className={`
 
               // 1920px - 640px
+
               text-white origin-left font-medium text-xl duration-300 ${
                 !open && 'hidden'
-              } drop-shadow-md hover:drop-shadow-xl 
+              } drop-shadow-md hover:drop-shadow-xl
+
 
               // 639px (sm)
               ${!open && 'sm:scale-100'}
@@ -188,6 +229,9 @@ function Nav() {
 
               // SamsungS20Ultra (Landscape)
               ${!open && 'SamsungS20Ultra:scale-100'}
+
+              // GalaxyFold (Landscape)
+              ${!open && 'GalaxyFold:scale-100'}
 
 
               `}
@@ -221,6 +265,9 @@ function Nav() {
               // SamsungS20Ultra (Landscape)
               SamsungS20Ultra:grid-cols-3
 
+              // GalaxyFold (Landscape)
+              GalaxyFold:grid-cols-3
+
 
           `}
           >
@@ -230,6 +277,7 @@ function Nav() {
 
               // 1920px - 640px
               pb-4
+            
 
               // LANDSCAPE
               // ---------
@@ -257,6 +305,9 @@ function Nav() {
               // iPadMini (Landscape)
               iPadMini:pb-10
 
+              // GalaxyFold (Landscape)
+              GalaxyFold:pb-10
+
               // HORIZONTAL
               // ----------
               // iPhone SE (Horizontal)
@@ -283,71 +334,80 @@ function Nav() {
               // iPadMini (Horizontal)
               iPadMiniH:pb-20
 
+              // GalaxyFold (Horizontal)
+              GalaxyFoldH:pb-20
+
             `}
             >
               <ul className="pt-6">
                 {LeftMenu.map((menu, index) => (
-                  <li
-                    key={index}
-                    className={`
+                  <a href={`${menu.pathway}`}>
+                    <li
+                      key={index}
+                      className={`
 
-                  // 1920px - 640px
-                  text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
-                    menu.gap ? 'mt-9' : 'mt-2'
-                  } 
-                  h-9
+                    // 1920px - 640px
+                    text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
+                      menu.gap ? 'mt-9' : 'mt-2'
+                    } 
+                    h-9
 
-                  // 639px (sm)
-                  ${!open && 'sm:hidden'}
+                    // 639px (sm)
+                    ${!open && 'sm:hidden'}
 
-                  // iPhone SE (Landscape)
-                  ${!open && 'iPhoneSE:hidden'} iPhoneSE:grid grid-cols-4
+                    // iPhone SE (Landscape)
+                    ${!open && 'iPhoneSE:hidden'} iPhoneSE:grid grid-cols-4 
 
-                  // iPhoneXR (Landscape)
-                  ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
+                    // iPhoneXR (Landscape)
+                    ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
 
-                  // iPhone12Pro (Landscape)
-                  ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
+                    // iPhone12Pro (Landscape)
+                    ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
 
-                  // Pixel5 (Landscape)
-                  ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
+                    // Pixel5 (Landscape)
+                    ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
 
-                  // SamsungS8 (Landscape)
-                  ${!open && 'SamsungS8:hidden'} SamsungS8:grid grid-cols-4
+                    // SamsungS8 (Landscape)
+                    ${!open && 'SamsungS8:hidden'} SamsungS8:grid grid-cols-4
 
-                  // SamsungS20Ultra (Landscape)
-                  ${
-                    !open && 'SamsungS20Ultra:hidden'
-                  } SamsungS20Ultra:grid grid-cols-4
+                    // SamsungS20Ultra (Landscape)
+                    ${
+                      !open && 'SamsungS20Ultra:hidden'
+                    } SamsungS20Ultra:grid grid-cols-4
+
+                    // GalaxyFold (Landscape)
+                    ${!open && 'GalaxyFold:hidden'} GalaxyFold:grid grid-cols-4
 
 
-                  `}
-                  >
-                    <a href={`${menu.pathway}`}>
-                      <img
+                    `}
+                    >
+                      <span href={`${menu.pathway}`}>
+                        <img
+                          className={`
+
+                          // 1920px - 640px
+                          left-nav-icons
+
+                          // 639px (sm)
+                          ${!open && 'sm:hidden'}
+                        `}
+                          src={`${menu.src}`}
+                          alt="left nav images"
+                        ></img>
+                      </span>
+                      <span                      href={`${menu.pathway}`}
                         className={`
 
                         // 1920px - 640px
-                        left-nav-icons
+                        ${!open && 'hidden'} origin-left duration-200
+                        
 
-                        // 639px (sm)
-                        ${!open && 'sm:hidden'}
-                      `}
-                        src={`${menu.src}`}
-                        alt="left nav images"
-                      ></img>
-                    </a>
-                    <a
-                      href={`${menu.pathway}`}
-                      className={`
-
-                      // 1920px - 640px
-                      ${!open && 'hidden'} origin-left duration-200
-                      `}
-                    >
-                      {menu.title}
-                    </a>
-                  </li>
+                        `}
+                      >
+                        {menu.title}
+                      </span>
+                    </li>
+                  </a>
                 ))}
               </ul>
             </div>
@@ -386,6 +446,9 @@ function Nav() {
               // iPadMini (Landscape)
               iPadMini:pb-20
 
+              // GalaxyFold (Landscape)
+              GalaxyFold:pb-20
+
               // HORIZONTAL
               // ---------
               // iPhone SE (Horizontal)
@@ -412,72 +475,80 @@ function Nav() {
               // iPadMini (Horizontal)
               iPadMiniH:pb-36
 
+              // GalaxyFold (Horizontal)
+              GalaxyFold:pb-36
+
 
             `}
             >
               <ul>
                 {MiddleMenu.map((menu, index) => (
-                  <li
-                    key={index}
-                    className={`
-
-                  // 1920px - 640px
-                  text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
-                    menu.gap ? 'mt-9' : 'mt-2'
-                  }
-                  h-9
-                  
-                  // 639px (sm)
-                  ${!open && 'sm:hidden'}
-
-                  // iPhone SE (Landscape)
-                  ${!open && 'iPhoneSE:hidden'} iPhoneSE:grid grid-cols-4
-
-                  // iPhoneXR (Landscape)
-                  ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
-
-                  // iPhone12Pro (Landscape)
-                  ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
-
-                  // Pixel5 (Landscape)
-                  ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
-
-                  // SamsungS8 (Landscape)
-                  ${!open && 'SamsungS8:hidden'} SamsungS8:grid grid-cols-4
-
-                  // SamsungS20Ultra (Landscape)
-                  ${
-                    !open && 'SamsungS20Ultra:hidden'
-                  } SamsungS20Ultra:grid grid-cols-4
-
-
-                  `}
-                  >
-                    <a href={`${menu.pathway}`}>
-                      <img
-                        className={`
-                        
-                        // 1920px - 640px
-                        middle-nav-icons
-
-                        // 639px (sm)
-                        ${!open && 'sm:hidden'}
-                        `}
-                        src={`${menu.src}`}
-                        alt="middle nav images"
-                      ></img>
-                    </a>
-                    <a
-                      href={`${menu.pathway}`}
+                  <a href={`${menu.pathway}`}>
+                    <li
+                      key={index}
                       className={`
 
-                      // 1920px - 640px
-                      ${!open && 'hidden'} origin-left duration-200
+                    // 1920px - 640px
+                    text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
+                      menu.gap ? 'mt-9' : 'mt-2'
+                    }
+                    h-9
+                    
+                    // 639px (sm)
+                    ${!open && 'sm:hidden'}
+
+                    // iPhone SE (Landscape)
+                    ${!open && 'iPhoneSE:hidden'} iPhoneSE:grid grid-cols-4
+
+                    // iPhoneXR (Landscape)
+                    ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
+
+                    // iPhone12Pro (Landscape)
+                    ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
+
+                    // Pixel5 (Landscape)
+                    ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
+
+                    // SamsungS8 (Landscape)
+                    ${!open && 'SamsungS8:hidden'} SamsungS8:grid grid-cols-4
+
+                    // SamsungS20Ultra (Landscape)
+                    ${
+                      !open && 'SamsungS20Ultra:hidden'
+                    } SamsungS20Ultra:grid grid-cols-4
+
+                    // GalaxyFold (Landscape)
+                    ${!open && 'GalaxyFold:hidden'} GalaxyFold:grid grid-cols-4
+
+
                     `}
                     >
-                      {menu.title}
-                    </a>
-                  </li>
+                      <span href={`${menu.pathway}`}>
+                        <img
+                          className={`
+                          
+                          // 1920px - 640px
+                          middle-nav-icons
+
+                          // 639px (sm)
+                          ${!open && 'sm:hidden'}
+                          `}
+                          src={`${menu.src}`}
+                          alt="middle nav images"
+                        ></img>
+                      </span>
+                      <span
+                        href={`${menu.pathway}`}
+                        className={`
+
+                        // 1920px - 640px
+                        ${!open && 'hidden'} origin-left duration-200
+                      `}
+                      >
+                        {menu.title}
+                      </span>
+                    </li>
+                  </a>
                 ))}
               </ul>
             </div>
@@ -516,6 +587,9 @@ function Nav() {
             // iPadMini (Landscape)
             iPadMini:pb-16
 
+            // GalaxyFold (Landscape)
+            GalaxyFold:pb-16
+
             // HORIZONTAL
             // ---------
             // iPhone SE (Horizontal)
@@ -541,73 +615,80 @@ function Nav() {
 
             //iPadMini (Horizontal)
             iPadMiniH:pb-52
-
+            
+            //GalaxyFold (Horizontal)
+            GalaxyFoldH:pb-52
 
             `}
             >
               <ul>
                 {RightMenu.map((menu, index) => (
-                  <li
-                    key={index}
-                    className={`
-
-                  // 1920px - 640px
-                  text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
-                    menu.gap ? 'mt-9' : 'mt-2'
-                  } 
-                  h-9
-                  
-                  // 639px (sm)
-                  ${!open && 'sm:hidden'}
-
-                  // iPhone SE (Landscape)
-                  ${!open && 'iPhoneSE:hidden'} iPhoneSE:grid grid-cols-4
-
-                  // iPhoneXR (Landscape)
-                  ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
-
-                  // iPhone12Pro (Landscape)
-                  ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
-
-                  // Pixel5 (Landscape)
-                  ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
-
-                  // SamsungS8 (Landscape)
-                  ${!open && 'SamsungS8:hidden'} SamsungS8:grid grid-cols-4
-
-                  // SamsungS20Ultra (Landscape)
-                  ${
-                    !open && 'SamsungS20Ultra:hidden'
-                  } SamsungS20Ultra:grid grid-cols-4
-
-
-                  `}
-                  >
-                    <a href={`${menu.pathway}`}>
-                      <img
-                        className={`
-                        
-                        // 1920px - 640px
-                        right-nav-icons
-                        
-                        // 639px (sm)
-                        ${!open && 'sm:hidden'}
-                        `}
-                        src={`${menu.src}`}
-                        alt="right nav images"
-                      ></img>
-                    </a>
-                    <a
-                      href={`${menu.pathway}`}
+                  <a href={`${menu.pathway}`}>
+                    <li
+                      key={index}
                       className={`
 
-                      // 1920px - 640px
-                      ${!open && 'hidden'} origin-left duration-200
+                    // 1920px - 640px
+                    text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
+                      menu.gap ? 'mt-9' : 'mt-2'
+                    } 
+                    h-9
+                    
+                    // 639px (sm)
+                    ${!open && 'sm:hidden'}
+
+                    // iPhone SE (Landscape)
+                    ${!open && 'iPhoneSE:hidden'} iPhoneSE:grid grid-cols-4
+
+                    // iPhoneXR (Landscape)
+                    ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
+
+                    // iPhone12Pro (Landscape)
+                    ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
+
+                    // Pixel5 (Landscape)
+                    ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
+
+                    // SamsungS8 (Landscape)
+                    ${!open && 'SamsungS8:hidden'} SamsungS8:grid grid-cols-4
+
+                    // SamsungS20Ultra (Landscape)
+                    ${
+                      !open && 'SamsungS20Ultra:hidden'
+                    } SamsungS20Ultra:grid grid-cols-4
+
+                    // GalaxyFold (Landscape)
+                    ${!open && 'GalaxyFold:hidden'} GalaxyFold:grid grid-cols-4
+
+
                     `}
                     >
-                      {menu.title}
-                    </a>
-                  </li>
+                      <span href={`${menu.pathway}`}>
+                        <img
+                          className={`
+                          
+                          // 1920px - 640px
+                          right-nav-icons
+                          
+                          // 639px (sm)
+                          ${!open && 'sm:hidden'}
+                          `}
+                          src={`${menu.src}`}
+                          alt="right nav images"
+                        ></img>
+                      </span>
+                      <span
+                        href={`${menu.pathway}`}
+                        className={`
+
+                        // 1920px - 640px
+                        ${!open && 'hidden'} origin-left duration-200
+                      `}
+                      >
+                        {menu.title}
+                      </span>
+                    </li>
+                  </a>
                 ))}
               </ul>
             </div>
@@ -638,6 +719,9 @@ function Nav() {
           // SamsungS20Ultra (Landscape)
           SamsungS20Ultra:justify-end SamsungS20Ultra:right-28
           
+          // GalaxyFold (Landscape)
+          GalaxyFold:justify-end GalaxyFold:right-28
+
           `}
           >
             {/* BOTTOM MENU */}
@@ -653,44 +737,45 @@ function Nav() {
                     className={`
 
                   // 1920px - 640px
-                  text-zinc-900 text-xxs flex items-center gap-x-4 p-2 h-10
+                  text-zinc-900 text-xxs flex items-center gap-x-4 p-2 h-10 
 
 
                   `}
                   >
-                    <a href={`${menu.pathway}`}>
-                      <img
-                        className={`
-                        
-                        // 1920px - 640px
-                        bottom-nav-icons
-                        
-                        // 639px (sm)
-                        ${!open && 'sm:hidden'}
+                    <img
+                      className={`
+                      
+                      // 1920px - 640px
+                      bottom-nav-icons
+                      
+                      // 639px (sm)
+                      ${!open && 'sm:hidden'}
 
-                        // iPhoneSE (Landscape)
-                        ${!open && 'iPhoneSE:hidden'}
+                      // iPhoneSE (Landscape)
+                      ${!open && 'iPhoneSE:hidden'}
 
-                        // iPhoneXR (Landscape)
-                        ${!open && 'iPhoneXR:hidden'}
+                      // iPhoneXR (Landscape)
+                      ${!open && 'iPhoneXR:hidden'}
 
-                        // iPhone12Pro (Landscape)
-                        ${!open && 'iPhone12Pro:hidden'}
+                      // iPhone12Pro (Landscape)
+                      ${!open && 'iPhone12Pro:hidden'}
 
-                        // Pixel5 (Landscape)
-                        ${!open && 'Pixel5:hidden'} 
+                      // Pixel5 (Landscape)
+                      ${!open && 'Pixel5:hidden'} 
 
-                        // SamsungS8 (Landscape)
-                        ${!open && 'SamsungS8:hidden'} 
+                      // SamsungS8 (Landscape)
+                      ${!open && 'SamsungS8:hidden'} 
 
-                        // SamsungS20Ultra (Landscape)
-                        ${!open && 'SamsungS20Ultra:hidden'} 
+                      // SamsungS20Ultra (Landscape)
+                      ${!open && 'SamsungS20Ultra:hidden'} 
 
-                        `}
-                        src={`${menu.src}`}
-                        alt="right nav images"
-                      ></img>
-                    </a>
+                      // GalaxyFold (Landscape)
+                      ${!open && 'GalaxyFold:hidden'}
+
+                      `}
+                      src={`${menu.src}`}
+                      alt="right nav images"
+                    ></img>
                     <span
                       className={`
 
