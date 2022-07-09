@@ -74,7 +74,7 @@ function Header() {
 
         
         // Base
-          w-2/6 top-0
+          w-3/6 top-0
 
         // 767px | md
           md:w-3/6

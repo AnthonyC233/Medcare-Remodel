@@ -12,10 +12,13 @@ function contactInfo() {
             <div class="
             
             // Base
-                container pl-5 pr-20 pt-10 pb-24 mx-auto flex flex-wrap ml-20 
+                container pl-5 pr-20 pt-10 pb-24 flex flex-wrap justify-center ml-16 
 
             // 1023px | lg
-                lg:relative
+                // none
+
+            // 767px | md 
+                md:ml-16
 
             // 639px | sm
                 sm:mx-16 sm:pl-0 sm:pt-0
@@ -37,6 +40,9 @@ function contactInfo() {
         
             // SamsungS20Ultra | Landscape
                 SamsungS20Ultra:mx-7
+
+            // iPadMini | Vertical
+                iPadMiniH:ml-16
             
             ">
                 <div class="flex flex-wrap  justify-center">
