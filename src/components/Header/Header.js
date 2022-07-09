@@ -110,9 +110,15 @@ function Header() {
 
           "
           >
-            <button className="inline-flex text-white bg-galleryButton border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg">
-              Orientation RSVP
-            </button>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeN5gkyLOgwY10k-v8oOXCGx2rJiw_BosrU5DJtsmaeWI25EQ/viewform"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="inline-flex text-white bg-galleryButton border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg">
+                Orientation RSVP
+              </button>
+            </a>
           </div>
         </div>
 
