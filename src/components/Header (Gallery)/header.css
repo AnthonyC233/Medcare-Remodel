@@ -1,0 +1,41 @@
+/* Nav.js */
+.nav-logo {
+    height: 40px;
+}
+
+.left-nav-icons {
+    width: 20px;
+}
+
+.middle-nav-icons {
+    width: 20px;
+}
+
+.right-nav-icons {
+    width: 20px;
+}
+
+.bottom-nav-icons {
+    width: 18px;
+}
+
+/* Header.js */
+.header-bg-color {
+    background: #FFFAFB;
+}
+
+/* .header-image img {
+height: 500px;
+width: 800px;
+} */
+  
+/* 639 changes */
+.page {
+    grid-template-columns: 60vw auto;
+}
+
+@media screen and (max-width: 639px) {
+    .gallery-link-section {
+        padding: 0;
+    }
+}
