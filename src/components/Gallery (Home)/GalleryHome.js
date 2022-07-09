@@ -19,7 +19,7 @@ function GalleryHome() {
         className="gallery-image
 
         // BASE
-        pl-36 py-12 pr-12
+        pl-32 py-12 pr-12
 
         // SMALL SCREEN
         sm:pl-12 sm:py-0
@@ -40,9 +40,9 @@ function GalleryHome() {
         // BASE
         pl-12 py-12 pr-12
 
-        lg:pl-36
+        lg:pl-32
 
-        sm:pr-36 sm:py-0
+        sm:pr-32 sm:py-0
 
         // PHONES | LANDSCAPE
         SamsungS20Ultra:pl-12

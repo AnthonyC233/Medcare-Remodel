@@ -46,7 +46,7 @@ function ErrorComp() {
 
         <button
           onClick={homeLink}
-          className="text-white bg-galleryButton border-0 py-3 px-4 focus:outline-none hover:bg-blue-400 rounded text-lg"
+          className="text-white bg-galleryButton border-0 py-3 px-4 focus:outline-none hover:bg-blue-400 rounded text-lg overflow-hidden"
         >
           Let's go back home
         </button>
