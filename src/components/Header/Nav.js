@@ -191,7 +191,7 @@ function Nav() {
           ></img>
 
           {/* Nav Logo */}
-          <div className="nav-list flex gap-x-4 items-center">
+          <div className="nav-list flex gap-x-4 items-center overflow-hidden">
             <img
               className={`nav-logo cursor-pointer duration-500 ${
                 open && 'rotate-[360deg]'
@@ -346,11 +346,13 @@ function Nav() {
                       key={index}
                       className={`
 
-                    // 1920px - 640px
-                    text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
-                      menu.gap ? 'mt-9' : 'mt-2'
-                    } 
-                    h-9
+                  overflow-hidden
+
+                  // 1920px - 640px
+                  text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
+                    menu.gap ? 'mt-9' : 'mt-2'
+                  } 
+                  h-9
 
                     // 639px (sm)
                     ${!open && 'sm:hidden'}
@@ -362,7 +364,9 @@ function Nav() {
                     ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
 
                     // iPhone12Pro (Landscape)
-                    ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
+                    ${
+                      !open && 'iPhone12Pro:hidden'
+                    } iPhone12Pro:grid grid-cols-4
 
                     // Pixel5 (Landscape)
                     ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
@@ -395,7 +399,8 @@ function Nav() {
                           alt="left nav images"
                         ></img>
                       </span>
-                      <span                      href={`${menu.pathway}`}
+                      <span
+                        href={`${menu.pathway}`}
                         className={`
 
                         // 1920px - 640px
@@ -487,6 +492,7 @@ function Nav() {
                     <li
                       key={index}
                       className={`
+                      overflow-hidden
 
                     // 1920px - 640px
                     text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
@@ -504,7 +510,9 @@ function Nav() {
                     ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
 
                     // iPhone12Pro (Landscape)
-                    ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
+                    ${
+                      !open && 'iPhone12Pro:hidden'
+                    } iPhone12Pro:grid grid-cols-4
 
                     // Pixel5 (Landscape)
                     ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
@@ -627,6 +635,7 @@ function Nav() {
                     <li
                       key={index}
                       className={`
+                      overflow-hidden
 
                     // 1920px - 640px
                     text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
@@ -644,7 +653,9 @@ function Nav() {
                     ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
 
                     // iPhone12Pro (Landscape)
-                    ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
+                    ${
+                      !open && 'iPhone12Pro:hidden'
+                    } iPhone12Pro:grid grid-cols-4
 
                     // Pixel5 (Landscape)
                     ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4

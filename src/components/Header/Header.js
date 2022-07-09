@@ -74,7 +74,7 @@ function Header() {
           <h1 className="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full lg:text-5xl lg:w-full font-['Inter']">
             Welcome to MedCare HealthCert
           </h1>
-          <p className="mb-8 leading-relaxed font-['Mingzat']">
+          <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden">
             RSVP to one of our orientations on the link below and come
             experience how you can learn while having fun. Congratulations on
             taking your first step in becoming a medical professional by gaining
