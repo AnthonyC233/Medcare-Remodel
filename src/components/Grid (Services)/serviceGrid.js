@@ -26,16 +26,19 @@ const serviceGrid = () => {
         iPhoneXR:pl-12
         iPhoneSE:pl-12 
         GalaxyFold:pl-12
+
+        GalaxyFoldH:p-0
+        GalaxyFoldH:py-10
     
     "
     >
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap -m-4">
+      <div className="container px-5 py-0 mx-auto overflow-hidden">
+        <div className="flex flex-wrap -m-4 ">
           {/* START OF ICONS */}
           <div className="w-1/2 sm:w-full p-4">
-            <div className="border border-gray-200 p-6 rounded-lg flex justify-center items-center flex-col">
-              <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4">
-                <img src={ccma} alt="ccma icon" className="w-24 h-24"></img>
+            <div className="border-dashed border-2 border-medCareYellow p-6 rounded-lg flex justify-center items-center flex-col">
+              <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
+                <img src={ccma} alt="ccma icon" className="w-24 h-24 "></img>
               </div>
               <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0">
                 CCMA
@@ -55,8 +58,8 @@ const serviceGrid = () => {
           </div>
 
           <div className="w-1/2 sm:w-full p-4">
-            <div className="border border-gray-200 p-6 rounded-lg flex justify-center items-center flex-col">
-              <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4">
+            <div className="border-dashed border-2 border-medCareYellow p-6 rounded-lg flex justify-center items-center flex-col">
+              <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
                 <img src={ekg} alt="ekg icon" className="w-24 h-24"></img>
               </div>
               <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0">
@@ -75,8 +78,8 @@ const serviceGrid = () => {
           </div>
 
           <div className="w-1/2 sm:w-full p-4">
-            <div className="border border-gray-200 p-6 rounded-lg flex justify-center items-center flex-col">
-              <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4">
+            <div className="border-dashed border-2 border-medCareYellow p-6 rounded-lg flex justify-center items-center flex-col">
+              <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
                 <img src={pct} alt="pct icon" className="w-24 h-24"></img>
               </div>
               <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0">
@@ -95,8 +98,8 @@ const serviceGrid = () => {
           </div>
 
           <div className="w-1/2 sm:w-full p-4">
-            <div className="border border-gray-200 p-6 rounded-lg flex justify-center items-center flex-col">
-              <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4">
+            <div className="border-dashed border-2 border-medCareYellow p-6 rounded-lg flex justify-center items-center flex-col">
+              <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
                 <img
                   src={phlebotomy}
                   alt="phlebotomy icon"
@@ -119,8 +122,8 @@ const serviceGrid = () => {
           </div>
 
           <div className="w-1/2 sm:w-full p-4">
-            <div className="border border-gray-200 p-6 rounded-lg flex justify-center items-center flex-col">
-              <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4">
+            <div className="border-dashed border-2 border-medCareYellow p-6 rounded-lg flex justify-center items-center flex-col">
+              <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
                 <img
                   src={billing}
                   alt="billing icon"
@@ -144,8 +147,8 @@ const serviceGrid = () => {
           </div>
 
           <div className="w-1/2 sm:w-full p-4">
-            <div className="border border-gray-200 p-6 rounded-lg flex justify-center items-center flex-col">
-              <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4">
+            <div className="border-dashed border-2 border-medCareYellow p-6 rounded-lg flex justify-center items-center flex-col">
+              <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
                 <img src={more} alt="more icons" className="w-24 h-24"></img>
               </div>
               <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0">

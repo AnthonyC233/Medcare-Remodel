@@ -116,6 +116,7 @@ module.exports = {
         galleryButton: '#0061af',
         // Testimonials Section
         testimonials: '#EDF1F4',
+        medCareYellow: '#ffd57d',
       },
     },
   },
