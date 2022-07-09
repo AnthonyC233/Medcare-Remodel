@@ -1,13 +1,16 @@
 import React from 'react';
 
-import Header from '../components/Header/Header';
+import Nav from '../components/Header/Nav';
+import Page from '../components/Gallery(Gallery)/Gallery';
+
 
 const Gallery = () => {
     return (
-        <div>
-            <Header />
-        </div>
-    )
-}
+            <div>
+                <Nav />
+                <Page />
+            </div>
+    );
+};
 
 export default Gallery;
