@@ -165,7 +165,7 @@ function Nav() {
           ></img>
 
           {/* Nav Logo */}
-          <div className="nav-list flex gap-x-4 items-center">
+          <div className="nav-list flex gap-x-4 items-center overflow-hidden">
             <img
               className={`nav-logo cursor-pointer duration-500 ${
                 open && 'rotate-[360deg]'
@@ -318,6 +318,8 @@ function Nav() {
                     key={index}
                     className={`
 
+                  overflow-hidden
+
                   // 1920px - 640px
                   text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
                     menu.gap ? 'mt-9' : 'mt-2'
@@ -456,6 +458,8 @@ function Nav() {
                   <li
                     key={index}
                     className={`
+                  
+                  overflow-hidden
 
                   // 1920px - 640px
                   text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
@@ -594,6 +598,8 @@ function Nav() {
                   <li
                     key={index}
                     className={`
+                  
+                  overflow-hidden
 
                   // 1920px - 640px
                   text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${

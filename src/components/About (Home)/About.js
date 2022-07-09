@@ -65,15 +65,15 @@ function About() {
         GalaxyFold:pl-12
         "
       >
-        <p className="text-xs font-semibold font-['Mingzat']">
+        <p className="text-xs font-semibold font-['Mingzat'] overflow-hidden">
           AVERAGE CLASSROOM SIZE
         </p>
         <Progress done="50" />
-        <p className="pt-5 text-xs font-semibold font-['Mingzat']">
+        <p className="pt-5 text-xs font-semibold font-['Mingzat'] overflow-hidden">
           AVERAGE GRADUATES EMPLOYED
         </p>
         <Progress done="80" />
-        <p className="pt-5 text-xs font-semibold font-['Mingzat']">
+        <p className="pt-5 text-xs font-semibold font-['Mingzat'] overflow-hidden">
           AVERAGE FUN
         </p>
         <Progress done="100" />
