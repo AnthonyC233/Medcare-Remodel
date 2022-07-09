@@ -364,7 +364,9 @@ function Nav() {
                     ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
 
                     // iPhone12Pro (Landscape)
-                    ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
+                    ${
+                      !open && 'iPhone12Pro:hidden'
+                    } iPhone12Pro:grid grid-cols-4
 
                     // Pixel5 (Landscape)
                     ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
@@ -397,7 +399,8 @@ function Nav() {
                           alt="left nav images"
                         ></img>
                       </span>
-                      <span                      href={`${menu.pathway}`}
+                      <span
+                        href={`${menu.pathway}`}
                         className={`
 
                         // 1920px - 640px
@@ -489,6 +492,7 @@ function Nav() {
                     <li
                       key={index}
                       className={`
+                      overflow-hidden
 
                     // 1920px - 640px
                     text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
@@ -506,7 +510,9 @@ function Nav() {
                     ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
 
                     // iPhone12Pro (Landscape)
-                    ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
+                    ${
+                      !open && 'iPhone12Pro:hidden'
+                    } iPhone12Pro:grid grid-cols-4
 
                     // Pixel5 (Landscape)
                     ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
@@ -629,6 +635,7 @@ function Nav() {
                     <li
                       key={index}
                       className={`
+                      overflow-hidden
 
                     // 1920px - 640px
                     text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
@@ -646,7 +653,9 @@ function Nav() {
                     ${!open && 'iPhoneXR:hidden'} iPhoneXR:grid grid-cols-4
 
                     // iPhone12Pro (Landscape)
-                    ${!open && 'iPhone12Pro:hidden'} iPhone12Pro:grid grid-cols-4
+                    ${
+                      !open && 'iPhone12Pro:hidden'
+                    } iPhone12Pro:grid grid-cols-4
 
                     // Pixel5 (Landscape)
                     ${!open && 'Pixel5:hidden'} Pixel5:grid grid-cols-4
