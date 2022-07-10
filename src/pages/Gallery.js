@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Nav from '../components/Header (Gallery)/Nav';
+import Nav from '../components/Header/Nav';
 import Header from '../components/Header (Gallery)/Header';
 import Page from '../components/Gallery(Gallery)/Gallery';
 
