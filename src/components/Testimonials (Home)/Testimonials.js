@@ -100,7 +100,9 @@ function Testimonials() {
         <h1 className="pb-3 text-3xl font-semibold font-['Mingzat'] text-center">
           OUR GRAD TESTIMONIALS
         </h1>
-        <p>What our students say about us</p>
+        <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left">
+          What our students say about us
+        </p>
       </div>
 
       {/* OWL CAROUSEL SECTION */}
@@ -128,8 +130,12 @@ function Testimonials() {
         >
           {testimonialsList.map((item, index) => (
             <div className="item drop-shadow-xl p-10">
-              <p>"{item.testimony}"</p>
-              <p className="text-center">- {item.name}</p>
+              <p className="leading-relaxed font-['Mingzat'] overflow-hidden">
+                "{item.testimony}"
+              </p>
+              <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-center">
+                - {item.name}
+              </p>
             </div>
           ))}
         </OwlCarousel>

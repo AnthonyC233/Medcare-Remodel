@@ -6,7 +6,7 @@ import Progress from './Progress';
 function About() {
   return (
     <section className="grid grid-cols-2 lg:grid-cols-1">
-      {/* ABOUT US SECTION */}
+      {/* TEXT DIV */}
       <div
         className="bg-ltGreen flex justify-center items-center flex-col
 
@@ -16,7 +16,7 @@ function About() {
         // SMALL SCREEN
         sm:pl-12
 
-        // PHONES | LANDSCAPE
+        // PHONES
         SamsungS20Ultra:pl-12
         SamsungS8:pl-12
         Pixel5:pl-12
@@ -29,13 +29,13 @@ function About() {
         <h1 className="pb-5 text-3xl font-semibold font-['Mingzat']">
           ABOUT US
         </h1>
-        <p>
+        <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left">
           At our school, we pride ourselves in gapping bridges for our students
           to become future MDs, PAs and Nurses. Our school is open to all
           college students majoring in any of the sciences.
         </p>
         <br></br>
-        <p>
+        <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left">
           We are a flexible, accelerated, and affordable certification school
           for undergraduate and graduate science majors.
         </p>
@@ -48,13 +48,14 @@ function About() {
         // BASE
         pl-12 py-12 pr-12
 
-        lg:pl-32
-
+        // SMALL SCREEN
         sm:pr-32
-
         sm:hidden
 
-        // PHONES | LANDSCAPE
+        // LARGE SCREEN
+        lg:pl-32
+
+        // PHONES
         SamsungS20Ultra:pl-12
         SamsungS8:pl-12
         Pixel5:pl-12

@@ -5,107 +5,101 @@ function ServiceHeader() {
   return (
     <section className="text-gray-600 body-font">
       <div
-        className="
-        // Base
-        container mx-auto flex flex-row lg:flex-col items-center 
+        className="container mx-auto flex flex-row items-center 
 
+        // BASE
         pl-32 pt-20 pr-12
 
+        // SMALL SCREEN
         sm:pl-12
         sm:pt-32
 
+        // XS SCREEN
         xsm:pl-0
         xsm:pr-0
 
+        // XXS SCREEN
         xxsm:pl-0
         xxsm:pr-0
 
-        // PHONES | LANDSCAPE
+        // LARGE SCREEN
+        lg:flex-col 
+
+        // PHONES
         SamsungS20Ultra:pl-12
+        SamsungS20Ultra:pt-32
         SamsungS8:pl-12
+        SamsungS8:pt-28
         Pixel5:pl-12
+        Pixel5:pt-28
         iPhone12Pro:pl-12
+        iPhone12Pro:pt-28
         iPhoneXR:pl-12
+        iPhoneXR:pt-32
         iPhoneSE:pl-12 
+        iPhoneSE:pt-28 
         GalaxyFold:pl-12
-
-        GalaxyFoldH:p-2
+        GalaxyFold:pt-20
+        GalaxyFoldH:p-5
         GalaxyFoldH:pt-10
-
-
-        
-
-  "
+        "
       >
         {/* IMAGE DIV */}
         <div
           className="
         
-        // Base
-        max-w-lg  w-5/6 mb-10
-     
-        // 1535px | 2xl 
+          // BASE
+          max-w-lg w-5/6 mb-10
+      
+          // 2XL SCREEN
           2xl:mb-0
 
-        // iPhoneXR | Vertical
+          // PHONES
           iPhoneXRH:pb-9
-
-        // SamsungS20Ultra | Vertical
-          SamsungS20UltraH:pb-14
-        
-        "
+          SamsungS20UltraH:pb-14         
+          "
         >
           <img
-            className="object-cover object-center rounded GalaxyFoldH:hidden"
+            className="object-cover object-center rounded GalaxyFoldH:hidden GalaxyFold:hidden"
             alt="hero"
             src={header2}
           ></img>
         </div>
 
-        {/* Text Div */}
+        {/* TEXT DIV */}
         <div
-          className="
-        // Base
-          flex-grow w-1/2 pl-24 flex flex-col items-center text-center 
-          lg:p-12
+          className="flex-grow flex flex-col items-center text-center
 
-        // 1535px | 2xl 
-          2xl:items-start 2xl:text-left
+          // BASE
+          w-1/2 pl-24
 
-        // 1023px | lg
-          lg:w-11/12
-
-        // 639px | sm
+          // SMALL SCREEN
           sm:pl-0
 
-        // iPhoneSE
-          iPhoneSE:pl-0
-          iPhoneSEH:p-0
+          // LARGE SCREEN
+          lg:p-12
+          lg:w-11/12
 
-        // iPhoneXR
+          // 2XL SCREEN 
+          2xl:items-start 
+          2xl:text-left
+
+          // PHONES
+          iPhoneSE:pl-0
+          iPhoneSEH:p-10
           iPhoneXR:pl-5
           iPhoneXRH:p-0
-
-        // iPhone12Pro
           iPhone12Pro:pl-0
-          iPhone12ProH:p-0          
-
-        // Pixel5
+          iPhone12ProH:p-10        
           Pixel5:pl-0
-          Pixel5H:p-0
-
-        // SamsungS8
-        SamsungS8:pl-0
-        SamsungS8H:p-0
-        
-        // SamsungS20Ultra
-        SamsungS20Ultra:pl-0
-        SamsungS20UltraH:p-0
-
-        // GalaxyFold
-        GalaxyFold:pl-0
-        GalaxyFoldH:p-0
-        "
+          Pixel5H:p-10
+          SamsungS8:pl-0
+          SamsungS8H:p-10
+          SamsungS20Ultra:pl-0
+          SamsungS20UltraH:p-0
+          GalaxyFold:pl-0
+          GalaxyFoldH:p-0
+          "
         >
           <h1
             className="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full lg:text-5xl lg:w-full font-['Inter']
@@ -124,35 +118,23 @@ function ServiceHeader() {
             are here to help achieve your goals without having to sacrifice your
             time and finances.
           </p>
+
+          {/* BUTTON DIV */}
           <div
-            className="
-          
-          // Base
-          flex justify-center relative
-          
-          // 639px | sm
-            sm:items-center sm:w-fit
+            className="flex justify-center relative
+        
+            // SMALL SCREEN
+            sm:items-center 
+            sm:w-fit
 
-          // iPhoneXR | Vertical  
+            // PHONES 
             iPhoneXRH:w-fit
-
-          // iPhone12Pro | Vertical
             iPhone12ProH:w-fit
-
-          // Pixel5 | Vertical
             Pixel5H:w-fit
-
-          // SamsungS8 | Vertical
             SamsungS8H:w-fit
-
-          // SamsungS20Ultra | Vertical
             SamsungS20UltraH:w-fit
-
-          // GalaxyFold | Vertical
-          GalaxyFoldH:w-fit
-
-
-          "
+            GalaxyFoldH:w-fit
+            "
           >
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSeN5gkyLOgwY10k-v8oOXCGx2rJiw_BosrU5DJtsmaeWI25EQ/viewform"
