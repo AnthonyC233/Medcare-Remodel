@@ -410,7 +410,7 @@ function Nav() {
 
                         // 1920px - 640px
                         ${!open && 'hidden'} origin-left duration-200
-                        
+                         
 
                         `}
                       >
