@@ -489,7 +489,7 @@ function Nav() {
               GalaxyFold:pb-36
 
 
-            `}
+            `} 
             >
               <ul>
                 {MiddleMenu.map((menu, index) => (
