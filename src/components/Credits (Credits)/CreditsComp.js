@@ -5,6 +5,7 @@ function CreditsComp() {
     <section>
       <div
         className="p-20 flex justify-center items-center flex-col
+        
         // SMALL SCREEN
         sm:pt-36
         "

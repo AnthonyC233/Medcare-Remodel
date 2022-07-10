@@ -16,17 +16,22 @@ function Progress({ done }) {
   return (
     <div
       className="h-6 w-96 bg-white rounded-full 
-        md:w-60 sm:w-60
 
-        // PHONES | VERTICAL to change the width of progress bars
-        iPhoneSEH:w-80
-        iPhoneXRH:w-80
-        iPhone12ProH:w-80
-        Pixel5H:w-80
-        SamsungS8H:w-80
-        SamsungS20UltraH:w-80
-        GalaxyFoldH:w-60
-        "
+      // MEDIUM SCREEN
+      md:w-60 
+      
+      // SMALL SCREEN
+      sm:w-60
+
+      // PHONES
+      iPhoneSEH:w-80
+      iPhoneXRH:w-80
+      iPhone12ProH:w-80
+      Pixel5H:w-80
+      SamsungS8H:w-80
+      SamsungS20UltraH:w-80
+      GalaxyFoldH:w-60
+      "
     >
       <div
         className="progress-done rounded-full text-white text-bold flex items-center justify-center flex-col text-center text-xs"
