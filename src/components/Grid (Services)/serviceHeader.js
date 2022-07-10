@@ -128,28 +128,32 @@ function ServiceHeader() {
             className="
           
           // Base
-          flex justify-center relative
+          flex justify-center relative mt-5
           
           // 639px | sm
             sm:items-center sm:w-fit
 
+          /// PHONES | VERTICAL
+          // iPhoneSEH | Vertical
+            iPhoneSEH:mt-5
+          
           // iPhoneXR | Vertical  
-            iPhoneXRH:w-fit
-
+            iPhoneXRH:w-fit iPhoneXRH:mt-7
+  
           // iPhone12Pro | Vertical
-            iPhone12ProH:w-fit
-
+            iPhone12ProH:w-fit iPhone12ProH:mt-7
+  
           // Pixel5 | Vertical
-            Pixel5H:w-fit
-
+            Pixel5H:w-fit Pixel5H:mt-7
+  
           // SamsungS8 | Vertical
-            SamsungS8H:w-fit
-
+            SamsungS8H:w-fit SamsungS8H:mt-7
+  
           // SamsungS20Ultra | Vertical
-            SamsungS20UltraH:w-fit
-
+            SamsungS20UltraH:w-fit SamsungS20UltraH:mt-7
+  
           // GalaxyFold | Vertical
-          GalaxyFoldH:w-fit
+          GalaxyFoldH:w-fit GalaxyFoldH:mt-7
 
 
           "

@@ -12,6 +12,7 @@ function contactInfo() {
             <div class="
             
             // Base
+            // OVERFLOW PROBLEM IS `container`
                 container pl-5 pr-20 pt-10 pb-24 flex flex-wrap justify-center ml-16 
 
             // 1023px | lg

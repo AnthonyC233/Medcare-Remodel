@@ -13,7 +13,7 @@ function Header() {
       // Base
       container mx-auto flex flex-row lg:flex-col items-center 
 
-      pl-32 pt-20 pr-12
+      pl-32 pt-10 pr-12
 
       sm:pl-12
       sm:pt-32
@@ -37,6 +37,24 @@ function Header() {
       GalaxyFoldH:pt-10
 
 
+      // PHONES | VERTICAL
+      // iPhoneSEH | Horizontal
+      iPhoneSEH:mb-16
+
+      // iPhoneXRH | Vertical
+      iPhoneXRH:mb-16
+
+      // iPhone12ProH | Vertical
+      iPhone12ProH:mb-16
+
+      //Pixel5H | Vertical
+      Pixel5H:mb-16
+
+      // SamsungS8H | Vertical
+      SamsungS8H:mb-16
+
+      // SamsungS20UltraH | Vertical
+      SamsungS20UltraH:mb-16
       
 
 "
@@ -51,11 +69,33 @@ function Header() {
       // 1535px | 2xl 
         2xl:mb-0
 
-      // iPhoneXR | Vertical
+
+      // VERTICAL
+      // iPhoneXRH | Vertical
         iPhoneXRH:pb-9
 
-      // SamsungS20Ultra | Vertical
+      // SamsungS20UltraH | Vertical
         SamsungS20UltraH:pb-14
+
+
+      // LANDSCAPE
+      // iPhoneSE | Landscape
+        iPhoneSE:hidden
+
+      // iPhoneXR | Landscape
+        iPhoneXR:hidden
+
+      // iPhone12Pro | Landscape 
+        iPhone12Pro:hidden
+
+      // Pixel5 | Landscape
+        Pixel5:hidden
+
+      // SamsungS8 | Landscape
+        SamsungS8:hidden
+
+      // SamsungS20Ultra | Landscape
+        SamsungS20Ultra:hidden
       
       "
       >
@@ -84,7 +124,7 @@ function Header() {
 
       // iPhoneSE
         iPhoneSE:pl-0
-        iPhoneSEH:p-0
+        iPhoneSEH:p-0 
 
       // iPhoneXR
         iPhoneXR:pl-5
@@ -120,32 +160,38 @@ function Header() {
         <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden">
         Have any questions for us? If you're interested in our program and or have any remarks or concerns, let us know! Our Team will get back to you as soon as possible.
         </p>
+
+        {/* Button Div */}
         <div
           className="
-        
+         
         // Base
-        flex justify-center relative
+        flex justify-center relative mt-5
         
         // 639px | sm
           sm:items-center sm:w-fit
 
+        // PHONES | VERTICAL
+        // iPhoneSEH | Vertical
+          iPhoneSEH:mt-5
+        
         // iPhoneXR | Vertical  
-          iPhoneXRH:w-fit
+          iPhoneXRH:w-fit iPhoneXRH:mt-7
 
         // iPhone12Pro | Vertical
-          iPhone12ProH:w-fit
+          iPhone12ProH:w-fit iPhone12ProH:mt-7
 
         // Pixel5 | Vertical
-          Pixel5H:w-fit
+          Pixel5H:w-fit Pixel5H:mt-7
 
         // SamsungS8 | Vertical
-          SamsungS8H:w-fit
+          SamsungS8H:w-fit SamsungS8H:mt-7
 
         // SamsungS20Ultra | Vertical
-          SamsungS20UltraH:w-fit
+          SamsungS20UltraH:w-fit SamsungS20UltraH:mt-7
 
         // GalaxyFold | Vertical
-        GalaxyFoldH:w-fit
+        GalaxyFoldH:w-fit GalaxyFoldH:mt-7
 
 
         "
@@ -155,7 +201,12 @@ function Header() {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="inline-flex text-white bg-galleryButton border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg">
+            <button className="
+            
+            // Base
+            inline-flex text-white bg-galleryButton border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg
+            
+            ">
               Orientation RSVP
             </button>
           </a>
