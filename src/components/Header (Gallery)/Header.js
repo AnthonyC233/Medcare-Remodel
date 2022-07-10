@@ -7,107 +7,150 @@ import header3 from '../../assets/header-3.png';
 function Header() {
 
   return (
+    <section className="text-gray-600 body-font">
+      <div
+        className="
 
-    <section class="text-gray-600 body-font">
-      <div class="
-      
       // Base
-      container mx-auto flex px-5 pt-10 pb-0 items-center justify-center flex-col b
+      container mx-auto flex px-5 pt-24 pb-24 flex-row lg:flex-col items-center
 
-      // 767px | md
-      md:pt-2
+      // 1023px | lg
+      lg:pb-0
 
       // 639px | sm
-      sm:pt-10 sm:mt-24 sm:pb-0
-
-      // iPhoneSE | Landscape
-        iPhoneSE:mt-24
-
-      // iPhoneXR | Landscape
-        iPhoneXR:mt-24
-
-      // iPhone12Pro | Landscape
-        iPhone12Pro:mt-24
-
-      // Pixel5 | Landscape
-        Pixel5:mt-24
-
-      // SamsungS8 | Landscape
-        SamsungS8:mt-24
-
-      // SamsungS20Ultra | Landscape
-        SamsungS20Ultra:mt-24
-
-      ">
-
-        {/* Text Div (Parent to Button Div) */}
-
-        <div class="text-center w-2/3 ">
-          <h1 class="title-font sm:text-4xl text-4xl mb-4 font-medium text-gray-900 font-['Inter']">Gallery</h1>
-          <p class="
-          
-          mb-8 leading-relaxed
-
-          // iPhoneSE | Landscape
-            iPhoneSE:mb-0
-
-          // iPhoneXR | Landscape
-            iPhoneXR:mb-0
-    
-          // iPhone12Pro | Landscape
-            iPhone12Pro:mb-0
-    
-          // Pixel5 | Landscape
-            Pixel5:mb-0
-    
-          // SamsungS8 | Landscape
-            SamsungS8:mb-0
-    
-          // SamsungS20Ultra | Landscape
-            SamsungS20Ultra:mb-0
-          
-          ">Want to see our Med Vamps at work? Do you? Really?</p>
-
-        </div>
-
-        <div className='
-
-        
-        // Base
-          w-3/6 top-0
-
-        // 767px | md
-          md:w-3/6
-
-        // iPhoneSE | Landscape
-          iPhoneSE:hidden
-
-        // iPhoneXR | Landscape
-          iPhoneXR:hidden
-
-        // iPhone12Pro | Landscape
-          iPhone12Pro:hidden
-
-        // Pixel5 | Landscape
-          Pixel5:hidden
-
-        // SamsungS8 | Landscape
-          SamsungS8:hidden
-
-        // SamsungS20Ultra | Landscape
-          SamsungS20Ultra:hidden
-
-        '>
-        {/* Img */}
-          <img class="object-cover object-center rounded" 
-          alt="hero" 
-          src={header3}>
-          </img>
-        </div>
-
-      </div>
+        sm:pb-0
 
       
+      "
+      >
+        {/* Text Div */}
+        <div
+          className="
+        
+        // Base
+          flex-grow w-1/2 pl-24 flex flex-col items-center text-center 
+
+        // 1535px | 2xl 
+          2xl:items-start 2xl:text-left
+
+        // 1023px | lg
+          lg:w-11/12
+
+        // 639px | sm
+          sm:pl-0
+
+        // iPhoneSE | Vertical
+          iPhoneSEH:mr-20 iPhoneSEH:ml-20
+
+        // iPhoneSE | Landscape
+          iPhoneSE:pl-0
+
+        // iPhoneXR | Vertical
+          // none
+
+        // iPhoneXR | Landscape
+          iPhoneXR:pl-5
+
+        // iPhone12Pro | Vertical
+          // none
+
+        // iPhone12Pro | Landscape
+          iPhone12Pro:pl-0 pb-10
+
+        // Pixel5 | Landscape
+          Pixel5:pl-0
+
+        // SamsungS8 | Landscape
+        SamsungS8:pl-0
+        
+        // SamsungS20Ultra | Landscape
+        SamsungS20Ultra:pl-0
+
+        // GalaxyFold | Landscape
+        GalaxyFold:pl-0
+
+        
+        "
+        >
+          <h1 className="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full xl:text-4xl lg:text-5xl lg:w-full font-['Inter']">
+            Welcome to MedCare HealthCert
+          </h1>
+          <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden">
+            RSVP to one of our orientations on the link below and come
+            experience how you can learn while having fun. Congratulations on
+            taking your first step in becoming a medical professional by gaining
+            your certification and clinical experience.
+          </p>
+          <div
+            className="
+          
+          // Base
+          flex justify-center relative
+          
+          // 639px | sm
+            sm:items-center sm:w-fit
+
+          // iPhoneXR | Vertical  
+            iPhoneXRH:w-fit
+
+          // iPhone12Pro | Vertical
+            iPhone12ProH:w-fit
+
+          // Pixel5 | Vertical
+            Pixel5H:w-fit
+
+          // SamsungS8 | Vertical
+            SamsungS8H:w-fit
+
+          // SamsungS20Ultra | Vertical
+            SamsungS20UltraH:w-fit
+
+          // GalaxyFold | Vertical
+          GalaxyFoldH:w-fit
+
+
+          "
+          >
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeN5gkyLOgwY10k-v8oOXCGx2rJiw_BosrU5DJtsmaeWI25EQ/viewform"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="inline-flex text-white bg-galleryButton border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg">
+                Orientation RSVP
+              </button>
+            </a>
+          </div>
+        </div>
+
+        {/* Img Div */}
+        <div
+          className="
+        
+        // Base
+          w-5/6 mb-10
+
+        // 1535px | 2xl 
+          2xl:mb-0
+
+        // 1023px | lg  
+          lg:max-w-lg
+
+        // iPhoneXR | Vertical
+          iPhoneXRH:pb-9
+
+        // SamsungS20Ultra | Vertical
+          SamsungS20UltraH:pb-14
+        
+        "
+        >
+          <img
+            className="object-cover object-center rounded"
+            alt="hero"
+            src={header3}
+          ></img>
+        </div>
+      </div>
     </section>
   );
 }
