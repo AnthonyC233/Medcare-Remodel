@@ -21,53 +21,56 @@ import picture16 from "../../assets/gallery-16.jpeg";
 function Gallery1() {
   return (
     <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container pl-5 pr-5 pt-24 pb-24 ml-auto mr-auto
+      
+      iPhoneSEH:ml-0 iPhoneSEH:mr-0 iPhoneSEH:pl-0 iPhoneSEH:pr-0">
+      
         <div class="flex flex-col text-center w-full mb-20">
           <h1 class="xl:text-3xl text-6xl font-medium title-font mb-4 text-blue-900">
             Check Our MedVamps At Work
           </h1>
         </div>
-        <div class="flex flex-wrap m-20 place-content-center">
+        <div class="flex flex-wrap ml-16 place-content-center ">
           <div class="p-5">
-            <div class="max-w-sm rounded border-2 border-blue-500">
-              <div class="flex relative p-5">
+            <div class="max-w-sm rounded border-2 border-blue-500 overflow-hidden">
+              <div class="flex relative p-5 transition-transform hover:scale-125">
                 <img alt="gallery1" class="apple" src={picture1}></img>
               </div>
             </div>
           </div>
           <div class="p-5">
-            <div class="max-w-sm rounded border-2 border-blue-500">
-              <div class="flex relative p-5">
+            <div class="max-w-sm rounded border-2 border-blue-500 overflow-hidden">
+              <div class="flex relative p-5 transition-transform hover:scale-125">
                 <img alt="gallery2" class="apple" src={picture2}></img>
                 <div class=""></div>
               </div>
             </div>
           </div>
           <div class="p-5">
-            <div class="max-w-sm rounded overflow-hidden border-2 border-blue-500">
-              <div class="flex relative p-5">
+            <div class="max-w-sm rounded overflow-hidden border-2 border-blue-500 overflow-hidden">
+              <div class="flex relative p-5 transition-transform hover:scale-125">
                 <img alt="gallery3" class="apple" src={picture3}></img>
                 <div class=""></div>
               </div>
             </div>
           </div>
           <div class="p-5">
-            <div class="max-w-sm rounded overflow-hidden border-2 border-blue-500">
-              <div class="flex relative p-5">
+            <div class="max-w-sm rounded overflow-hidden border-2 border-blue-500 overflow-hidden">
+              <div class="flex relative p-5 transition-transform hover:scale-125">
                 <img alt="gallery4" class="apple" src={picture4}></img>
               </div>
             </div>
           </div>
           <div class="p-5">
-            <div class="max-w-sm rounded overflow-hidden border-2 border-blue-500">
-              <div class="flex relative p-5">
+            <div class="max-w-sm rounded overflow-hidden border-2 border-blue-500 overflow-hidden">
+              <div class="flex relative p-5 transition-transform hover:scale-125">
                 <img alt="gallery5" class="apple" src={picture5}></img>
               </div>
             </div>
           </div>
           <div class="p-5">
-            <div class="max-w-sm rounded overflow-hidden border-2 border-blue-500">
-              <div class="flex realtive p-5">
+            <div class="max-w-sm rounded overflow-hidden border-2 border-blue-500" >
+              <div class="flex realtive p-5 transition-transform hover:scale-125">
                 <img alt="gallery6" class="apple" src={picture6}></img>
               </div>
             </div>
