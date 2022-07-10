@@ -24,7 +24,7 @@ function Gallery1() {
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1 class="xl:text-3xl text-6xl font-medium title-font mb-4 text-blue-900">
-            OUR MED VAMPS AT WORK
+            Check Our MedVamps At Work
           </h1>
         </div>
         <div class="flex flex-wrap m-20 place-content-center">
