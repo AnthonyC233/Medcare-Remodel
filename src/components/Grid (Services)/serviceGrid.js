@@ -12,25 +12,24 @@ const serviceGrid = () => {
   return (
     <section
       className="text-gray-600 body-font relative
-        // BASE
-        pl-32 py-12 pr-12
-        
-        // SMALL SCREEN
-        sm:pl-12
 
-        // PHONES | LANDSCAPE
-        SamsungS20Ultra:pl-12
-        SamsungS8:pl-12
-        Pixel5:pl-12
-        iPhone12Pro:pl-12
-        iPhoneXR:pl-12
-        iPhoneSE:pl-12 
-        GalaxyFold:pl-12
+      // BASE
+      pl-32 py-12 pr-12
+      
+      // SMALL SCREEN
+      sm:pl-12
 
-        GalaxyFoldH:p-0
-        GalaxyFoldH:py-10
-    
-    "
+      // PHONES
+      SamsungS20Ultra:pl-12
+      SamsungS8:pl-12
+      Pixel5:pl-12
+      iPhone12Pro:pl-12
+      iPhoneXR:pl-12
+      iPhoneSE:pl-12 
+      GalaxyFold:pl-12
+      GalaxyFoldH:p-0
+      GalaxyFoldH:py-10
+      "
     >
       <div className="container px-5 py-0 mx-auto overflow-hidden">
         <div className="flex flex-wrap -m-4 ">
