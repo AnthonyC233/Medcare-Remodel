@@ -1,4 +1,5 @@
 import React from "react";
+import "./gallery.css"
 import Gallery from "../../pages/Gallery";
 
 import picture1 from "../../assets/gallery-1.jpeg";
@@ -18,71 +19,181 @@ import picture14 from "../../assets/gallery-14.jpeg";
 import picture15 from "../../assets/gallery-15.jpeg";
 import picture16 from "../../assets/gallery-16.jpeg";
 
+// Magnifying Glass Icon 
+import magnifyingGlass from "../../assets/search.svg"
+
 function Gallery1() {
   return (
     <section class="text-gray-600 body-font">
-      <div class="container pl-5 pr-5 pt-24 pb-24 ml-auto mr-auto
+      <div class="
       
-      iPhoneSEH:ml-0 iPhoneSEH:mr-0 iPhoneSEH:pl-0 iPhoneSEH:pr-0">
+      container px-5 py-24 mx-auto
       
+      ">
+
+        {/* Title Container */}
         <div class="flex flex-col text-center w-full mb-20">
-          <h1 class="xl:text-3xl text-6xl font-medium title-font mb-4 text-blue-900">
+          <h1 class="xl:text-3xl text-6xl font-medium title-font mb-4 font-['Inter']">
             Check Our MedVamps At Work
           </h1>
         </div>
-        <div class="flex flex-wrap ml-16 place-content-center ">
-          <div class="p-5">
-            <div class="max-w-sm rounded border-2 border-blue-500 overflow-hidden">
-              <div class="flex relative p-5 transition-transform hover:scale-125">
+
+        {/* Flex Wrap Parent Container */}
+        <div class="
+        
+        // Base
+        flex flex-wrap ml-16 place-content-center
+
+        sm:ml-0
+
+        iPhoneSE:mr-16
+
+        iPhoneXR:mr-16
+
+        iPhone12Pro:mr-16
+
+        Pixel5:mr-16
+
+        SamsungS8:mr-16
+
+        SamsungS20Ultra:mr-16
+
+        GalaxyFold:mr-16
+        
+        ">
+
+          {/* Img Container */}
+          <div class="p-4">
+
+            <div class="max-w-sm rounded overflow-hidden">
+
+              {/* Div for overlay container */}
+              <div class="
+              
+              flex relative transition-transform hover:scale-125 border-4 border-gray-900
+
+              // For overlay
+              gallery-overlay-container
+              
+              ">
                 <img alt="gallery1" class="apple" src={picture1}></img>
+                <div class="gallery-icon-container">
+                  <img className="gallery-icon w-1/4" src={magnifyingGlass}></img>
+              </div>
               </div>
             </div>
           </div>
-          <div class="p-5">
-            <div class="max-w-sm rounded border-2 border-blue-500 overflow-hidden">
-              <div class="flex relative p-5 transition-transform hover:scale-125">
-                <img alt="gallery2" class="apple" src={picture2}></img>
-                <div class=""></div>
+          
+          {/* Img Container */}
+          <div class="p-4">
+
+            <div class="max-w-sm rounded overflow-hidden">
+
+              {/* Div for overlay container */}
+              <div class="
+              
+              flex relative transition-transform hover:scale-125 border-4 border-gray-900
+
+              // For overlay
+              gallery-overlay-container
+              
+              ">
+                <img alt="gallery1" class="apple" src={picture2}></img>
+                <div class="gallery-icon-container">
+                  <img className="gallery-icon w-1/4" src={magnifyingGlass}></img>
+              </div>
               </div>
             </div>
           </div>
-          <div class="p-5">
-            <div class="max-w-sm rounded overflow-hidden border-2 border-blue-500 overflow-hidden">
-              <div class="flex relative p-5 transition-transform hover:scale-125">
-                <img alt="gallery3" class="apple" src={picture3}></img>
-                <div class=""></div>
+
+          {/* Img Container */}
+          <div class="p-4">
+
+            <div class="max-w-sm rounded overflow-hidden">
+
+              {/* Div for overlay container */}
+              <div class="
+              
+              flex relative transition-transform hover:scale-125 border-4 border-gray-900
+
+              // For overlay
+              gallery-overlay-container
+              
+              ">
+                <img alt="gallery1" class="apple" src={picture3}></img>
+                <div class="gallery-icon-container">
+                  <img className="gallery-icon w-1/4" src={magnifyingGlass}></img>
+              </div>
               </div>
             </div>
           </div>
-          <div class="p-5">
-            <div class="max-w-sm rounded overflow-hidden border-2 border-blue-500 overflow-hidden">
-              <div class="flex relative p-5 transition-transform hover:scale-125">
-                <img alt="gallery4" class="apple" src={picture4}></img>
+
+          {/* Img Container */}
+          <div class="p-4">
+
+            <div class="max-w-sm rounded overflow-hidden">
+
+              {/* Div for overlay container */}
+              <div class="
+              
+              flex relative transition-transform hover:scale-125 border-4 border-gray-900
+
+              // For overlay
+              gallery-overlay-container
+              
+              ">
+                <img alt="gallery1" class="apple" src={picture4}></img>
+                <div class="gallery-icon-container">
+                  <img className="gallery-icon w-1/4" src={magnifyingGlass}></img>
+              </div>
               </div>
             </div>
           </div>
-          <div class="p-5">
-            <div class="max-w-sm rounded overflow-hidden border-2 border-blue-500 overflow-hidden">
-              <div class="flex relative p-5 transition-transform hover:scale-125">
-                <img alt="gallery5" class="apple" src={picture5}></img>
+
+          {/* Img Container */}
+          <div class="p-4">
+
+            <div class="max-w-sm rounded overflow-hidden">
+
+              {/* Div for overlay container */}
+              <div class="
+              
+              flex relative transition-transform hover:scale-125 border-4 border-gray-900
+
+              // For overlay
+              gallery-overlay-container
+              
+              ">
+                <img alt="gallery1" class="apple" src={picture5}></img>
+                <div class="gallery-icon-container">
+                  <img className="gallery-icon w-1/4" src={magnifyingGlass}></img>
+              </div>
               </div>
             </div>
           </div>
-          <div class="p-5">
-            <div class="max-w-sm rounded overflow-hidden border-2 border-blue-500" >
-              <div class="flex realtive p-5 transition-transform hover:scale-125">
-                <img alt="gallery6" class="apple" src={picture6}></img>
+
+          {/* Img Container */}
+          <div class="p-4">
+
+            <div class="max-w-sm rounded overflow-hidden">
+
+              {/* Div for overlay container */}
+              <div class="
+              
+              flex relative transition-transform hover:scale-125 border-4 border-gray-900
+
+              // For overlay
+              gallery-overlay-container
+              
+              ">
+                <img alt="gallery1" class="apple" src={picture6}></img>
+                <div class="gallery-icon-container">
+                  <img className="gallery-icon w-1/4" src={magnifyingGlass}></img>
+              </div>
               </div>
             </div>
-            {/* <div class="max-w-sm rounded overflow-hidden shadow-lg">
-              <div class="flex relative">
-                <img alt="gallery7" class="" src={picture7}></img>
-              </div>
-              <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <div class="flex relative">
-                  <img alt="gallery8" class="" src={picture8}></img>
-                </div> */}
           </div>
+          
         </div>
       </div>
     </section>
