@@ -49,7 +49,7 @@ function ServiceHeader() {
           className="
         
           // BASE
-          max-w-lg w-5/6 mb-10
+          w-5/6 mb-10
       
           // 2XL SCREEN
           2xl:mb-0
@@ -71,7 +71,7 @@ function ServiceHeader() {
           className="flex-grow flex flex-col items-center text-center
 
           // BASE
-          w-1/2 pl-24
+          w-1/2 pl-20
 
           // SMALL SCREEN
           sm:pl-0
@@ -121,7 +121,6 @@ function ServiceHeader() {
 
           {/* BUTTON DIV */}
           <div
-
             className="
           
           // Base
@@ -154,7 +153,6 @@ function ServiceHeader() {
 
 
           "
-
           >
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSeN5gkyLOgwY10k-v8oOXCGx2rJiw_BosrU5DJtsmaeWI25EQ/viewform"

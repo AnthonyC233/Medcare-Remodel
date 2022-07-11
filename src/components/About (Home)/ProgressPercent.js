@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './about.css';
 
 // "done" is passed from parent - About.js
-function Progress({ done }) {
+function ProgressPercent({ done }) {
   const [style, setStyle] = useState({});
 
   setTimeout(() => {
@@ -37,10 +37,10 @@ function Progress({ done }) {
         className="progress-done rounded-full text-white text-bold flex items-center justify-center flex-col text-center text-sm"
         style={style}
       >
-        {done}
+        {done}%
       </div>
     </div>
   );
 }
 
-export default Progress;
+export default ProgressPercent;
