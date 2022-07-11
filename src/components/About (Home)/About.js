@@ -2,6 +2,8 @@ import React from 'react';
 import './about.css';
 // LINK TO PROGRESS BARS
 import Progress from './Progress';
+import ProgressPercent from './ProgressPercent';
+import ProgressOutOf from './ProgressOutOf';
 
 function About() {
   return (
@@ -66,17 +68,17 @@ function About() {
         "
       >
         <p className="text-xs font-semibold font-['Mingzat'] overflow-hidden">
-          AVERAGE CLASSROOM SIZE
+          MAX CLASSROOM SIZE
         </p>
-        <Progress done="50" />
+        <Progress done="20" />
         <p className="pt-5 text-xs font-semibold font-['Mingzat'] overflow-hidden">
-          AVERAGE GRADUATES EMPLOYED
+          AVERAGE CERTIFICATION RECEIVED
         </p>
-        <Progress done="80" />
+        <ProgressPercent done="80" />
         <p className="pt-5 text-xs font-semibold font-['Mingzat'] overflow-hidden">
-          AVERAGE FUN
+          SERVICES PROVIDED
         </p>
-        <Progress done="100" />
+        <ProgressOutOf done="70" />
       </div>
     </section>
   );

@@ -32,17 +32,19 @@ const serviceGrid = () => {
       "
     >
       <div className="container px-5 py-0 mx-auto overflow-hidden">
-        <div className="flex flex-wrap -m-4 ">
+        <div className="flex flex-wrap -m-4">
           {/* START OF ICONS */}
           <div className="w-1/2 sm:w-full p-4">
             <div className="border-dashed border-2 border-medCareYellow p-6 rounded-lg flex justify-center items-center flex-col">
+              {/* CIRCLE */}
               <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
+                {/* ICON */}
                 <img src={ccma} alt="ccma icon" className="w-24 h-24 "></img>
               </div>
-              <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0">
+              <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0 font-['Mingzat']">
                 CCMA
               </h2>
-              <p className="leading-relaxed text-base px-10 sm:px-0 md:px-0">
+              <p className="leading-relaxed text-base px-10 sm:px-0 md:px-0 font-['Mingzat']">
                 As a clinical medical assistant your first task is to greet and
                 instruct patients, making patients feel at ease. You will be
                 working alongside doctors, nurses, and other professionals to
@@ -61,10 +63,10 @@ const serviceGrid = () => {
               <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
                 <img src={ekg} alt="ekg icon" className="w-24 h-24"></img>
               </div>
-              <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0">
+              <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0 font-['Mingzat']">
                 EKG TECHNICIAN
               </h2>
-              <p className="leading-relaxed text-base px-10 sm:px-0 md:px-0">
+              <p className="pb-12 leading-relaxed text-base px-10 sm:px-0 md:px-0 font-['Mingzat'] 2xl:pb-20">
                 A more technical healthcare job interest’s you; EKG Technician
                 might be your answer. Our EKG program trains you to recognize
                 erratic waves and how to place the 12- lead on the patient
@@ -81,10 +83,10 @@ const serviceGrid = () => {
               <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
                 <img src={pct} alt="pct icon" className="w-24 h-24"></img>
               </div>
-              <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0">
+              <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0 font-['Mingzat']">
                 PCT
               </h2>
-              <p className="leading-relaxed text-base px-10 sm:px-0 md:px-0">
+              <p className="leading-relaxed text-base px-10 sm:px-0 md:px-0 font-['Mingzat'] 2xl:pb-7">
                 As a Personal Care Technician, you will be taking care of
                 homebound patients of all ages. PCT will assist in (ADL)
                 activities of daily living, communication, and basic caregiving
@@ -105,10 +107,10 @@ const serviceGrid = () => {
                   className="w-24 h-24"
                 ></img>
               </div>
-              <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0">
+              <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0 font-['Mingzat']">
                 PHLEBOTOMY
               </h2>
-              <p className="leading-relaxed text-base px-10 sm:px-0 md:px-0">
+              <p className="leading-relaxed text-base px-10 sm:px-0 md:px-0 font-['Mingzat'] xl:pb-7">
                 If you love the clinical/lab aspect of healthcare training, then
                 Phlebotomy is for you. In our Phlebotomy program, you are taught
                 how to obtain specimens using a variety of techniques. An
@@ -129,10 +131,10 @@ const serviceGrid = () => {
                   className="w-24 h-24"
                 ></img>
               </div>
-              <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0">
+              <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0 font-['Mingzat']">
                 BILLING & CODING
               </h2>
-              <p className="leading-relaxed text-base px-10 sm:px-0 md:px-0">
+              <p className="leading-relaxed text-base px-10 sm:px-0 md:px-0 font-['Mingzat']">
                 If you are interested in medical insurance billing and coding
                 and have the skills to work in bookkeeping, payroll, accounting
                 clerks, or medical administrative assistant then this is the
@@ -150,10 +152,13 @@ const serviceGrid = () => {
               <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
                 <img src={more} alt="more icons" className="w-24 h-24"></img>
               </div>
-              <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0">
+              <h2 className="text-2xl text-gray-900 font-medium title-font p-3 sm:p-0 font-['Mingzat']">
                 & MUCH MORE
               </h2>
-              <p className="leading-relaxed text-base px-10 sm:px-0 md:px-0">
+              <p
+                className="pb-32 leading-relaxed text-base px-10 sm:px-0 md:px-0 font-['Mingzat'] 2xl:pb-52 
+              "
+              >
                 Come see other ways MedCare HealthCert can help you!
               </p>
             </div>
