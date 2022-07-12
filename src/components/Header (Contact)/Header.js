@@ -33,13 +33,13 @@ function Header() {
       xxsm:pr-0
 
       // PHONES | LANDSCAPE
-      SamsungS20Ultra:pl-12
-      SamsungS8:pl-12
-      Pixel5:pl-12
-      iPhone12Pro:pl-12
-      iPhoneXR:pl-12
-      iPhoneSE:pl-12 
-      GalaxyFold:pl-12
+      SamsungS20Ultra:pl-12 SamsungS20Ultra:bg-white
+      SamsungS8:pl-12 SamsungS8:bg-white
+      Pixel5:pl-12 Pixel5:bg-white
+      iPhone12Pro:pl-12 iPhone12Pro:bg-white
+      iPhoneXR:pl-12 iPhoneXR:bg-white
+      iPhoneSE:pl-12 iPhoneSE:bg-white
+      GalaxyFold:pl-12 GalaxyFold:bg-white
 
       GalaxyFoldH:p-2
       GalaxyFoldH:pt-10
