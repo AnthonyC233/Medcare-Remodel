@@ -40,14 +40,16 @@ function About() {
           ABOUT US
         </h1>
         <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left">
-          At our school, we pride ourselves in gapping bridges for our students
+        Welcome, to MedCare HealthCert at our school we pride ourselves in gapping bridges for our students to become future MDs, PAs and Nurses. 
+        Our school is open to all college students majoring in any of the sciences also if you are mandated to obtain direct patient care hours for medical school, you came to the perfect institute.
+          {/* At our school, we pride ourselves in gapping bridges for our students
           to become future MDs, PAs and Nurses. Our school is open to all
-          college students majoring in any of the sciences.
+          college students majoring in any of the sciences. */}
         </p>
         <br></br>
         <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left">
-          We are a flexible, accelerated, and affordable certification school
-          for undergraduate and graduate science majors.
+        We offer clinical training and certifications in Phlebotomy, Medical Assistant (CCMA), Patient Care Technician (PCT), EKG Technician, Medical Insurance, Billing and Coding (MIBC), 
+        Certified Medical Administrative Assistant (CMAA), and Certified Electronic Health Record Specialist (CEHRS). 
         </p>
       </div>
 
@@ -77,15 +79,15 @@ function About() {
         "
       >
         <p className="text-xs font-semibold font-['Mingzat'] overflow-hidden">
-          MAX CLASSROOM SIZE
+          FLEXIBILITY
         </p>
         <Progress done="50" />
         <p className="pt-5 text-xs font-semibold font-['Mingzat'] overflow-hidden">
-          AVERAGE CERTIFICATION RECEIVED
+          AVERAGE FUN
         </p>
         <ProgressPercent done="80" />
         <p className="pt-5 text-xs font-semibold font-['Mingzat'] overflow-hidden">
-          SERVICES PROVIDED
+          DEDICATION
         </p>
         <ProgressOutOf done="70" />
       </div>

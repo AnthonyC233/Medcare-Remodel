@@ -37,7 +37,7 @@ function ProgressOutOf({ done }) {
         className="progress-done rounded-full text-white text-bold flex items-center justify-center flex-col text-center text-sm"
         style={style}
       >
-        5 & much more!
+        100%
       </div>
     </div>
   );
