@@ -20,10 +20,10 @@ function Header() {
       container mx-auto flex px-5 pt-24 pb-24 flex-row lg:flex-col items-center bg-sky-300
 
       // 1023px | lg
-      lg:pb-0
+      lg:pb-28
 
       // 639px | sm
-        sm:pb-0
+        sm:pb-0 sm:bg-white
 
       
       "
@@ -79,13 +79,10 @@ function Header() {
         "
         >
           <h1 className="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full xl:text-4xl lg:text-5xl lg:w-full font-['Inter']">
-            Welcome to MedCare HealthCert
+            Our Gallery
           </h1>
           <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden">
-            RSVP to one of our orientations on the link below and come
-            experience how you can learn while having fun. Congratulations on
-            taking your first step in becoming a medical professional by gaining
-            your certification and clinical experience.
+            Get interpersonal with our Team by discovering who you may be working with. Check out some of the things you could be doing and learning as you head on your medical journey with us! We hope you can carve your own path through all the layers of training and friends along the way.
           </p>
           <div
             className="

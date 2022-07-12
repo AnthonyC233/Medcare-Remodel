@@ -24,6 +24,7 @@ function Header() {
 
       sm:pl-12
       sm:pt-32
+      sm:bg-white
 
       xsm:pl-0
       xsm:pr-0

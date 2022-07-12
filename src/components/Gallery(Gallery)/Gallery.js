@@ -25,7 +25,7 @@ import magnifyingGlass from '../../assets/search.svg';
 
 function Gallery1() {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 1500 });
   }, []);
 
   return (
@@ -34,7 +34,7 @@ function Gallery1() {
         data-aos="zoom-in-left"
         className="
       
-      container px-5 pb-24 pt-0 mx-auto
+      container px-5 pb-24 pt-10 mx-auto
       
       "
       >
@@ -42,7 +42,7 @@ function Gallery1() {
         <div
           className="flex flex-col text-center ml-16 mb-10 place-content-center
 
-        md:mt-20
+        md:mt-10
 
         sm:ml-0
 
@@ -60,9 +60,10 @@ function Gallery1() {
 
         GalaxyFold:mr-16
         
-        "
-        >
-          <h1 className="xl:text-3xl text-6xl font-semibold title-font mt-4 mb-4 font-['Inter'] text-black">
+
+        ">
+          <h1 class="text-5xl xl:text-3xl font-semibold title-font mb-4 font-['Inter'] text-black">
+
             Check Our MedVamps At Work
           </h1>
         </div>

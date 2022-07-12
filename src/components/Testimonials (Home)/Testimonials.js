@@ -105,11 +105,11 @@ function Testimonials() {
         GalaxyFold:pl-12
         "
       >
-        <h1 className="pb-3 text-3xl font-semibold font-['Mingzat'] text-center">
+        <h1 className="pb-3 text-3xl font-semibold font-['Inter'] text-center">
           OUR GRAD TESTIMONIALS
         </h1>
         <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left">
-          What our students say about us
+          What our students say about us...
         </p>
       </div>
 

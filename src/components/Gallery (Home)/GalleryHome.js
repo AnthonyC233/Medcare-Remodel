@@ -109,7 +109,7 @@ function GalleryHome() {
           GalaxyFoldH:p-10
           "
         >
-          <h1 className="title-font pb-5 text-3xl font-semibold font-['Mingzat']">
+          <h1 className="title-font pb-5 text-3xl font-semibold font-['Inter']">
             BECOME APART OF OUR FAMILY
           </h1>
           <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden text-left">
