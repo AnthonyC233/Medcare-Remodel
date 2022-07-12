@@ -113,10 +113,12 @@ function GalleryHome() {
             BECOME APART OF OUR FAMILY
           </h1>
           <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden text-left">
-            We offer studying material, exam prep as well as clinical training
-            for all your medical procedures. National Certification testing is
-            available at the location of your choice which are all nationally
-            recognized.
+            Here at MedCare HealthCert we are honored to assist you in your journey towards medicine. 
+            We are a flexible, accelerated, and affordable certification school for undergraduate and graduate science majors. 
+            We offer studying material, exam prep as well as clinical training for all your medical procedures. 
+            National Certification testing is available at the location of your choice which are all nationally recognized. 
+
+
           </p>
           <br></br>
           <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden text-left">

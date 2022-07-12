@@ -18,7 +18,7 @@ function About() {
       {/* TEXT DIV */}
       <div
       data-aos="fade-up-right"  
-        className="bg-ltGreen flex justify-center items-center flex-col
+        className="bg-blue-300 flex justify-center items-center flex-col
 
         // BASE
         pl-32 py-12 pr-12
@@ -40,21 +40,27 @@ function About() {
           ABOUT US
         </h1>
         <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left">
-          At our school, we pride ourselves in gapping bridges for our students
+        Welcome to MedCare HealthCert! At our school, we pride ourselves in gapping bridges for our students to become future MDs, PAs and Nurses. 
+        Our school is open to all college students majoring in any of the sciences also         
+        if you are mandated to obtain direct patient care hours for medical school, you came to the perfect institute.
+          {/* At our school, we pride ourselves in gapping bridges for our students
           to become future MDs, PAs and Nurses. Our school is open to all
-          college students majoring in any of the sciences.
+          college students majoring in any of the sciences. */}
         </p>
         <br></br>
         <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left">
-          We are a flexible, accelerated, and affordable certification school
-          for undergraduate and graduate science majors.
+        We offer clinical training and 
+        certifications in Phlebotomy, Medical Assistant (CCMA), Patient Care Technician (PCT), 
+        EKG Technician, Medical Insurance, Billing and Coding (MIBC), Certified Medical Administrative Assistant (CMAA), 
+        and Certified Electronic Health Record Specialist (CEHRS).           {/* We are a flexible, accelerated, and affordable certification school
+          for undergraduate and graduate science majors. */}
         </p>
       </div>
 
       {/* PROGRESS BARS SECTION */}
       <div
         data-aos="fade-up-left"  
-        className="progress-container bg-green flex justify-center items-center flex-col
+        className="progress-container bg-yellow-300 flex justify-center items-center flex-col
 
         // BASE
         pl-12 py-12 pr-12
@@ -77,17 +83,17 @@ function About() {
         "
       >
         <p className="text-xs font-semibold font-['Mingzat'] overflow-hidden">
-          MAX CLASSROOM SIZE
+          FLEXIBILITY
         </p>
-        <Progress done="20" />
+        <Progress done="100" />
         <p className="pt-5 text-xs font-semibold font-['Mingzat'] overflow-hidden">
-          AVERAGE CERTIFICATION RECEIVED
+          AVERAGE FUN
         </p>
-        <ProgressPercent done="80" />
+        <ProgressPercent done="100" />
         <p className="pt-5 text-xs font-semibold font-['Mingzat'] overflow-hidden">
           SERVICES PROVIDED
         </p>
-        <ProgressOutOf done="70" />
+        <ProgressOutOf done="100" />
       </div>
     </section>
   );
