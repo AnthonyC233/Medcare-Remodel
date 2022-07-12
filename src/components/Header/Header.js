@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './header.css';
 
 // Images for the header change per page
 import header1 from '../../assets/header-1.png';
 
 function Header() {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <section className="text-gray-600 body-font">
       <div
@@ -24,6 +31,7 @@ function Header() {
       >
         {/* Text Div */}
         <div
+          data-aos="fade-up"
           className="
         
         // Base
