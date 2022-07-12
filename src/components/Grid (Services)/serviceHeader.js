@@ -3,7 +3,7 @@ import header2 from '../../assets/header-2.png';
 
 function ServiceHeader() {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font bg-amber-200">
       <div
         className="container mx-auto flex flex-row items-center 
 

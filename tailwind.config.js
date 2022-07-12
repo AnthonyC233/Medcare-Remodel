@@ -24,6 +24,9 @@ module.exports = {
     extend: {
       // Overwrites all tailwind classes (we use max-width now)
       screens: {
+        '3xl': { max: '1880px' },
+        // => @media (max-width: 1800px) { ... }
+
         '2xl': { max: '1535px' },
         // => @media (max-width: 1535px) { ... }
 
