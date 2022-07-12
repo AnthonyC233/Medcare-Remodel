@@ -7,7 +7,6 @@ import './header.css';
 import header1 from '../../assets/header-1.png';
 
 function Header() {
-
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);

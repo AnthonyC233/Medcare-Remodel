@@ -94,19 +94,19 @@ function GalleryHome() {
 
           // PHONE
           iPhoneSE:pl-0
-          iPhoneSEH:p-0
+          iPhoneSEH:p-10
           iPhoneXR:pl-5
           iPhoneXRH:p-0
           iPhone12Pro:pl-0
-          iPhone12ProH:p-0          
+          iPhone12ProH:p-10          
           Pixel5:pl-0
-          Pixel5H:p-0
+          Pixel5H:p-10
           SamsungS8:pl-0
-          SamsungS8H:p-0
+          SamsungS8H:p-10
           SamsungS20Ultra:pl-0
           SamsungS20UltraH:p-0
           GalaxyFold:pl-0
-          GalaxyFoldH:p-0
+          GalaxyFoldH:p-10
           "
         >
           <h1 className="title-font pb-5 text-3xl font-semibold font-['Inter']">

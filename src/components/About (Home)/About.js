@@ -79,7 +79,7 @@ function About() {
         <p className="text-xs font-semibold font-['Mingzat'] overflow-hidden">
           MAX CLASSROOM SIZE
         </p>
-        <Progress done="20" />
+        <Progress done="50" />
         <p className="pt-5 text-xs font-semibold font-['Mingzat'] overflow-hidden">
           AVERAGE CERTIFICATION RECEIVED
         </p>
