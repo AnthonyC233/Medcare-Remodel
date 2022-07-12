@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './testimonials.css';
 
 // https://www.npmjs.com/package/react-owl-carousel
@@ -8,6 +10,11 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 function Testimonials() {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   const studentTestimonials = [
     {
       name: 'M. Gallego',
@@ -79,6 +86,7 @@ function Testimonials() {
       {/* TESTIMONIALS HEADER SECTION */}
       {/* 36: 144px | 12: 48px | Original pl-24: 96px*/}
       <div
+        data-aos="zoom-in"
         className="flex justify-center items-center flex-col
 
         // BASE
