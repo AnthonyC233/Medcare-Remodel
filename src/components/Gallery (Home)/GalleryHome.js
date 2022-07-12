@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import galleryPic from '../../assets/home-gallery.png';
 
 // PATH TO GALLERY PAGE FROM BUTTON
@@ -11,9 +13,14 @@ function GalleryHome() {
     navigate('/gallery');
   }
 
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <section>
       <div
+        data-aos="flip-left"
         className="container mx-auto flex flex-row lg:flex-col items-center 
 
         // BASE
