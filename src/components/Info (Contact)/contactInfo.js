@@ -21,9 +21,9 @@ function contactInfo() {
         <div
           className="flex flex-col text-center ml-16 mb-10 place-content-center
 
-        md:mt-20
 
-        sm:ml-0
+
+        sm:ml-0 sm:mt-0
 
         iPhoneSE:mr-16
 
