@@ -10,11 +10,11 @@ import ProgressOutOf from './ProgressOutOf';
 function About() {
 
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1500 });
   }, []);
-
+ 
   return (
-    <section className="grid grid-cols-2 lg:grid-cols-1">
+    <section className="grid grid-cols-2 lg:grid-cols-1 overflow-hidden">
       {/* TEXT DIV */}
       <div
       data-aos="fade-up-right"  
@@ -36,7 +36,7 @@ function About() {
         GalaxyFold:pl-12
         "
       >
-        <h1 className="pb-5 text-3xl font-semibold font-['Mingzat']">
+        <h1 className="pb-5 text-3xl font-semibold font-['Inter']">
           ABOUT US
         </h1>
         <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left">
