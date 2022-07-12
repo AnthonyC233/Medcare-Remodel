@@ -50,6 +50,8 @@ function About() {
         <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left">
         We offer clinical training and certifications in Phlebotomy, Medical Assistant (CCMA), Patient Care Technician (PCT), EKG Technician, Medical Insurance, Billing and Coding (MIBC), 
         Certified Medical Administrative Assistant (CMAA), and Certified Electronic Health Record Specialist (CEHRS). 
+          {/* We are a flexible, accelerated, and affordable certification school
+          for undergraduate and graduate science majors. */}
         </p>
       </div>
 
@@ -81,15 +83,15 @@ function About() {
         <p className="text-xs font-semibold font-['Mingzat'] overflow-hidden">
           FLEXIBILITY
         </p>
-        <Progress done="50" />
+        <Progress done="100" />
         <p className="pt-5 text-xs font-semibold font-['Mingzat'] overflow-hidden">
           AVERAGE FUN
         </p>
-        <ProgressPercent done="80" />
+        <ProgressPercent done="100" />
         <p className="pt-5 text-xs font-semibold font-['Mingzat'] overflow-hidden">
           DEDICATION
         </p>
-        <ProgressOutOf done="70" />
+        <ProgressOutOf done="100" />
       </div>
     </section>
   );
