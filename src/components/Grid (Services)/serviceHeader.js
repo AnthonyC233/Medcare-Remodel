@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import header2 from '../../assets/header-2.png';
 
 function ServiceHeader() {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <section className="text-gray-600 body-font">
       <div
+        data-aos="fade-up" 
         className="container mx-auto flex flex-row items-center 
 
         // BASE

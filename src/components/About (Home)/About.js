@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './about.css';
 // LINK TO PROGRESS BARS
 import Progress from './Progress';
@@ -6,10 +8,16 @@ import ProgressPercent from './ProgressPercent';
 import ProgressOutOf from './ProgressOutOf';
 
 function About() {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <section className="grid grid-cols-2 lg:grid-cols-1">
       {/* TEXT DIV */}
       <div
+      data-aos="fade-up-right"  
         className="bg-ltGreen flex justify-center items-center flex-col
 
         // BASE
@@ -45,6 +53,7 @@ function About() {
 
       {/* PROGRESS BARS SECTION */}
       <div
+        data-aos="fade-up-left"  
         className="progress-container bg-green flex justify-center items-center flex-col
 
         // BASE
