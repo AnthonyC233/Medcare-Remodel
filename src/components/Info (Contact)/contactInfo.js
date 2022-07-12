@@ -7,17 +7,19 @@ import contactIcon2 from '../../assets/call-outline.svg';
 import contactIcon3 from '../../assets/earth-outline.svg';
 
 function contactInfo() {
-
-    return (
-        <section class="text-gray-600 body-font">
-        <div data-aos="zoom-in-left"   class="
+  return (
+    <section className="text-gray-600 body-font">
+      <div
+        data-aos="zoom-in-left"
+        className="
       
       container 2xl:pt-10 px-5 pb-24 pt-0 mx-auto
       
-      ">
-
+      "
+      >
         {/* Title Container */}
-        <div class="flex flex-col text-center ml-16 mb-10 place-content-center
+        <div
+          className="flex flex-col text-center ml-16 mb-10 place-content-center
 
         md:mt-20
 
@@ -37,14 +39,16 @@ function contactInfo() {
 
         GalaxyFold:mr-16
         
-        ">
-          <h1 class="text-5xl xl:text-3xl font-semibold title-font mb-4 font-['Inter'] text-black">
+        "
+        >
+          <h1 className="text-5xl xl:text-3xl font-semibold title-font mb-4 font-['Inter'] text-black">
             Need help?
           </h1>
         </div>
 
         {/* Flex Wrap Parent Container */}
-        <div class="
+        <div
+          className="
         
         // Base
         flex flex-wrap ml-16 place-content-center
@@ -65,11 +69,11 @@ function contactInfo() {
 
         GalaxyFold:mr-16
         
-        ">
-
-
+        "
+        >
           {/* Content Container 1 */}
-          <div class="
+          <div
+            className="
                     
                     // Base
                     pt-4 pb-4 pr-4 pl-4 
@@ -87,7 +91,7 @@ function contactInfo() {
                     "
           >
             <div
-              class="
+              className="
                         
                         // Base
                         flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col
@@ -97,7 +101,7 @@ function contactInfo() {
             >
               {/* Icon Container */}
               <div
-                class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-500 flex-shrink-0 bg-sky-200
+                className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-500 flex-shrink-0 bg-sky-200
 
                             // 639px | sm
                                 sm:hidden
@@ -112,12 +116,12 @@ function contactInfo() {
               </div>
 
               {/* Text Container */}
-              <div class="flex-grow">
-                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+              <div className="flex-grow">
+                <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
                   Email us
                 </h2>
                 <h3
-                  class="
+                  className="
                                 
                                 // Base
                                 text-gray-900 text-base title-font font-medium mb-3
@@ -154,15 +158,23 @@ function contactInfo() {
                                 // SamsungS20UltraH | Vertical
                                     SamsungS20UltraH:flex SamsungS20UltraH:flex-wrap
                                 
-                                ">support<span className="">@medcarehealthcert.com</span></span></h3>
-                                
-                                <p class="leading-relaxed text-base">Have anything you'd like to know from our Team? Email us here for more info.</p>
-                            </div>
-                        </div>
-                    </div>
-          
+                                "
+                  >
+                    support<span className="">@medcarehealthcert.com</span>
+                  </span>
+                </h3>
+
+                <p className="leading-relaxed text-base">
+                  Have anything you'd like to know from our Team? Email us here
+                  for more info.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Content Container 2 */}
-          <div class="
+          <div
+            className="
                     
                     // Base
                      pt-4 pb-4 pr-4 pl-4 
@@ -179,10 +191,10 @@ function contactInfo() {
                     
                     "
           >
-            <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+            <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
               {/* Icon Container */}
               <div
-                class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-500 flex-shrink-0 bg-sky-200
+                className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-500 flex-shrink-0 bg-sky-200
                             
                             // 639px | sm
                                 sm:hidden
@@ -197,12 +209,12 @@ function contactInfo() {
               </div>
 
               {/* Text Container */}
-              <div class="flex-grow">
-                <h2 class="text-gray-900 text-base title-font font-medium mb-3">
+              <div className="flex-grow">
+                <h2 className="text-gray-900 text-base title-font font-medium mb-3">
                   Call us
                 </h2>
                 <h3
-                  class="
+                  className="
                                 
                                 // Base
                                 text-gray-900 text-base title-font font-medium mb-3
@@ -213,15 +225,21 @@ function contactInfo() {
                                 // SamsungS8H | Vertical
                                 SamsungS8H:text-xs
                                 
-                                "><span className="text-yellow-500">404-944-2346</span></h3>
-                                <p class="leading-relaxed text-base">Need a 1-on-1 talk directly? You can hit our number here for any questions.</p>
-                            </div>
-                        </div>
-                    </div>
-
+                                "
+                >
+                  <span className="text-yellow-500">404-944-2346</span>
+                </h3>
+                <p className="leading-relaxed text-base">
+                  Need a 1-on-1 talk directly? You can hit our number here for
+                  any questions.
+                </p>
+              </div>
+            </div>
+          </div>
 
           {/* Content Container 3 */}
-          <div class="
+          <div
+            className="
                     
                     // Base
                      pt-4 pb-4 pr-4 pl-4 
@@ -236,26 +254,32 @@ function contactInfo() {
                     sm:pl-0 sm:mr-11 sm:pt-0
                     
                     
-                    ">
-                        <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
-
-                            {/* Icon Container */}
-                            <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-500 flex-shrink-0 bg-sky-200
+                    "
+          >
+            <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+              {/* Icon Container */}
+              <div
+                className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-500 flex-shrink-0 bg-sky-200
                             
                             // 639px | sm
                                 sm:hidden
 
-                            ">
-                                <img 
-                                src={contactIcon3} alt="Phone icon on contact page"
-                                className="w-2/3">
-                                </img>
-                            </div>
+                            "
+              >
+                <img
+                  src={contactIcon3}
+                  alt="Phone icon on contact page"
+                  className="w-2/3"
+                ></img>
+              </div>
 
-                            {/* Text Container */}
-                            <div class="flex-grow">
-                                <h2 class="text-gray-900 text-base title-font font-medium mb-3">Find us</h2>
-                                <h3 class="
+              {/* Text Container */}
+              <div className="flex-grow">
+                <h2 className="text-gray-900 text-base title-font font-medium mb-3">
+                  Find us
+                </h2>
+                <h3
+                  className="
                                 
                                 // Base
                                 text-gray-900 text-base title-font font-medium mb-3
@@ -266,31 +290,37 @@ function contactInfo() {
                                 // SamsungS8H | Vertical
                                 SamsungS8H:text-xs
                                 
-                                "><span className="text-yellow-500">250 Langley Dr # 1312, Lawrenceville, GA 30046</span></h3>
-                                <p class="leading-relaxed text-base">Come check out our facility here in Georgia. New students always welcome! </p>
-                            </div>
-                        </div>
-                    </div>
-
+                                "
+                >
+                  <span className="text-yellow-500">
+                    250 Langley Dr # 1312, Lawrenceville, GA 30046
+                  </span>
+                </h3>
+                <p className="leading-relaxed text-base">
+                  Come check out our facility here in Georgia. New students
+                  always welcome!{' '}
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    );
-  }
-  
-  export default contactInfo;
+  );
+}
+
+export default contactInfo;
 
 //   <div class="
-            
+
 //             // Base
 //             // OVERFLOW PROBLEM IS `container`
 //                   pl-5 pr-20 pt-10 pb-24 flex flex-wrap justify-center ml-16
-            
 
 //             // 1023px | lg
 //                 // none
 
-//             // 767px | md 
+//             // 767px | md
 //                 md:ml-16
 
 //             // 639px | sm
@@ -301,46 +331,44 @@ function contactInfo() {
 
 //             // iPhoneXR | Landscape
 //                 iPhoneXR:mx-7
-        
+
 //             // iPhone12Pro | Landscape
 //                 iPhone12Pro:mx-7
-        
+
 //             // Pixel5 | Landscape
 //                 Pixel5:mx-7
-        
+
 //             // SamsungS8 | Landscape
 //                 SamsungS8:mx-7
-        
+
 //             // SamsungS20Ultra | Landscape
 //                 SamsungS20Ultra:mx-7
 
 //             // iPadMini | Vertical
 //                 iPadMiniH:ml-16
-            
+
 //             ">
 //                 <div class="flex flex-wrap  justify-center">
 
 //                     {/* Content Container */}
 //                     <div class="
-                    
+
 //                     // Base
-//                     pt-4 pb-4 pr-4 pl-4 
+//                     pt-4 pb-4 pr-4 pl-4
 
 //                     // 1502px | xxl
 //                     w-2/5
-                    
+
 //                     // 1023px | lg
 
 //                     // 639px | sm
 //                         sm:pl-0 sm:mr-11 sm:pt-0
-                    
 
 //                     ">
 //                         <div class="
-                        
+
 //                         // Base
 //                         flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col
-                         
 
 //                         ">
 
@@ -349,10 +377,10 @@ function contactInfo() {
 
 //                             // 639px | sm
 //                                 sm:hidden
-                            
+
 //                             ">
-//                                 <img 
-//                                 src={contactIcon1} 
+//                                 <img
+//                                 src={contactIcon1}
 //                                 alt="Email icon on contact page"
 //                                 className="w-2/3">
 //                                 </img>
@@ -362,21 +390,20 @@ function contactInfo() {
 //                             <div class="flex-grow">
 //                                 <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Email us</h2>
 //                                 <h3 class="
-                                
+
 //                                 // Base
 //                                 text-gray-900 text-base title-font font-medium mb-3
-                                
-                                
+
 //                                 // 639px | sm
 //                                 sm:text-smaller
-                                
+
 //                                 // SamsungS8H | Vertical
 //                                 SamsungS8H:text-xs
 
 //                                 "><span className="
-                                
-//                                 text-yellow-500 
-                                
+
+//                                 text-yellow-500
+
 //                                 // iPhoneSEH | Vertical
 //                                     iPhoneSEH:flex iPhoneSEH:flex-wrap
 
@@ -394,9 +421,9 @@ function contactInfo() {
 
 //                                 // SamsungS20UltraH | Vertical
 //                                     SamsungS20UltraH:flex SamsungS20UltraH:flex-wrap
-                                
+
 //                                 ">support<span className="">@medcarehealthcert.com</span></span></h3>
-                                
+
 //                                 <p class="leading-relaxed text-base">Have anything you'd like to know from our Team? Email us here for more info.</p>
 //                             </div>
 //                         </div>
@@ -404,31 +431,29 @@ function contactInfo() {
 
 //                     {/* Content Container */}
 //                     <div class="
-                    
+
 //                     // Base
-//                      pt-4 pb-4 pr-4 pl-4 
-                    
+//                      pt-4 pb-4 pr-4 pl-4
+
 //                      // 1502px | xxl
 //                      w-2/5
 
 //                     // 1023px | lg
-                   
 
 //                     // 639px | sm
 //                     sm:pl-0 sm:mr-11 sm:pt-0
-                    
-                    
+
 //                     ">
 //                         <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
 
 //                             {/* Icon Container */}
 //                             <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-500 flex-shrink-0 bg-sky-200
-                            
+
 //                             // 639px | sm
 //                                 sm:hidden
 
 //                             ">
-//                                 <img 
+//                                 <img
 //                                 src={contactIcon2} alt="Phone icon on contact page"
 //                                 className="w-2/3">
 //                                 </img>
@@ -438,16 +463,16 @@ function contactInfo() {
 //                             <div class="flex-grow">
 //                                 <h2 class="text-gray-900 text-base title-font font-medium mb-3">Call us</h2>
 //                                 <h3 class="
-                                
+
 //                                 // Base
 //                                 text-gray-900 text-base title-font font-medium mb-3
-                                
+
 //                                 // 639px | sm
 //                                 sm:text-smaller
 
 //                                 // SamsungS8H | Vertical
 //                                 SamsungS8H:text-xs
-                                
+
 //                                 "><span className="text-yellow-500">404-944-2346</span></h3>
 //                                 <p class="leading-relaxed text-base">Need a 1-on-1 talk directly? You can hit our number here for any questions.</p>
 //                             </div>

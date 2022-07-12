@@ -7,7 +7,6 @@ import './header.css';
 import header3 from '../../assets/header-3.png';
 
 function Header() {
-
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -31,7 +30,7 @@ function Header() {
       >
         {/* Text Div */}
         <div
-          data-aos="fade-up"        
+          data-aos="fade-up"
           className="
         
         // Base
