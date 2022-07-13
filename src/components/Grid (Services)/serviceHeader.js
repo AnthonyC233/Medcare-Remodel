@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import header2 from '../../assets/header-2.png';
+import './serviceGrid.css';
 
 function ServiceHeader() {
   useEffect(() => {

@@ -1,4 +1,5 @@
 import React from 'react';
+import './serviceGrid.css';
 
 // IMPORTING ICONS
 import ccma from '../../assets/services-icon-ccma.png';
@@ -8,10 +9,9 @@ import pct from '../../assets/services-icon-pct.png';
 import billing from '../../assets/services-icon-billing.png';
 import more from '../../assets/services-icon-more.png';
 
-const serviceGrid = () => {
+function serviceGrid() {
   return (
     <section
-      data-aos="fade-up"
       className="grid grid-cols-3 gap-10 lg:grid-cols-1 service-grid-section
       // BASE
       pl-32 pt-20 pb-20 pr-12 
@@ -158,6 +158,6 @@ const serviceGrid = () => {
       </div>
     </section>
   );
-};
+}
 
 export default serviceGrid;
