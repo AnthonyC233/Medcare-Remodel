@@ -45,6 +45,9 @@ function Header() {
         // Base
           flex-grow w-1/2 pl-24 flex flex-col items-center text-center 
 
+          // 1880px | 3xl 
+          3xl:text-left 3xl:items-start
+
         // 1535px | 2xl 
           2xl:items-start 2xl:text-left
 
@@ -131,7 +134,7 @@ function Header() {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="inline-flex text-white bg-galleryButton border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg">
+              <button className="inline-flex text-black bg-amber-400 border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg">
                 Orientation RSVP
               </button>
             </a>
