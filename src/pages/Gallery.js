@@ -1,19 +1,23 @@
-import React from 'react';
+import React from "react";
 
-import Nav from '../components/Header/Nav';
-import Header from '../components/Header (Gallery)/Header';
-import Page from '../components/Gallery(Gallery)/Gallery';
+import Nav from "../components/Header/Nav";
+import Header from "../components/Header (Gallery)/Header";
+import Page from "../components/Gallery(Gallery)/Gallery";
+import { Helmet } from "react-helmet";
 
 const Gallery = () => {
-
-    return (
-            <div>
-                <Nav />
-                <Header />
-                <Page />
-            </div>
-    );
-
+  return (
+    <div>
+      <>
+        <Helmet>
+          <title>Gallery</title>
+        </Helmet>
+      </>
+      <Nav />
+      <Header />
+      <Page />
+    </div>
+  );
 };
 
 export default Gallery;
