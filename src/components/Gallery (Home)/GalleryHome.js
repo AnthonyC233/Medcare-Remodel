@@ -94,31 +94,29 @@ function GalleryHome() {
 
           // PHONE
           iPhoneSE:pl-0
-          iPhoneSEH:p-0
+          iPhoneSEH:p-10
           iPhoneXR:pl-5
           iPhoneXRH:p-0
           iPhone12Pro:pl-0
-          iPhone12ProH:p-0          
+          iPhone12ProH:p-10          
           Pixel5:pl-0
-          Pixel5H:p-0
+          Pixel5H:p-10
           SamsungS8:pl-0
-          SamsungS8H:p-0
+          SamsungS8H:p-10
           SamsungS20Ultra:pl-0
           SamsungS20UltraH:p-0
           GalaxyFold:pl-0
-          GalaxyFoldH:p-0
+          GalaxyFoldH:p-10
           "
         >
-          <h1 className="title-font pb-5 text-3xl font-semibold font-['Mingzat']">
+          <h1 className="title-font pb-5 text-3xl font-semibold font-['Inter']">
             BECOME APART OF OUR FAMILY
           </h1>
           <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden text-left">
-            Here at MedCare HealthCert we are honored to assist you in your journey towards medicine. 
-            We are a flexible, accelerated, and affordable certification school for undergraduate and graduate science majors. 
-            We offer studying material, exam prep as well as clinical training for all your medical procedures. 
-            National Certification testing is available at the location of your choice which are all nationally recognized. 
-
-
+            We offer studying material, exam prep as well as clinical training
+            for all your medical procedures. National Certification testing is
+            available at the location of your choice which are all nationally
+            recognized.
           </p>
           <br></br>
           <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden text-left">
