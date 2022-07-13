@@ -128,6 +128,9 @@ function ServiceHeader() {
           >
             Our Services
           </h1>
+          <h2 className="title-font sm:text-4xl text-3xl mb-4 font-semibold drop-shadow-md text-sky-500 w-full xl:text-2xl lg:text-5xl lg:w-full font-['Mingzat'] italic">
+            Where We Care
+          </h2>
           <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden">
             All the titles offered at MedCare HealthCert include: study
             materials for the title of your choice, unlimited hands-on
