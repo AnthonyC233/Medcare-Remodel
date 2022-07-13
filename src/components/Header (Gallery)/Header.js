@@ -90,6 +90,9 @@ function Header() {
           <h1 className="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full xl:text-4xl lg:text-5xl lg:w-full font-['Inter']">
             Our Gallery
           </h1>
+          <h2 className="title-font sm:text-4xl text-3xl mb-4 font-semibold drop-shadow-md text-amber-300 w-full xl:text-2xl lg:text-5xl lg:w-full font-['Mingzat'] italic">
+            Where We Care
+          </h2>
           <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden">
             Get interpersonal with our Team by discovering who you may be working with. Check out some of the things you could be doing and learning as you head on your medical journey with us! We hope you can carve your own path through all the layers of training and friends along the way.
           </p>
