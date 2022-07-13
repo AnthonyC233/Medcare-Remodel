@@ -1,4 +1,5 @@
 import React from 'react';
+import './serviceGrid.css';
 
 // IMPORTING ICONS
 import ccma from '../../assets/services-icon-ccma.png';
@@ -8,11 +9,10 @@ import pct from '../../assets/services-icon-pct.png';
 import billing from '../../assets/services-icon-billing.png';
 import more from '../../assets/services-icon-more.png';
 
-const serviceGrid = () => {
+function serviceGrid() {
   return (
     <section
-      data-aos="fade-up"
-      className="grid grid-cols-3 gap-10 lg:grid-cols-1
+      className="grid grid-cols-3 gap-10 lg:grid-cols-1 service-grid-section
       // BASE
       pl-32 pt-20 pb-20 pr-12 
 
@@ -34,14 +34,16 @@ const serviceGrid = () => {
       {/* START OF ICONS */}
 
       {/* 1ST ICON! */}
-      <div className="flex items-center flex-col border-dashed border-2 border-medCareYellow p-6 rounded-lg">
+      <div className="flex items-center flex-col border-dashed border-4 border-galleryButton p-6 rounded-lg bg-white">
         {/* CIRCLE */}
         <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 mb-4 GalaxyFoldH:hidden">
           {/* ICON */}
           <img src={ccma} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
         {/* DETAILS */}
-        <h2 className="text-2xl font-medium text-center pb-2 font-['Inter']">CCMA</h2>
+        <h2 className="text-2xl font-medium text-center pb-2 font-['Inter']">
+          CCMA
+        </h2>
         <p className="leading-relaxed text-center font-['Mingzat']">
           As a clinical medical assistant, your first task is to greet and
           instruct patients, making them feel at ease. You will be working
@@ -55,7 +57,7 @@ const serviceGrid = () => {
       </div>
 
       {/* 2ND ICON! */}
-      <div className="flex items-center flex-col border-dashed border-2 border-medCareYellow p-6 rounded-lg">
+      <div className="flex items-center flex-col border-dashed border-4 border-galleryButton p-6 rounded-lg bg-white">
         {/* CIRCLE */}
         <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 mb-4 GalaxyFoldH:hidden">
           {/* ICON */}
@@ -76,14 +78,16 @@ const serviceGrid = () => {
       </div>
 
       {/* 3RD ICON! */}
-      <div className="flex items-center flex-col border-dashed border-2 border-medCareYellow p-6 rounded-lg">
+      <div className="flex items-center flex-col border-dashed border-4 border-galleryButton p-6 rounded-lg bg-white">
         {/* CIRCLE */}
         <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 mb-4 GalaxyFoldH:hidden">
           {/* ICON */}
           <img src={phlebotomy} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
         {/* DETAILS */}
-        <h2 className="text-2xl font-medium text-center pb-2 font-['Inter']">PHLEBOTOMY</h2>
+        <h2 className="text-2xl font-medium text-center pb-2 font-['Inter']">
+          PHLEBOTOMY
+        </h2>
         <p className="leading-relaxed text-center font-['Mingzat']">
           If you love the clinical/lab aspect of healthcare training, then
           Phlebotomy is for you. In our Phlebotomy program, you are taught how
@@ -95,7 +99,7 @@ const serviceGrid = () => {
       </div>
 
       {/* 4TH ICON! */}
-      <div className="flex items-center flex-col border-dashed border-2 border-medCareYellow p-6 rounded-lg">
+      <div className="flex items-center flex-col border-dashed border-4 border-galleryButton p-6 rounded-lg bg-white">
         {/* CIRCLE */}
         <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
           {/* ICON */}
@@ -116,7 +120,7 @@ const serviceGrid = () => {
       </div>
 
       {/* 5TH ICON! */}
-      <div className="flex items-center flex-col border-dashed border-2 border-medCareYellow p-6 rounded-lg">
+      <div className="flex items-center flex-col border-dashed border-4 border-galleryButton p-6 rounded-lg bg-white">
         {/* CIRCLE */}
         <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
           {/* ICON */}
@@ -138,20 +142,22 @@ const serviceGrid = () => {
       </div>
 
       {/* 6TH ICON! */}
-      <div className="flex items-center flex-col border-dashed border-2 border-medCareYellow p-6 rounded-lg">
+      <div className="flex items-center flex-col border-dashed border-4 border-galleryButton p-6 rounded-lg bg-white">
         {/* CIRCLE */}
         <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
           {/* ICON */}
           <img src={more} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
         {/* DETAILS */}
-        <h2 className="text-2xl font-medium text-center pb-2 font-['Inter']">& MUCH MORE</h2>
+        <h2 className="text-2xl font-medium text-center pb-2 font-['Inter']">
+          & MUCH MORE
+        </h2>
         <p className="leading-relaxed text-center font-['Mingzat']">
           Come see other ways MedCare HealthCert can help you!
         </p>
       </div>
     </section>
   );
-};
+}
 
 export default serviceGrid;

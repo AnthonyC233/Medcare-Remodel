@@ -2,15 +2,16 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import header2 from '../../assets/header-2.png';
+import './serviceGrid.css';
 
 function ServiceHeader() {
-
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
 
   return (
-    <section className="text-gray-600 body-font bg-amber-200 sm:bg-white 
+    <section
+      className="text-gray-600 body-font service-grid-header sm:bg-white 
     
     // PHONES | LANDSCAPE
       SamsungS20Ultra:pl-12 SamsungS20Ultra:bg-white
@@ -21,9 +22,10 @@ function ServiceHeader() {
       iPhoneSE:pl-12 iPhoneSE:bg-white
       GalaxyFold:pl-12 GalaxyFold:bg-white
       
-    ">
+    "
+    >
       <div
-        data-aos="fade-up" 
+        data-aos="fade-up"
         className="container mx-auto flex flex-row items-center 
 
         // BASE
