@@ -240,7 +240,7 @@ function Nav() {
               >
                 MedCare HealthCert
               </h1>
-            </div>
+            </div> 
           </a>
 
           {/* NAV LIST PARENT DIV */}
@@ -344,7 +344,14 @@ function Nav() {
 
             `}
             >
-              <ul className="pt-6">
+              <ul className="
+              
+              // Base
+              pt-6
+
+
+              
+              ">
                 {LeftMenu.map((menu, index) => (
                   <a href={`${menu.pathway}`}>
                     <li

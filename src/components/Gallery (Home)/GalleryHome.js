@@ -21,7 +21,7 @@ function GalleryHome() {
     <section>
       <div
         data-aos="flip-left"
-        className="container mx-auto flex flex-row lg:flex-col items-center 
+        className="container mx-auto flex flex-row lg:flex-col items-center bg-amber-100
 
         // BASE
         pl-32 pt-20 pr-12
@@ -55,7 +55,7 @@ function GalleryHome() {
           className="
       
           // BASE
-          max-w-lg  w-5/6 mb-10
+          max-w-lg w-5/6 mb-10 
       
           // 2XL SCREEN
           2xl:mb-0
