@@ -35,6 +35,14 @@
 ![Tailwind Icon](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![FIgma Icon](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
+- [React Helmet](https://www.npmjs.com/package/react-helmet)
+
+- [AOS Animated Scroll](https://michalsnik.github.io/aos/)
+
+- [Owl React Carousel](https://www.npmjs.com/package/react-owl-carousel)
+<img width="1667" alt="Screen Shot 2022-07-13 at 3 10 02 PM" src="https://user-images.githubusercontent.com/100983245/178812753-41a4184e-4adf-4c00-95d0-436ea5649faf.png">
+
+
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
