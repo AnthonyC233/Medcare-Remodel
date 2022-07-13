@@ -29,7 +29,7 @@ function Gallery1() {
   }, []);
 
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font gallery-section">
       <div
         data-aos="zoom-in-left"
         className="
@@ -61,9 +61,9 @@ function Gallery1() {
         GalaxyFold:mr-16
         
 
-        ">
+        "
+        >
           <h1 class="text-5xl xl:text-3xl font-semibold title-font mb-4 font-['Inter'] text-black">
-
             Check Our MedVamps At Work
           </h1>
         </div>

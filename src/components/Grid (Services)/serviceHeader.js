@@ -1,9 +1,10 @@
 import React from 'react';
+import './serviceGrid.css';
 import header2 from '../../assets/header-2.png';
 
 function ServiceHeader() {
   return (
-    <section className="text-gray-600 body-font bg-amber-200">
+    <section className="text-gray-600 body-font service-grid-header">
       <div
         className="container mx-auto flex flex-row items-center 
 

@@ -12,20 +12,18 @@ function Header() {
   }, []);
 
   return (
-    <section className="text-gray-600 body-font">
+    <section className="body-font header-gallery-section">
       <div
         className="
 
       // Base
-      container mx-auto flex px-5 pt-24 pb-24 flex-row lg:flex-col items-center bg-sky-300
+      container mx-auto flex px-5 pt-24 pb-24 flex-row lg:flex-col items-center
 
       // 1023px | lg
       lg:pb-28
 
       // 639px | sm
         sm:pb-0 sm:bg-white
-
-      
       "
       >
         {/* Text Div */}
@@ -74,15 +72,17 @@ function Header() {
 
         // GalaxyFold | Landscape
         GalaxyFold:pl-0
-
-        
         "
         >
           <h1 className="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full xl:text-4xl lg:text-5xl lg:w-full font-['Inter']">
             Our Gallery
           </h1>
           <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden">
-            Get interpersonal with our Team by discovering who you may be working with. Check out some of the things you could be doing and learning as you head on your medical journey with us! We hope you can carve your own path through all the layers of training and friends along the way.
+            Get interpersonal with our Team by discovering who you may be
+            working with. Check out some of the things you could be doing and
+            learning as you head on your medical journey with us! We hope you
+            can carve your own path through all the layers of training and
+            friends along the way.
           </p>
           <div
             className="
@@ -110,8 +110,6 @@ function Header() {
 
           // GalaxyFold | Vertical
           GalaxyFoldH:w-fit
-
-
           "
           >
             <a
@@ -144,7 +142,7 @@ function Header() {
 
         // SamsungS20Ultra | Vertical
           SamsungS20UltraH:pb-14
-        
+   
         "
         >
           <img

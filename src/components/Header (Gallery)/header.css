@@ -1,41 +1,45 @@
+.header-gallery-section {
+  background-color: #3b82f6;
+}
+
 /* Nav.js */
 .nav-logo {
-    height: 40px;
+  height: 40px;
 }
 
 .left-nav-icons {
-    width: 20px;
+  width: 20px;
 }
 
 .middle-nav-icons {
-    width: 20px;
+  width: 20px;
 }
 
 .right-nav-icons {
-    width: 20px;
+  width: 20px;
 }
 
 .bottom-nav-icons {
-    width: 18px;
+  width: 18px;
 }
 
 /* Header.js */
 .header-bg-color {
-    background: #FFFAFB;
+  background: #fffafb;
 }
 
 /* .header-image img {
 height: 500px;
 width: 800px;
 } */
-  
+
 /* 639 changes */
 .page {
-    grid-template-columns: 60vw auto;
+  grid-template-columns: 60vw auto;
 }
 
 @media screen and (max-width: 639px) {
-    .gallery-link-section {
-        padding: 0;
-    }
+  .gallery-link-section {
+    padding: 0;
+  }
 }
