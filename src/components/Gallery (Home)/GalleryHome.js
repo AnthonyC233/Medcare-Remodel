@@ -113,10 +113,13 @@ function GalleryHome() {
             BECOME APART OF OUR FAMILY
           </h1>
           <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden text-left">
-            We offer studying material, exam prep as well as clinical training
+          Welcome, to MedCare HealthCert at our school we pride ourselves in gapping bridges for our students to become future MDs, PAs and Nurses. 
+          Our school is open to all college students majoring in any of the sciences also  If you are mandated to obtain direct patient care hours 
+          for medical school, you came to the perfect institute.
+            {/* We offer studying material, exam prep as well as clinical training
             for all your medical procedures. National Certification testing is
             available at the location of your choice which are all nationally
-            recognized.
+            recognized. */}
           </p>
           <br></br>
           <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden text-left">

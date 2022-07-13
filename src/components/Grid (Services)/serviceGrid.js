@@ -11,12 +11,13 @@ import more from '../../assets/services-icon-more.png';
 const serviceGrid = () => {
   return (
     <section
-      className="grid grid-cols-3 gap-10 lg:grid-cols-1 service-grid-section	
+      data-aos="fade-up"
+      className="grid grid-cols-3 gap-10 lg:grid-cols-1 service-grid-section
       // BASE
-      pl-32 py-20 pr-12 
+      pl-32 pt-20 pb-20 pr-12 
 
       // SMALL SCREEN
-      sm:pl-12
+      sm:pl-12 sm:pt-0
 
       // PHONES
       SamsungS20Ultra:pl-12
@@ -40,8 +41,10 @@ const serviceGrid = () => {
           <img src={ccma} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
         {/* DETAILS */}
-        <h2 className="text-2xl font-medium text-center pb-2">CCMA</h2>
-        <p className="leading-relaxed text-center">
+        <h2 className="text-2xl font-medium text-center pb-2 font-['Inter']">
+          CCMA
+        </h2>
+        <p className="leading-relaxed text-center font-['Mingzat']">
           As a clinical medical assistant, your first task is to greet and
           instruct patients, making them feel at ease. You will be working
           alongside doctors, nurses, and other medical professionals. CCMAs are
@@ -61,10 +64,10 @@ const serviceGrid = () => {
           <img src={ekg} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
         {/* DETAILS */}
-        <h2 className="text-2xl font-medium text-center pb-2">
+        <h2 className="text-2xl font-medium text-center pb-2 font-['Inter']">
           EKG TECHNICIAN
         </h2>
-        <p className="leading-relaxed text-center">
+        <p className="leading-relaxed text-center font-['Mingzat']">
           If a more technical healthcare job interests you, EKG Technician might
           be your answer. Our EKG program trains you to recognize erratic waves
           and how to place the 12-lead on the patient without artifact. Proper
@@ -82,8 +85,10 @@ const serviceGrid = () => {
           <img src={phlebotomy} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
         {/* DETAILS */}
-        <h2 className="text-2xl font-medium text-center pb-2">PHLEBOTOMY</h2>
-        <p className="leading-relaxed text-center">
+        <h2 className="text-2xl font-medium text-center pb-2 font-['Inter']">
+          PHLEBOTOMY
+        </h2>
+        <p className="leading-relaxed text-center font-['Mingzat']">
           If you love the clinical/lab aspect of healthcare training, then
           Phlebotomy is for you. In our Phlebotomy program, you are taught how
           to obtain specimens using a variety of techniques. An introduction to
@@ -101,10 +106,10 @@ const serviceGrid = () => {
           <img src={pct} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
         {/* DETAILS */}
-        <h2 className="text-2xl font-medium text-center pb-2">
+        <h2 className="text-2xl font-medium text-center pb-2 font-['Inter']">
           PERSONAL CARE TECHNICIAN
         </h2>
-        <p className="leading-relaxed text-center">
+        <p className="leading-relaxed text-center font-['Mingzat']">
           As a Personal Care Technician, you will be taking care of homebound
           patients of all ages. PCT will assist in (ADL) activities of daily
           living, communication, and basic caregiving skills needed to provide
@@ -122,10 +127,10 @@ const serviceGrid = () => {
           <img src={billing} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
         {/* DETAILS */}
-        <h2 className="text-2xl font-medium text-center pb-2">
+        <h2 className="text-2xl font-medium text-center pb-2 font-['Inter']">
           BILLING & CODING
         </h2>
-        <p className="leading-relaxed text-center">
+        <p className="leading-relaxed text-center font-['Mingzat']">
           If you are interested in medical insurance billing and coding and have
           the skills to work in bookkeeping, payroll, accounting clerks, or
           medical administrative assistant then this is the title for you. You
@@ -144,8 +149,10 @@ const serviceGrid = () => {
           <img src={more} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
         {/* DETAILS */}
-        <h2 className="text-2xl font-medium text-center pb-2">& MUCH MORE</h2>
-        <p className="leading-relaxed text-center">
+        <h2 className="text-2xl font-medium text-center pb-2 font-['Inter']">
+          & MUCH MORE
+        </h2>
+        <p className="leading-relaxed text-center font-['Mingzat']">
           Come see other ways MedCare HealthCert can help you!
         </p>
       </div>

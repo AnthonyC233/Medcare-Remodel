@@ -20,10 +20,21 @@ function Header() {
       container mx-auto flex px-5 pt-24 pb-24 flex-row lg:flex-col items-center
 
       // 1023px | lg
-      lg:pb-28
+      lg:pb-0
 
       // 639px | sm
         sm:pb-0 sm:bg-white
+
+      // PHONES | LANDSCAPE
+      SamsungS20Ultra:pl-12 SamsungS20Ultra:bg-white
+      SamsungS8:pl-12 SamsungS8:bg-white
+      Pixel5:pl-12 Pixel5:bg-white
+      iPhone12Pro:pl-12 iPhone12Pro:bg-white
+      iPhoneXR:pl-12 iPhoneXR:bg-white
+      iPhoneSE:pl-12 iPhoneSE:bg-white
+      GalaxyFold:pl-12 GalaxyFold:bg-white
+
+      
       "
       >
         {/* Text Div */}

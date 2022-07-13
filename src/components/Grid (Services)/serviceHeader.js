@@ -1,15 +1,34 @@
-import React from 'react';
-import './serviceGrid.css';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import header2 from '../../assets/header-2.png';
 
 function ServiceHeader() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <section className="text-gray-600 body-font service-grid-header">
+    <section
+      className="text-gray-600 body-font service-grid-header sm:bg-white 
+    
+    // PHONES | LANDSCAPE
+      SamsungS20Ultra:pl-12 SamsungS20Ultra:bg-white
+      SamsungS8:pl-12 SamsungS8:bg-white
+      Pixel5:pl-12 Pixel5:bg-white
+      iPhone12Pro:pl-12 iPhone12Pro:bg-white
+      iPhoneXR:pl-12 iPhoneXR:bg-white
+      iPhoneSE:pl-12 iPhoneSE:bg-white
+      GalaxyFold:pl-12 GalaxyFold:bg-white
+      
+    "
+    >
       <div
+        data-aos="fade-up"
         className="container mx-auto flex flex-row items-center 
 
         // BASE
-        pl-32 pt-24 pb-24 pr-12
+        pl-32 pt-10 pb-24 pr-12
 
         // SMALL SCREEN
         sm:pl-12
