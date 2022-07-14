@@ -94,6 +94,9 @@ function ServiceHeader() {
           // BASE
           w-1/2 pl-20
 
+          // 1880px | 3xl 
+          3xl:text-left 3xl:items-start
+
           // SMALL SCREEN
           sm:pl-0
 

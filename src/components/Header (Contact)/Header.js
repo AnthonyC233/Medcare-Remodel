@@ -121,6 +121,9 @@ function Header() {
         flex-grow w-1/2 pl-24 flex flex-col items-center text-center 
         lg:p-12
 
+        // 1880px | 3xl 
+        3xl:text-left 3xl:items-start
+
       // 1535px | 2xl 
         2xl:items-start 2xl:text-left
 

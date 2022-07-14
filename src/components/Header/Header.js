@@ -24,7 +24,6 @@ function Header() {
 
       // 639px | sm
         sm:pb-0
-
       
       "
       >
@@ -35,6 +34,9 @@ function Header() {
         
         // Base
           flex-grow w-1/2 pl-24 flex flex-col items-center text-center 
+
+          // 1880px | 3xl 
+          3xl:text-left 3xl:items-start
 
         // 1535px | 2xl 
           2xl:items-start 2xl:text-left
@@ -96,6 +98,8 @@ function Header() {
           
           // Base
           flex justify-center relative
+
+      
           
           // 639px | sm
             sm:items-center sm:w-fit
