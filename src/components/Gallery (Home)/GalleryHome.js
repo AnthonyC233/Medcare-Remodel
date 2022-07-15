@@ -22,7 +22,7 @@ function GalleryHome() {
     <section>
       <div
         data-aos="flip-left"
-        className="container mx-auto flex flex-row lg:flex-col items-center bg-amber-100
+        className="container mx-auto flex flex-row lg:flex-col items-center bg-amber-300
 
         // BASE
         pl-32 pt-20 pr-12

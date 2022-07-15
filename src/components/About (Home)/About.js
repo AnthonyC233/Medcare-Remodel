@@ -18,7 +18,7 @@ function About() {
       {/* TEXT DIV */}
       <div
       data-aos="fade-up-right"  
-        className="bg-ltGreen flex justify-center items-center flex-col
+        className="bg-sky-500 flex justify-center items-center flex-col
 
         // BASE
         pl-32 py-12 pr-12
@@ -58,7 +58,7 @@ function About() {
       {/* PROGRESS BARS SECTION */}
       <div
         data-aos="fade-up-left"  
-        className="progress-container bg-green flex justify-center items-center flex-col
+        className="progress-container bg-sky-500 flex justify-center items-center flex-col
 
         // BASE
         pl-12 py-12 pr-12
