@@ -124,6 +124,13 @@ module.exports = {
         testimonials: '#EDF1F4',
         medCareYellow: '#ffd57d',
       },
+      theme: {
+        // ...
+      },
+      plugins: [
+        require('@tailwindcss/aspect-ratio'),
+        // ...
+      ],
     },
   },
   plugins: [],

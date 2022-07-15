@@ -1,16 +1,17 @@
-import React, { useEffect } from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
-import galleryPic from '../../assets/medcarebanner.png';
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import galleryPic from "../../assets/medcarebanner.png";
+import video from "../../assets/medcare_3.mp4"
 
 // PATH TO GALLERY PAGE FROM BUTTON
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function GalleryHome() {
   let navigate = useNavigate();
 
   function galleryLink() {
-    navigate('/gallery');
+    navigate("/gallery");
   }
 
   useEffect(() => {
@@ -65,11 +66,14 @@ function GalleryHome() {
           SamsungS20UltraH:pb-14
           "
         >
-          <img
+          <div class="aspect-w-16 aspect-h-7 ">
+          <video  width="640" height="320" src={video} type='video/mp4' controls />
+          {/* <img
             className="object-cover object-center rounded GalaxyFoldH:hidden "
             alt="gallery"
             src={galleryPic}
-          ></img>
+          ></img> */}
+          </div>
         </div>
 
         {/* TEXT DIV */}
@@ -113,8 +117,13 @@ function GalleryHome() {
             BECOME PART OF OUR FAMILY
           </h1>
           <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden text-left">
-          Here at MedCare HealthCert we are honored to assist you in your journey towards medicine. We are a flexible, accelerated, and affordable certification school for undergraduate and graduate science majors. 
-          We offer studying material, exam prep as well as clinical training for all your medical procedures. National Certification testing is available at the location of your choice which are all nationally recognized
+            Here at MedCare HealthCert we are honored to assist you in your
+            journey towards medicine. We are a flexible, accelerated, and
+            affordable certification school for undergraduate and graduate
+            science majors. We offer studying material, exam prep as well as
+            clinical training for all your medical procedures. National
+            Certification testing is available at the location of your choice
+            which are all nationally recognized
             {/* We offer studying material, exam prep as well as clinical training
             for all your medical procedures. National Certification testing is
             available at the location of your choice which are all nationally
