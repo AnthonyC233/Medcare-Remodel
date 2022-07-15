@@ -10,11 +10,18 @@ import ProgressOutOf from './ProgressOutOf';
 function About() {
 
   useEffect(() => {
-    Aos.init({ duration: 1500 });
+    Aos.init({ duration: 1000 });
   }, []);
  
   return (
-    <section className="grid grid-cols-2 lg:grid-cols-1 overflow-hidden">
+    <section className="
+    
+    grid grid-cols-2 lg:grid-cols-1 overflow-hidden  
+    
+    // 1023px | lg
+      lg:pt-10
+      
+      ">
       {/* TEXT DIV */}
       <div
       data-aos="fade-up-right"  
