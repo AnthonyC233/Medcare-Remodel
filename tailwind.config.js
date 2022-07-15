@@ -36,6 +36,12 @@ module.exports = {
         xl: { max: '1279px' },
         // => @media (max-width: 1279px) { ... }
 
+        almostlg: { max: '1199px' },
+        // => @media (max-width: 1199px) { ... }
+
+        almosttherelg: { max: '1161px' },
+        // => @media (max-width: 1161px) { ... }
+
         lg: { max: '1023px' },
         // => @media (max-width: 1023px) { ... }
 

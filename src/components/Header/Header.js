@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './header.css';
 
 // Images for the header change per page
-import header1 from '../../assets/transparent.png';
+import header1 from '../../assets/homepage-header.jpg';
 
 function Header() {
   useEffect(() => {
@@ -17,13 +17,16 @@ function Header() {
         className="
 
       // Base
-      container mx-auto flex px-5 pt-24 pb-36 flex-row lg:flex-col items-center
+      container mx-auto flex px-5 pt-5 pb-5 flex-row lg:flex-col items-center
 
-      // 1023px | lg
-      lg:pb-0
+     // 1199px | almostlg
+      almostlg:pb-5
+
+     // 1161px | almosttherelg
+      almosttherelg:pb-3
 
       // 639px | sm
-        sm:pb-0
+        sm:pb-0 sm:pt-24
       
       "
       >
@@ -33,13 +36,13 @@ function Header() {
           className="
         
         // Base
-          flex-grow w-1/2 pl-24 flex flex-col items-center text-center 
+          flex-grow w-1/2 pl-24 pr-6 flex flex-col items-center text-center 
 
           // 1880px | 3xl 
-          3xl:text-left 3xl:items-start
+          3xl:text-left 3xl:items-start 3xl:pb-0
 
         // 1535px | 2xl 
-          2xl:items-start 2xl:text-left
+          2xl:items-start 2xl:text-left 2xl:pt-10
 
         // 1023px | lg
           lg:w-11/12
@@ -51,31 +54,31 @@ function Header() {
           iPhoneSEH:mr-20 iPhoneSEH:ml-20
 
         // iPhoneSE | Landscape
-          iPhoneSE:pl-0
+          iPhoneSE:pl-0 iPhoneSE:pt-20
 
         // iPhoneXR | Vertical
           // none
 
         // iPhoneXR | Landscape
-          iPhoneXR:pl-5
+          iPhoneXR:pl-5 iPhoneXR:pt-20
 
         // iPhone12Pro | Vertical
           // none
 
         // iPhone12Pro | Landscape
-          iPhone12Pro:pl-0 pb-10
+          iPhone12Pro:pl-0 pb-10 iPhone12Pro:pt-20
 
         // Pixel5 | Landscape
-          Pixel5:pl-0
+          Pixel5:pl-0 Pixel5:pt-20
 
         // SamsungS8 | Landscape
-        SamsungS8:pl-0
+        SamsungS8:pl-0 SamsungS8:pt-20
         
         // SamsungS20Ultra | Landscape
-        SamsungS20Ultra:pl-0
+        SamsungS20Ultra:pl-0 SamsungS20Ultra:pt-20
 
         // GalaxyFold | Landscape
-        GalaxyFold:pl-0
+        GalaxyFold:pl-0 GalaxyFold:pt-20
 
         
         "
@@ -142,20 +145,70 @@ function Header() {
           className="
         
         // Base
-          w-5/6 mb-10
+          w-4/5 mb-10
+
+        // 1880px | 3xl
+          3xl:w-9/12
 
         // 1535px | 2xl 
           2xl:mb-0
 
         // 1023px | lg  
-          lg:max-w-lg
+          lg:pt-6 lg:ml-10
 
-        // iPhoneXR | Vertical
-          iPhoneXRH:pb-9
+        // 767px | md
+          md:relative md:left-6
 
-        // SamsungS20Ultra | Vertical
-          SamsungS20UltraH:pb-14
-        
+        // 639px | sm
+          sm:left-0 sm:ml-0 sm:mr-20
+
+      // Vertical
+        // ----------
+        // iPhone SE (Vertical)
+        iPhoneSEH:hidden
+
+        // iPhoneXR (Vertical)
+        iPhoneXRH:hidden iPhoneXRH:pb-9
+
+        // iPhone12Pro (Vertical)
+        iPhone12ProH:hidden
+
+        // Pixel5 (Vertical)
+        Pixel5H:hidden
+
+        // SamsungS8 (Vertical)
+        SamsungS8H:hidden
+
+        // SamsungS20Ultra (Vertical)
+        SamsungS20UltraH:hidden SamsungS20UltraH:pb-14
+
+        // GalaxyFold (Vertical)
+        GalaxyFoldH:hidden
+
+
+      // HORIZONTAL
+      // ----------
+        // iPhone SE (Horizontal)
+        iPhoneSE:hidden
+
+        // iPhoneXR (Horizontal)
+        iPhoneXR:hidden iPhoneXRH:pb-9
+
+        // iPhone12Pro (Horizontal)
+        iPhone12Pro:hidden
+
+        // Pixel5 (Horizontal)
+        Pixel5:hidden
+
+        // SamsungS8 (Horizontal)
+        SamsungS8:hidden
+
+        // SamsungS20Ultra (Horizontal)
+        SamsungS20Ultra:hidden SamsungS20UltraH:pb-14
+
+        // GalaxyFold (Horizontal)
+        GalaxyFold:hidden
+  
         "
         >
           <img
