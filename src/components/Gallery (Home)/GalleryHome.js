@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import galleryPic from '../../assets/home-gallery.png';
+import galleryPic from '../../assets/medcarebanner.png';
 
 // PATH TO GALLERY PAGE FROM BUTTON
 import { useNavigate } from 'react-router-dom';
@@ -66,7 +66,7 @@ function GalleryHome() {
           "
         >
           <img
-            className="object-cover object-center rounded GalaxyFoldH:hidden"
+            className="object-cover object-center rounded GalaxyFoldH:hidden "
             alt="gallery"
             src={galleryPic}
           ></img>
@@ -110,12 +110,11 @@ function GalleryHome() {
           "
         >
           <h1 className="title-font pb-5 text-3xl font-semibold font-['Inter']">
-            BECOME APART OF OUR FAMILY
+            BECOME PART OF OUR FAMILY
           </h1>
           <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden text-left">
-          Welcome, to MedCare HealthCert at our school we pride ourselves in gapping bridges for our students to become future MDs, PAs and Nurses. 
-          Our school is open to all college students majoring in any of the sciences also  If you are mandated to obtain direct patient care hours 
-          for medical school, you came to the perfect institute.
+          Here at MedCare HealthCert we are honored to assist you in your journey towards medicine. We are a flexible, accelerated, and affordable certification school for undergraduate and graduate science majors. 
+          We offer studying material, exam prep as well as clinical training for all your medical procedures. National Certification testing is available at the location of your choice which are all nationally recognized
             {/* We offer studying material, exam prep as well as clinical training
             for all your medical procedures. National Certification testing is
             available at the location of your choice which are all nationally
