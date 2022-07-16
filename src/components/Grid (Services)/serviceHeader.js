@@ -10,14 +10,13 @@ function ServiceHeader() {
 
   return (
     <section
-      className="text-gray-600 body-font text-lg overflow-hidden service-header-container h-9/12 w-full
+      className="body-font text-lg overflow-hidden service-header-container h-9/12 w-full
     
-    sm:pt-20
-    
-    "
+      sm:pt-20
+      "
     >
       <div
-        className="flex justify-end items-center flex-grow h-9/12 w-full"
+        className="flex justify-end items-center flex-grow h-9/12 w-full "
         data-aos="fade-up"
       >
         {/* TEXT DIV */}
@@ -27,10 +26,21 @@ function ServiceHeader() {
           almostmd:w-2/3
           sm:w-full
           2xl:w-2/3
-          almosttherelg:w-5/6
+          almosttherelg:w-2/3
           almostmd:w-11/12
+          md:w-2/3
           sm:pt-12
-          sm:w-full
+          sm:w-2/3
+
+          // PHONES
+          iPhoneSE:pt-32
+          iPhoneXR:pt-32
+          iPhone12Pro:pt-32
+          Pixel5:pt-32
+          SamsungS8:pt-32
+          SamsungS20Ultra:pt-32
+          GalaxyFold:pt-32
+          GalaxyFoldH:p-5
           "
         >
           <h1
