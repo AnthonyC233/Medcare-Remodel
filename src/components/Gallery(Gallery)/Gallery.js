@@ -35,11 +35,11 @@ function Gallery1() {
   }, []);
 
   return (
-    <section className="text-gray-600 body-font gallery-section">
+    <section className="text-gray-600 body-font gallery-section ">
       <div
         data-aos="zoom-in-left"
         className="
-      
+    
       container px-5 pb-24 pt-10 mx-auto
       
       "
