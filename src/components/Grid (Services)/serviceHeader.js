@@ -10,19 +10,26 @@ function ServiceHeader() {
 
   return (
     <section
-      className="text-gray-600 body-font sm:bg-white service-header-container
+      className="text-gray-600 body-font text-lg overflow-hidden service-header-container h-9/12 w-full
     
     sm:pt-20
+    
     "
     >
       <div
-        className="flex justify-end items-center service-header flex-grow"
+        className="flex justify-end items-center flex-grow h-9/12 w-full"
         data-aos="fade-up"
       >
+        {/* TEXT DIV */}
         <div
           className="text-end w-1/2 p-12 
         
           almostmd:w-2/3
+          sm:w-full
+          2xl:w-2/3
+          almosttherelg:w-5/6
+          almostmd:w-11/12
+          sm:pt-12
           sm:w-full
           "
         >
@@ -44,7 +51,7 @@ function ServiceHeader() {
           >
             Where We Care
           </h2>
-          <p className="mb-4 leading-relaxed font-['Mingzat']">
+          <p className="mb-4 leading-relaxed font-['Mingzat'] sm:text-base">
             All the titles offered at MedCare HealthCert include: study
             materials for the title of your choice, unlimited hands-on
             clinicals, exam review and preparation. Once one obtains their
