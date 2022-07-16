@@ -36,6 +36,7 @@
 ![FIgma Icon](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 - [React Helmet](https://www.npmjs.com/package/react-helmet)
+<img width="397" alt="Screen Shot 2022-07-15 at 2 29 26 PM" src="https://user-images.githubusercontent.com/100983245/179365062-055d4514-7752-40db-b52f-fa2280fd4ecc.png">
 
 - [AOS Animated Scroll](https://michalsnik.github.io/aos/)
 
