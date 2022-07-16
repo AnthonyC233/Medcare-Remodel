@@ -9,5 +9,5 @@
 .testimonials-owl-carousel .owl-item.active.center .item {
   opacity: 1;
   transform: scale3d(1, 1, 1);
-  background-color: var(--blue);
+  background-color: rgb(125 211 252);
 }

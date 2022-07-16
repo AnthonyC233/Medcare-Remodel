@@ -89,8 +89,8 @@ function Header() {
           <h2 className="title-font sm:text-4xl text-3xl mb-4 font-semibold drop-shadow-md text-sky-500 w-full xl:text-2xl lg:text-5xl lg:w-full font-['Mingzat'] italic">
             Where We Care
           </h2>
-          
-          <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden">
+
+          <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden text-lg">
             RSVP to one of our orientations on the link below and come
             experience how you can learn while having fun. Congratulations on
             taking your first step in becoming a medical professional by gaining
@@ -142,7 +142,7 @@ function Header() {
 
         {/* Img Div */}
         <div
-        data-aos="fade-up"
+          data-aos="fade-up"
           className="
         
         // Base

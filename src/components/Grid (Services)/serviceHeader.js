@@ -11,26 +11,37 @@ function ServiceHeader() {
   return (
     <section
       className="text-gray-600 body-font sm:bg-white service-header-container
-        
-        // PHONES | LANDSCAPE
-          SamsungS20Ultra:pl-12 SamsungS20Ultra:bg-white
-          SamsungS8:pl-12 SamsungS8:bg-white
-          Pixel5:pl-12 Pixel5:bg-white
-          iPhone12Pro:pl-12 iPhone12Pro:bg-white
-          iPhoneXR:pl-12 iPhoneXR:bg-white
-          iPhoneSE:pl-12 iPhoneSE:bg-white
-          GalaxyFold:pl-12 GalaxyFold:bg-white
-        "
+    
+    sm:pt-20
+    "
     >
-      <div className="container flex justify-end items-center flex-cols mx-auto">
-        <div className="service-grid-text w-1/2 pl-24">
-          <h1
-            className="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full lg:text-5xl lg:w-full font-['Inter']
+      <div
+        className="flex justify-end items-center service-header flex-grow"
+        data-aos="fade-up"
+      >
+        <div
+          className="text-end w-1/2 p-12 
+        
+          almostmd:w-2/3
+          sm:w-full
           "
+        >
+          <h1
+            className="title-font text-6xl mb-4 font-semibold text-gray-900 w-full font-['Inter']
+            
+            lg:text-5xl
+            "
           >
             Our Services
           </h1>
-          <h2 className="title-font sm:text-4xl text-3xl mb-4 font-semibold drop-shadow-md text-amber-300 w-full xl:text-2xl lg:text-5xl lg:w-full font-['Mingzat'] italic">
+          <h2
+            className="title-font text-3xl mb-4 font-semibold drop-shadow-md text-amber-400 w-full font-['Mingzat'] italic
+            
+            sm:text-4xl 
+            lg:text-5xl
+            xl:text-2xl 
+            "
+          >
             Where We Care
           </h2>
           <p className="mb-4 leading-relaxed font-['Mingzat']">

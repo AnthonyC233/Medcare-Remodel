@@ -10,7 +10,6 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 function Testimonials() {
-
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -108,7 +107,7 @@ function Testimonials() {
         <h1 className="pb-3 text-3xl font-semibold font-['Inter'] text-center">
           OUR GRAD TESTIMONIALS
         </h1>
-        <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left">
+        <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left text-lg">
           What our students say about us...
         </p>
       </div>

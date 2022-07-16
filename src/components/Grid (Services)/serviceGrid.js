@@ -17,7 +17,7 @@ function serviceGrid() {
       pl-32 pt-20 pb-20 pr-12 
 
       // SMALL SCREEN
-      sm:pl-12 sm:pt-0
+      sm:pl-12 
 
       // PHONES
       SamsungS20Ultra:pl-12
@@ -34,9 +34,9 @@ function serviceGrid() {
       {/* START OF ICONS */}
 
       {/* 1ST ICON! */}
-      <div className="flex items-center flex-col border-dashed border-4 border-amber-300 p-6 rounded-lg bg-white bg-amber-100">
+      <div className="flex items-center flex-col border-dashed border-4 border-amber-300 p-6 rounded-lg bg-white bg-amber-100 drop-shadow-md">
         {/* CIRCLE */}
-        <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 mb-4 GalaxyFoldH:hidden">
+        <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 mb-4 drop-shadow-md GalaxyFoldH:hidden">
           {/* ICON */}
           <img src={ccma} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
@@ -57,9 +57,9 @@ function serviceGrid() {
       </div>
 
       {/* 2ND ICON! */}
-      <div className="flex items-center flex-col border-dashed border-4 border-amber-300 p-6 rounded-lg bg-white bg-amber-100">
+      <div className="flex items-center flex-col border-dashed border-4 border-amber-300 p-6 rounded-lg bg-white bg-amber-100 drop-shadow-md">
         {/* CIRCLE */}
-        <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 mb-4 GalaxyFoldH:hidden">
+        <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 mb-4 drop-shadow-md GalaxyFoldH:hidden">
           {/* ICON */}
           <img src={ekg} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
@@ -78,9 +78,9 @@ function serviceGrid() {
       </div>
 
       {/* 3RD ICON! */}
-      <div className="flex items-center flex-col border-dashed border-4 border-amber-300 p-6 rounded-lg bg-white bg-amber-100">
+      <div className="flex items-center flex-col border-dashed border-4 border-amber-300 p-6 rounded-lg bg-white bg-amber-100 drop-shadow-md">
         {/* CIRCLE */}
-        <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 mb-4 GalaxyFoldH:hidden">
+        <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 mb-4 drop-shadow-md GalaxyFoldH:hidden">
           {/* ICON */}
           <img src={phlebotomy} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
@@ -99,9 +99,9 @@ function serviceGrid() {
       </div>
 
       {/* 4TH ICON! */}
-      <div className="flex items-center flex-col border-dashed border-4 border-amber-300 p-6 rounded-lg bg-white bg-amber-100">
+      <div className="flex items-center flex-col border-dashed border-4 border-amber-300 p-6 rounded-lg bg-white bg-amber-100 drop-shadow-md">
         {/* CIRCLE */}
-        <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
+        <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 drop-shadow-md GalaxyFoldH:hidden">
           {/* ICON */}
           <img src={pct} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
@@ -120,9 +120,9 @@ function serviceGrid() {
       </div>
 
       {/* 5TH ICON! */}
-      <div className="flex items-center flex-col border-dashed border-4 border-amber-300 p-6 rounded-lg bg-white bg-amber-100">
+      <div className="flex items-center flex-col border-dashed border-4 border-amber-300 p-6 rounded-lg bg-white bg-amber-100 drop-shadow-md">
         {/* CIRCLE */}
-        <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
+        <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 drop-shadow-md GalaxyFoldH:hidden">
           {/* ICON */}
           <img src={billing} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
@@ -142,9 +142,9 @@ function serviceGrid() {
       </div>
 
       {/* 6TH ICON! */}
-      <div className="flex items-center flex-col border-dashed border-4 border-amber-300 p-6 rounded-lg bg-white bg-amber-100">
+      <div className="flex items-center flex-col border-dashed border-4 border-amber-300 p-6 rounded-lg bg-white bg-amber-100 drop-shadow-md">
         {/* CIRCLE */}
-        <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 GalaxyFoldH:hidden">
+        <div className="w-40 h-40 inline-flex items-center justify-center rounded-full bg-sky-200 text-indigo-500 mb-4 drop-shadow-md GalaxyFoldH:hidden">
           {/* ICON */}
           <img src={more} alt="CCMA Icon" className="w-24 h-24"></img>
         </div>
