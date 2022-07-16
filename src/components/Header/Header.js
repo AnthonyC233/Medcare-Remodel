@@ -79,7 +79,7 @@ function Header() {
 
         // GalaxyFold | Landscape
         GalaxyFold:pl-0 GalaxyFold:pt-20
-
+ 
         
         "
         >
@@ -142,6 +142,7 @@ function Header() {
 
         {/* Img Div */}
         <div
+        data-aos="fade-up"
           className="
         
         // Base
