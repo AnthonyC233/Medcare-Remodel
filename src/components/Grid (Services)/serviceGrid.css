@@ -1,13 +1,5 @@
 .service-header-container {
-  width: 100%;
-  height: 75vh;
   background-image: url(../../assets/services-header.jpg);
   background-position: center;
   background-size: cover;
-  position: relative;
-}
-
-.service-grid-text {
-  text-align: end;
-  left: 100px;
 }

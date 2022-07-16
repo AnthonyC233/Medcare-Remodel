@@ -17,28 +17,24 @@ function CreditsComp() {
 
         <h3 className="py-3 text-2xl font-bold font-['Mingzat']">IMAGES</h3>
         {/* HOME PAGE MAIN HEADER */}
-        <a href="https://www.freepik.com/vectors/training-course">
-          Home page header created by pch.vector - www.freepik.com
-        </a>
-        {/* GALLERY SECTION ON HOME PAGE */}
-        <a href="https://www.freepik.com/vectors/background">
-          Gallery section on home page created by pch.vector - www.freepik.com
+        <a href="https://www.freepik.com/photos/doctor-laptop">
+          Home page main header by pressfoto - www.freepik.com
         </a>
         {/* SERVICES HEADER */}
-        <a href="https://www.freepik.com/vectors/pediatric">
-          Services Header created by pch.vector - www.freepik.com
+        <a href="https://www.freepik.com/photos/healthcare">
+          Services header created by freepik - www.freepik.com
         </a>
         {/* GALLERY HEADER */}
-        <a href="https://www.freepik.com/vectors/nurse-cartoon">
-          Gallery Header created by pch.vector - www.freepik.com
+        <a href="https://www.freepik.com/photos/doctor-uniform">
+          Gallery Header created by atlascompany - www.freepik.com
         </a>
         {/* CONTACT HEADER */}
         <a href="https://www.freepik.com/premium-vector/hand-holding-smartphone-with-bot-chat-screen_18733701.htm">
-          Contact Header created by pch.vector - www.freepik.com
+          Contact header created by pch.vector - www.freepik.com
         </a>
         {/* 404 PAGE */}
         <a href="https://www.freepik.com/vectors/computer-error">
-          404 Page Header created by storyset - www.freepik.com
+          404 Page header created by storyset - www.freepik.com
         </a>
         <br></br>
 

@@ -15,7 +15,7 @@ function Progress({ done }) {
 
   return (
     <div
-      className="h-6 w-96 bg-white rounded-full 
+      className="h-7 w-96 bg-white rounded-full progress-container 
 
       // MEDIUM SCREEN
       md:w-60 
@@ -34,7 +34,7 @@ function Progress({ done }) {
       "
     >
       <div
-        className="progress-done rounded-full text-white text-bold flex items-center justify-center flex-col text-center text-sm"
+        className="progress-done rounded-full text-sky-600 text-bold flex items-center justify-center flex-col text-center bg-amber-300 drop-shadow-lg font-['Inter']"
         style={style}
       >
         100%

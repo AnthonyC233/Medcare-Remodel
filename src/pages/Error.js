@@ -8,7 +8,7 @@ const Error = () => {
     <div>
       <>
         <Helmet>
-          <title>Error</title>
+          <title>404 Error</title>
         </Helmet>
       </>
       <Nav />

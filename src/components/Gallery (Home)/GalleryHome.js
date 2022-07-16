@@ -1,17 +1,16 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import galleryPic from "../../assets/medcarebanner.png";
-import video from "../../assets/medcare_3.mp4"
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import video from '../../assets/medcare_3.mp4';
 
 // PATH TO GALLERY PAGE FROM BUTTON
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 function GalleryHome() {
   let navigate = useNavigate();
 
   function galleryLink() {
-    navigate("/gallery");
+    navigate('/gallery');
   }
 
   useEffect(() => {
@@ -21,11 +20,11 @@ function GalleryHome() {
   return (
     <section>
       <div
-        data-aos="flip-left"
-        className="container mx-auto flex flex-row lg:flex-col items-center bg-amber-300
+        data-aos=""
+        className="container mx-auto flex flex-row xl:flex-col items-center bg-amber-300
 
         // BASE
-        pl-32 pt-20 pr-12
+        pl-32 py-12 pr-12
 
         // SMALL SCREEN
         sm:pl-12
@@ -51,12 +50,15 @@ function GalleryHome() {
         GalaxyFoldH:pt-10
         "
       >
-        {/* IMAGE DIV */}
+        {/* VIDEO DIV */}
         <div
           className="
       
           // BASE
-          max-w-lg w-5/6 mb-10 
+          max-w-lg w-5/6
+
+          // SMALL SCREEN
+          xsm:hidden
       
           // 2XL SCREEN
           2xl:mb-0
@@ -67,12 +69,13 @@ function GalleryHome() {
           "
         >
           <div class="aspect-w-16 aspect-h-7 ">
-          <video  width="640" height="320" src={video} type='video/mp4' controls />
-          {/* <img
-            className="object-cover object-center rounded GalaxyFoldH:hidden "
-            alt="gallery"
-            src={galleryPic}
-          ></img> */}
+            <video
+              width="640"
+              height="320"
+              src={video}
+              type="video/mp4"
+              controls
+            />
           </div>
         </div>
 
@@ -80,21 +83,25 @@ function GalleryHome() {
         <div
           className="
           // BASE
-          flex-grow w-1/2 pl-24 flex flex-col items-center text-center 
+          flex-grow w-1/2 pl-12 flex flex-col items-center
 
           // SMALL
           sm:pl-0
+          xsm:pt-0
+          xsm:px-5
 
           // LARGE SCREEN
-          lg:p-12
           lg:w-11/12
+          lg:pl-0
 
           // XL SCREEN
-          xl:pl-12
+          xl:pl-0
+          xl:pt-12
+          xl:w-full
           
           // 2XL SCREEN
           2xl:items-start 
-          2xl:text-left
+          2xl:items-center
 
           // PHONE
           iPhoneSE:pl-0
@@ -113,10 +120,10 @@ function GalleryHome() {
           GalaxyFoldH:p-10
           "
         >
-          <h1 className="title-font pb-5 text-3xl font-semibold font-['Inter']">
+          <h1 className="title-font pb-5 text-3xl font-semibold font-['Inter'">
             BECOME PART OF OUR FAMILY
           </h1>
-          <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden text-left">
+          <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden text-left text-lg">
             Here at MedCare HealthCert we are honored to assist you in your
             journey towards medicine. We are a flexible, accelerated, and
             affordable certification school for undergraduate and graduate
@@ -124,13 +131,9 @@ function GalleryHome() {
             clinical training for all your medical procedures. National
             Certification testing is available at the location of your choice
             which are all nationally recognized
-            {/* We offer studying material, exam prep as well as clinical training
-            for all your medical procedures. National Certification testing is
-            available at the location of your choice which are all nationally
-            recognized. */}
           </p>
           <br></br>
-          <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden text-left">
+          <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden text-left text-lg">
             The Bureau of Labor states, “Certification leads to a higher salary
             and more employment opportunity”. With a competitive medical
             professional field on the rise, let’s get the ball rolling!

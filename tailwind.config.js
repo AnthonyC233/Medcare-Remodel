@@ -30,7 +30,7 @@ module.exports = {
         '2xl': { max: '1535px' },
         // => @media (max-width: 1535px) { ... }
 
-        'xxl': { max: '1502px' },
+        xxl: { max: '1502px' },
         // => @media (max-width: 1535px) { ... }
 
         xl: { max: '1279px' },
@@ -42,14 +42,23 @@ module.exports = {
         almosttherelg: { max: '1161px' },
         // => @media (max-width: 1161px) { ... }
 
+        galleryhomelg: { max: '1024px' },
+        // => @media (max-width: 1023px) { ... }
+
         lg: { max: '1023px' },
         // => @media (max-width: 1023px) { ... }
+
+        almostmd: { max: '790px' },
+        // => @media (max-width: 790px) { ... }
 
         md: { max: '767px' },
         // => @media (max-width: 767px) { ... }
 
         sm: { max: '639px' },
         // => @media (max-width: 639px) { ... }
+
+        almostxsm: { max: '594px' },
+        // => @media (max-width: 594px) { ... }
 
         xsm: { max: '400px' },
         // => @media (max-width: 639px) { ... }
