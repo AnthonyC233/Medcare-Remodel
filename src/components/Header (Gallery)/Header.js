@@ -5,6 +5,7 @@ import './header.css';
 
 // Images for the header change per page
 import header3 from '../../assets/medcare3.png';
+import galleryPng from '../../assets/gallery.jpg';
 
 function Header() {
   useEffect(() => {
