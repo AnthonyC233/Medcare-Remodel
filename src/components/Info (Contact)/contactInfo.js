@@ -298,7 +298,7 @@ function contactInfo() {
                 </h3>
                 <p className="leading-relaxed text-base">
                   Come check out our facility here in Georgia. New students
-                  always welcome!{' '}
+                  are always welcome!{' '}
                 </p>
               </div>
             </div>

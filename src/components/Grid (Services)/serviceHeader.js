@@ -67,9 +67,9 @@ function ServiceHeader() {
             clinicals, exam review and preparation. Once one obtains their
             nationally state-wide certification, we assist you in becoming
             familiar with performing medical procedures. Our titles are very
-            flexible. We understand the hassle of balancing a full schedule
+            flexible. We understand the hassle of balancing a full schedule,
             whether it is a hectic class schedule or a full time employment. We
-            are here to help achieve your goals without having to sacrifice your
+            are here to help you achieve your goals without having to sacrifice your
             time and finances.
           </p>
           <a

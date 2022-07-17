@@ -86,10 +86,10 @@ function About() {
             ABOUT US
           </h1>
           <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left text-lg">
-            Welcome, to MedCare HealthCert at our school we pride ourselves in
-            gapping bridges for our students to become future MDs, PAs and
-            Nurses. Our school is open to all college students majoring in any
-            of the sciences also if you are mandated to obtain direct patient
+            Welcome to MedCare HealthCert! At our school, we pride ourselves in
+            gapping bridges for our students to become future MDs, PAs, and
+            Nurses. Our school is open to all college students and graduates majoring in any
+            of the sciences. Also, if you are mandated to obtain direct patient
             care hours for medical school, you came to the perfect institute.
           </p>
           <br></br>
@@ -126,7 +126,7 @@ function About() {
           </p>
           <Progress done="100" />
           <p className="pt-5 pb-1 text-sm font-semibold font-['Mingzat'] overflow-hidden">
-            AVERAGE FUN
+            FUN
           </p>
           <Progress done="100" />
         </div>
