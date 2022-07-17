@@ -213,7 +213,7 @@ function Header() {
         "
         >
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded shadow-2xl"
             alt="hero"
             src={header1}
           ></img>
