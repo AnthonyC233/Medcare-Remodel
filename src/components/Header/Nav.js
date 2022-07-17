@@ -63,7 +63,10 @@ function Nav() {
         z-40 shadow-lg shadow-black overflow-hidden
           
         // 1920px - 640px
-        ${open ? 'w-80' : 'w-20'}  h-screen p-5 pt-8 bg-slate-200 fixed 
+        ${open ? 'w-80 sm:bg-sky-300' : 'w-20'}  h-screen p-5 pt-8 bg-slate-200 fixed 
+
+        639px | sm
+        sm:bg-sky-300
 
         // iPhoneSE (Landscape)
           iPhoneSE:shadow-none

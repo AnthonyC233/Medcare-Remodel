@@ -11,7 +11,7 @@ function About() {
   }, []);
 
   return (
-    <section>
+    <section> 
       <div
         className="container mx-auto flex flex-row xl:flex-col items-center bg-sky-300
 
@@ -44,6 +44,7 @@ function About() {
       >
         {/* TEXT DIV */}
         <div
+        data-aos="fade-up"
           className="
             // BASE
             flex-grow w-1/2 flex flex-col items-center
@@ -103,6 +104,7 @@ function About() {
 
         {/* PROGRESS BARS DIV */}
         <div
+        data-aos="fade-up"
           className="flex justify-center items-center flex-col
       
             // BASE
