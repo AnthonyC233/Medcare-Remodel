@@ -255,6 +255,86 @@ function Gallery1() {
             </div>
           </div>
           
+              {/* Img Container */}
+              <div className="p-4">
+            <div className="max-w-sm rounded overflow-hidden">
+              {/* Div for overlay container */}
+              <div
+                className="
+              
+              flex relative transition-transform hover:scale-125 border-4 border-gray-900
+
+              // For overlay
+              gallery-overlay-container
+              
+              "
+              >
+                <img alt="gallery1" className="apple" src={picture4}></img>
+                <div className="gallery-icon-container">
+                  <img
+                    className="gallery-icon w-20"
+                    src={magnifyingGlass}
+                    alt="magnifying glass"
+                  ></img>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            {/* Img Container */}
+            <div className="p-4">
+            <div className="max-w-sm rounded overflow-hidden">
+              {/* Div for overlay container */}
+              <div
+                className="
+              
+              flex relative transition-transform hover:scale-125 border-4 border-gray-900
+
+              // For overlay
+              gallery-overlay-container
+              
+              "
+              >
+                <img alt="gallery1" className="apple" src={picture18}></img>
+                <div className="gallery-icon-container">
+                  <img
+                    className="gallery-icon w-20"
+                    src={magnifyingGlass}
+                    alt="magnifying glass"
+                  ></img>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    {/* Img Container */}
+    <div className="p-4">
+            <div className="max-w-sm rounded overflow-hidden">
+              {/* Div for overlay container */}
+              <div
+                className="
+              
+              flex relative transition-transform hover:scale-125 border-4 border-gray-900
+
+              // For overlay
+              gallery-overlay-container
+              
+              "
+              >
+                <img alt="gallery1" className="apple" src={picture19}></img>
+                <div className="gallery-icon-container">
+                  <img
+                    className="gallery-icon w-20"
+                    src={magnifyingGlass}
+                    alt="magnifying glass"
+                  ></img>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
         </div>
       </div>
     </section>
