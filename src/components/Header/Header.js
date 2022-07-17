@@ -91,10 +91,10 @@ function Header() {
           </h2>
 
           <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden text-lg">
-            RSVP to one of our orientations on the link below and come
-            experience how you can learn while having fun. Congratulations on
+            RSVP to one of our orientations using the link below and come
+            experience how you can learn while having fun! Congratulations on
             taking your first step in becoming a medical professional by gaining
-            your certification and clinical experience.
+            your certification and clinical experience!
           </p>
           <div
             className="
