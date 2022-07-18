@@ -34,6 +34,9 @@ This version provides an advanced and more creative approach to UX/UI than that 
 * After
 ![Screen Shot 2022-07-17 at 9 00 52 PM (3)](https://user-images.githubusercontent.com/100983245/179432335-77c87b95-6dae-4eb1-b22e-c280bd3701bd.png)
 
+* Mobile Responsiveness
+![Screen Shot 2022-07-17 at 9 17 20 PM (3)](https://user-images.githubusercontent.com/100983245/179433144-ce4f29d8-cafc-4954-8d37-4f5f896d5694.png)
+
 ## Technologies
 ![JS Icon](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![React Icon](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
