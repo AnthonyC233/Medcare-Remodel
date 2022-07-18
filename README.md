@@ -57,6 +57,8 @@ This version provides an advanced and more creative approach to UX/UI than that 
   - https://github.com/jimbolikesgithub
 * Lina Choi 
   - https://github.com/choilina16
+* Anthony Chang
+  - https://github.com/AnthonyC233
 
 
 ## Deployment
