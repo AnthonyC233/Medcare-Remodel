@@ -63,31 +63,31 @@ function Nav() {
         z-40 shadow-lg shadow-black overflow-hidden
           
         // 1920px - 640px
-        ${open ? 'w-80 sm:bg-sky-300' : 'w-20'}  h-screen p-5 pt-8 bg-slate-200 fixed 
+        ${open ? 'w-80 sm:bg-sky-300 ' : 'w-20'}  h-screen p-5 pt-8 bg-slate-200 fixed 
 
         639px | sm
         sm:bg-sky-300
 
         // iPhoneSE (Landscape)
-          iPhoneSE:shadow-none
+          iPhoneSE:shadow-none iPhoneSE:bg-sky-300
 
         // iPhoneXR (Landscape)
-          iPhoneXR:shadow-none
+          iPhoneXR:shadow-none iPhoneXR:bg-sky-300
 
         // iPhone12Pro (Landscape)
-          iPhone12Pro:shadow-none
+          iPhone12Pro:shadow-none iPhone12Pro:bg-sky-300
 
         // Pixel5 (Landscape)
-          Pixel5:shadow-none
+          Pixel5:shadow-none Pixel5:bg-sky-300
 
         // SamsungS8 (Landscape)
-          SamsungS8:shadow-none
+          SamsungS8:shadow-none SamsungS8:bg-sky-300
 
         // SamsungS20Ultra (Landscape)
-          SamsungS20Ultra:shadow-none
+          SamsungS20Ultra:shadow-none SamsungS20Ultra:bg-sky-300
 
         // GalaxyFold (Landscape)
-          GalaxyFold:shadow-none
+          GalaxyFold:shadow-none GalaxyFold:bg-sky-300
         
         // iPadAir
           iPadAir:overflow-y-hidden

@@ -73,6 +73,9 @@ function Header() {
       
       // Base
       max-w-lg  w-5/6 mb-10
+
+      // ULTIMATE
+       ULTIMATE:mb-0
    
       // 1535px | 2xl 
         2xl:mb-0
@@ -120,6 +123,9 @@ function Header() {
       // Base
         flex-grow w-1/2 pl-24 flex flex-col items-center text-center 
         lg:p-12
+
+        // ULTIMATE
+        ULTIMATE:text-left ULTIMATE:items-start
 
         // 1880px | 3xl 
         3xl:text-left 3xl:items-start
