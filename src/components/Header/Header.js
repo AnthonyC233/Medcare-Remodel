@@ -12,12 +12,12 @@ function Header() {
   }, []);
 
   return (
-    <section className="text-gray-600 body-font overflow-hidden">
+    <section className="text-gray-600 body-font overflow-x-hidden">
       <div
         className="
 
       // Base
-      container mx-auto flex px-5 pt-5 pb-5 flex-row lg:flex-col items-center
+      container mx-auto flex px-5 pt-5 pb-5 flex-row lg:flex-col items-center overflow-x-hidden overflow-y-hidden 
 
      // 1199px | almostlg
       almostlg:pb-5

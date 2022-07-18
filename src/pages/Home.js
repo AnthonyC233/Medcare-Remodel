@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <>
         <Helmet>
           <title>Home</title>

@@ -61,7 +61,7 @@ function ServiceHeader() {
           >
             Where We Care
           </h2>
-          <p className="mb-4 leading-relaxed font-['Mingzat'] sm:text-base">
+          <p className="mb-4 leading-relaxed font-['Mingzat'] sm:text-base text-white drop-shadow-md">
             All the titles offered at MedCare HealthCert include: study
             materials for the title of your choice, unlimited hands-on
             clinicals, exam review and preparation. Once one obtains their

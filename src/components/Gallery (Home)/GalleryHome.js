@@ -120,7 +120,7 @@ function GalleryHome() {
           GalaxyFoldH:p-10
           "
         >
-          <h1 className="title-font pb-5 text-3xl font-semibold font-['Inter'">
+          <h1 className="title-font pb-5 text-3xl font-semibold font-['Inter']">
             BECOME PART OF OUR FAMILY
           </h1>
           <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden text-left text-lg">
@@ -129,7 +129,7 @@ function GalleryHome() {
             affordable certification school for undergraduate and graduate
             science majors. We offer studying material, exam prep, as well as
             clinical training for all your medical procedures. National
-            Certification testing is available at the location of your choice
+            Certification testing is available at the location of your choice,
             which are all nationally recognized.
           </p>
           <br></br>
