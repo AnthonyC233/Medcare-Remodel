@@ -24,9 +24,12 @@ This version provides an advanced and more creative approach to UX/UI than that 
  ```
 
 ## Visuals
+![Home](https://user-images.githubusercontent.com/100983245/179430104-51fc1e29-7a88-414a-87e7-b804b5c57cc0.png)
+![Home (1)](https://user-images.githubusercontent.com/100983245/179430108-d3cdb80a-76fe-48bb-83cf-9a7d345537c3.png)
 
-* Mobile Responsiveness 
-
+* Mobile Responsiveness
+![Home (2)](https://user-images.githubusercontent.com/100983245/179430150-daa1052d-c156-45b8-a48d-f4846c729ba5.png)
+![Home (3)](https://user-images.githubusercontent.com/100983245/179430153-3e303ba2-dfb3-4b05-bbc8-c17a7f79ccba.png)
 
 * Wireframe on Figma
 ![Screen Shot 2022-07-01 at 3 36 48 PM](https://user-images.githubusercontent.com/100983245/176958897-91542ff4-d9ba-4c70-a6b9-b1e96e4642b1.png)
