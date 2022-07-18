@@ -11,9 +11,9 @@ function About() {
   }, []);
 
   return (
-    <section> 
+    <section className='overflow-x-hidden'> 
       <div
-        className="container mx-auto flex flex-row xl:flex-col items-center bg-sky-300
+        className="container mx-auto flex flex-row xl:flex-col items-center bg-sky-300 overflow-x-hidden overflow-y-hidden
 
         // BASE
         pl-32 py-12 pr-12
