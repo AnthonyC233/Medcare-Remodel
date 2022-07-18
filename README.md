@@ -24,18 +24,15 @@ This version provides an advanced and more creative approach to UX/UI than that 
  ```
 
 ## Visuals
-![Home](https://user-images.githubusercontent.com/100983245/179430104-51fc1e29-7a88-414a-87e7-b804b5c57cc0.png)
-![Home (1)](https://user-images.githubusercontent.com/100983245/179430108-d3cdb80a-76fe-48bb-83cf-9a7d345537c3.png)
-
-* Mobile Responsiveness
-![Home (2)](https://user-images.githubusercontent.com/100983245/179430150-daa1052d-c156-45b8-a48d-f4846c729ba5.png)
-![Home (3)](https://user-images.githubusercontent.com/100983245/179430153-3e303ba2-dfb3-4b05-bbc8-c17a7f79ccba.png)
 
 * Before
-<img width="759" alt="Screen Shot 2022-07-17 at 8 34 55 PM" src="https://user-images.githubusercontent.com/97565085/179431597-4a945c87-b4c4-4827-a37d-7e8b92679224.png">
+![Screen Shot 2022-07-17 at 9 04 55 PM (3)](https://user-images.githubusercontent.com/100983245/179432528-a530bc54-46dc-41ca-b5ce-05c47e9ea01a.png)
 
 * Wireframe on Figma
 ![Screen Shot 2022-07-01 at 3 36 48 PM](https://user-images.githubusercontent.com/100983245/176958897-91542ff4-d9ba-4c70-a6b9-b1e96e4642b1.png)
+
+* After
+![Screen Shot 2022-07-17 at 9 00 52 PM (3)](https://user-images.githubusercontent.com/100983245/179432335-77c87b95-6dae-4eb1-b22e-c280bd3701bd.png)
 
 ## Technologies
 ![JS Icon](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
