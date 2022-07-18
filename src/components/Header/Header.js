@@ -38,6 +38,9 @@ function Header() {
         // Base
           flex-grow w-1/2 pl-24 pr-6 flex flex-col items-center text-center 
 
+          // ULTIMATE
+          ULTIMATE:text-left ULTIMATE:items-start ULTIMATE:pb-0
+
           // 1880px | 3xl 
           3xl:text-left 3xl:items-start 3xl:pb-0
 
