@@ -31,6 +31,9 @@ This version provides an advanced and more creative approach to UX/UI than that 
 ![Home (2)](https://user-images.githubusercontent.com/100983245/179430150-daa1052d-c156-45b8-a48d-f4846c729ba5.png)
 ![Home (3)](https://user-images.githubusercontent.com/100983245/179430153-3e303ba2-dfb3-4b05-bbc8-c17a7f79ccba.png)
 
+* Before
+<img width="759" alt="Screen Shot 2022-07-17 at 8 34 55 PM" src="https://user-images.githubusercontent.com/97565085/179431597-4a945c87-b4c4-4827-a37d-7e8b92679224.png">
+
 * Wireframe on Figma
 ![Screen Shot 2022-07-01 at 3 36 48 PM](https://user-images.githubusercontent.com/100983245/176958897-91542ff4-d9ba-4c70-a6b9-b1e96e4642b1.png)
 
@@ -48,8 +51,6 @@ This version provides an advanced and more creative approach to UX/UI than that 
 
 - [Owl React Carousel](https://www.npmjs.com/package/react-owl-carousel)
 <img width="1667" alt="Screen Shot 2022-07-13 at 3 10 02 PM" src="https://user-images.githubusercontent.com/100983245/178812753-41a4184e-4adf-4c00-95d0-436ea5649faf.png">
-
-
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
