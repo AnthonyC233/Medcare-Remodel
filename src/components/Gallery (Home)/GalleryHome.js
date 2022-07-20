@@ -67,7 +67,7 @@ function GalleryHome() {
           SamsungS20UltraH:pb-14
           "
         >
-          <div class="aspect-w-16 aspect-h-7 ">
+          <div class="">
             <video
               width="640"
               height="320"
@@ -80,7 +80,7 @@ function GalleryHome() {
 
         {/* TEXT DIV */}
         <div
-        data-aos="fade-left"
+          data-aos="fade-left"
           className="
           // BASE
           flex-grow w-1/2 pl-12 flex flex-col items-center
