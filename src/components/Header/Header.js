@@ -89,11 +89,11 @@ function Header() {
           <h1 className="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full xl:text-4xl lg:text-5xl lg:w-full font-['Inter']">
             Welcome to MedCare HealthCert
           </h1>
-          <h2 className="title-font sm:text-4xl text-3xl mb-4 font-semibold drop-shadow-md text-sky-500 w-full xl:text-2xl lg:text-5xl lg:w-full font-['Mingzat'] italic">
+          <h2 className="title-font sm:text-4xl text-3xl mb-4  drop-shadow-md text-sky-500 w-full xl:text-2xl lg:text-5xl lg:w-full font-['Courgette'] italic">
             Where We Care
           </h2>
 
-          <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden text-lg">
+          <p className="mb-8 leading-relaxed font-['Poppins'] overflow-hidden text-lg">
             RSVP to one of our orientations using the link below and come
             experience how you can learn while having fun! Congratulations on
             taking your first step in becoming a medical professional by gaining
