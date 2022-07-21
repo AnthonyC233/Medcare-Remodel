@@ -71,10 +71,10 @@ function Header() {
           iPhoneSE:pl-0 iPhoneSE:pt-0 
 
         // iPhoneXR | Horizontal
-           iPhoneXR:pt-0 iPhoneXR:pl-5
+           iPhoneXR:pt-0 iPhoneXR:pl-5 
 
         // iPhone12Pro | Horizontal
-          iPhone12Pro:pl-0 pb-10 iPhone12Pro:pt-20 iPhone12Pro:pt-0
+          iPhone12Pro:pl-0 pb-10 iPhone12Pro:pt-0 iPhone12Pro:pt-0
 
         // Pixel5 | Horizontal
          Pixel5:pl-0 Pixel5:pt-0
@@ -134,7 +134,7 @@ function Header() {
           </h1>
            <h2 className="
            
-           title-font sm:text-4xl text-3xl mb-4 font-semibold drop-shadow-md text-amber-300 w-full xl:text-2xl lg:text-5xl lg:w-full font-['Mingzat'] italic
+           title-font sm:text-4xl text-3xl mb-4 font-medium drop-shadow-md text-amber-300 w-full xl:text-2xl lg:text-5xl lg:w-full font-['Courgette'] italic
            
           // HORIZONTAL
            // iPhoneSE | Horizontal
@@ -164,8 +164,8 @@ function Header() {
            </h2>
            <p className="
            
-           mb-8 leading-relaxed font-['Mingzat']  text-white
-           
+           mb-8 leading-relaxed font-['Mingzat'] text-white text-lg
+           sm:text-base
            3xl:w-8/12
 
           // VERTICAL 
@@ -209,7 +209,7 @@ function Header() {
            </p>
           <div
             className="
-          
+           
           // Base
           flex justify-center relative
 
@@ -220,22 +220,22 @@ function Header() {
             sm:items-center sm:w-fit
 
           // iPhoneXR | Vertical  
-            iPhoneXRH:w-fit
+            iPhoneXRH:w-fit iPhoneXR:bottom-4
 
           // iPhone12Pro | Vertical
-            iPhone12ProH:w-fit
+            iPhone12ProH:w-fit iPhone12Pro:bottom-4
 
           // Pixel5 | Vertical
-            Pixel5H:w-fit
+            Pixel5H:w-fit Pixel5:bottom-4
 
           // SamsungS8 | Vertical
-            SamsungS8H:w-fit
+            SamsungS8H:w-fit SamsungS8:bottom-2
 
           // SamsungS20Ultra | Vertical
-            SamsungS20UltraH:w-fit
+            SamsungS20UltraH:w-fit SamsungS20Ultra:bottom-3
 
           // GalaxyFold | Vertical
-          GalaxyFoldH:w-fit
+          GalaxyFoldH:w-fit GalaxyFold:bottom-3
 
 
           "
@@ -245,7 +245,12 @@ function Header() {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="inline-flex text-white bg-galleryButton border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg">
+              <button className="
+              
+              // BASE
+              inline-flex text-white bg-galleryButton border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-lg
+              
+              ">
                 Orientation RSVP
               </button>
             </a>

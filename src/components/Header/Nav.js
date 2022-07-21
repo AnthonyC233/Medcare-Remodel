@@ -15,10 +15,11 @@ import navImg6 from '../../assets/receipt-outline.svg';
 import navImg7 from '../../assets/logo-facebook.svg';
 import navImg8 from '../../assets/logo-instagram.svg';
 import navImg9 from '../../assets/logo-twitter.svg';
+import navImg10 from '../../assets/logo-tiktok.svg';
 
 // Phone, Email, and Copyright Icons
-import navImg10 from '../../assets/call-outline.svg';
-import navImg12 from '../../assets/globe-outline.svg';
+import navImg11 from '../../assets/call-outline.svg';
+import navImg13 from '../../assets/globe-outline.svg';
 
 function Nav() {
   // Menu Slider
@@ -43,12 +44,13 @@ function Nav() {
     { title: 'Facebook', src: navImg7, pathway: 'https://www.facebook.com/MedCares' },
     { title: 'Instagram', src: navImg8, pathway: 'https://www.instagram.com/medcares1/' },
     { title: 'Twitter', src: navImg9, pathway: 'https://twitter.com/medcareinfos' },
+    { title: 'TikTok', src: navImg10, pathway: 'https://www.tiktok.com/@medcarehealthcert?_d=secCgYIASAHKAESPgo8YjzpuiEzdiXkwtR4WHk1rEZmUX%2FwbR6Ga8IavRLz0Qc0s26a6GIzSmXcHA5S0EfM9RTxMxQnOY795fjUGgA%3D&_r=1&checksum=7c45a515ed653b87c284f387c46073fd7b812aaa83c24dfba7d55b59da727b95&language=en&sec_uid=MS4wLjABAAAAPC_xK2YrNZ0cRjxmdwtC5HBLT3AXRYxvY1CGimeGM4z_zGpz7J2j3291u9iC18pI&sec_user_id=MS4wLjABAAAA4k_eoBxI4CR7LkPoAa4PSsLTamC82-65BUg9bbY8ISfV9mZVCZJykVPZ6q7chhtA&share_app_id=1233&share_author_id=6810637229493601285&share_link_id=0D717981-37C7-4180-AF4F-FFF24F0AB1F0&source=h5_m&timestamp=1658421640&tt_from=copy&u_code=db0h334f0g1bc5&ug_btm=b7200%2Cb5836&user_id=6794243478852207621&utm_campaign=client_share&utm_medium=ios&utm_source=copy' },
   ];
 
   const BottomMenu = [
-    { title: '404- 944-2346', src: navImg10 },
+    { title: '404- 944-2346', src: navImg11 },
     // { title: 'support@medcarehealthcert.com', src: navImg11 },
-    { title: '2022 MedCare HealthCert', src: navImg12 },
+    { title: '2022 MedCare HealthCert', src: navImg13 },
   ];
 
   return (
@@ -66,28 +68,28 @@ function Nav() {
         ${open ? 'w-80 sm:bg-sky-300 ' : 'w-20'}  h-screen p-5 pt-8 bg-slate-200 fixed 
 
         639px | sm
-        sm:bg-sky-300
+        sm:bg-white
 
         // iPhoneSE (Landscape)
-          iPhoneSE:shadow-none iPhoneSE:bg-sky-300
+          iPhoneSE:shadow-none iPhoneSE:bg-white
 
         // iPhoneXR (Landscape)
-          iPhoneXR:shadow-none iPhoneXR:bg-sky-300
+          iPhoneXR:shadow-none iPhoneXR:bg-white
 
         // iPhone12Pro (Landscape)
-          iPhone12Pro:shadow-none iPhone12Pro:bg-sky-300
+          iPhone12Pro:shadow-none iPhone12Pro:bg-white
 
         // Pixel5 (Landscape)
-          Pixel5:shadow-none Pixel5:bg-sky-300
+          Pixel5:shadow-none Pixel5:bg-white
 
         // SamsungS8 (Landscape)
-          SamsungS8:shadow-none SamsungS8:bg-sky-300
+          SamsungS8:shadow-none SamsungS8:bg-white
 
         // SamsungS20Ultra (Landscape)
-          SamsungS20Ultra:shadow-none SamsungS20Ultra:bg-sky-300
+          SamsungS20Ultra:shadow-none SamsungS20Ultra:bg-white
 
         // GalaxyFold (Landscape)
-          GalaxyFold:shadow-none GalaxyFold:bg-sky-300
+          GalaxyFold:shadow-none GalaxyFold:bg-white
         
         // iPadAir
           iPadAir:overflow-y-hidden
@@ -215,28 +217,36 @@ function Nav() {
 
 
                 // 639px (sm)
+                sm:text-black
                 ${!open && 'sm:scale-100'}
                 
-                // iPhone SE (Landscape)
+                // iPhoneSE (Landscape)
                 ${!open && 'iPhoneSE:scale-100'}
+                iPhoneSE:text-black
 
                 // iPhoneXR (Landscape)
                 ${!open && 'iPhoneXR:scale-100'}
+                iPhoneXR:text-black
 
                 // iPhone12Pro (Landscape)
                 ${!open && 'iPhone12Pro:scale-100'}
+                iPhone12Pro:text-black
 
                 // Pixel5 (Landscape)
                 ${!open && 'Pixel5:scale-100'}
+                Pixel5:text-black
 
                 // SamsungS8 (Landscape)
                 ${!open && 'SamsungS8:scale-100'}
+                SamsungS8:text-black
 
                 // SamsungS20Ultra (Landscape)
                 ${!open && 'SamsungS20Ultra:scale-100'}
+                SamsungS20Ultra:text-black
 
                 // GalaxyFold (Landscape)
                 ${!open && 'GalaxyFold:scale-100'}
+                GalaxyFold:text-black
 
 
                 `}
@@ -656,7 +666,7 @@ function Nav() {
 
                     // 1920px - 640px
                     text-zinc-900 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-400 rounded-md ${
-                      menu.gap ? 'mt-9' : 'mt-2'
+                      menu.gap ? 'mt-9' : 'mt-0'
                     } 
                     h-9
                     

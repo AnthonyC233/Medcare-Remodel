@@ -174,10 +174,10 @@ function Header() {
         >
           Contact Us
         </h1>
-        <h2 className="title-font sm:text-4xl text-3xl mb-4 font-semibold drop-shadow-md text-sky-500 w-full xl:text-2xl lg:text-5xl lg:w-full font-['Mingzat'] italic">
+        <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium drop-shadow-md text-sky-500 w-full xl:text-2xl lg:text-5xl lg:w-full font-['Courgette'] italic">
             Where We Care
           </h2>
-        <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden">
+        <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden text-lg sm:text-base">
         Have any questions for us? If you're interested in our program and or have any remarks or concerns, let us know! Our Team will get back to you as soon as possible.
         </p>
 

@@ -20,7 +20,7 @@ function GalleryHome() {
   return (
     <section>
       <div
-        className="container mx-auto flex flex-row xl:flex-col items-center bg-amber-300
+        className="container mx-auto flex flex-row xl:flex-col items-center bg-amber-200
 
         // BASE
         pl-32 py-12 pr-12
@@ -123,7 +123,7 @@ function GalleryHome() {
           <h1 className="title-font pb-5 text-3xl font-semibold font-['Inter']">
             BECOME PART OF OUR FAMILY
           </h1>
-          <p className="mb-3 leading-relaxed font-['Mingzat'] overflow-hidden text-left text-lg">
+          <p className="mb-3 leading-relaxed font-['Poppins'] overflow-hidden text-left text-lg">
             Here at MedCare HealthCert, we are honored to assist you in your
             journey towards medicine. We are a flexible, accelerated, and
             affordable certification school for undergraduate and graduate
@@ -133,7 +133,7 @@ function GalleryHome() {
             which are all nationally recognized.
           </p>
           <br></br>
-          <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden text-left text-lg">
+          <p className="mb-8 leading-relaxed font-['Poppins'] overflow-hidden text-left text-lg">
             The Bureau of Labor states, “Certification leads to a higher salary
             and more employment opportunity”. With a competitive medical
             professional field on the rise, let’s get the ball rolling!
