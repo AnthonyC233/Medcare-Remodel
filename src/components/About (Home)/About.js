@@ -11,9 +11,9 @@ function About() {
   }, []);
 
   return (
-    <section> 
+    <section className='overflow-x-hidden'> 
       <div
-        className="container mx-auto flex flex-row xl:flex-col items-center bg-sky-300
+        className="container mx-auto flex flex-row xl:flex-col items-center bg-sky-300 overflow-x-hidden overflow-y-hidden
 
         // BASE
         pl-32 py-12 pr-12
@@ -85,7 +85,7 @@ function About() {
           <h1 className="mb-5 text-3xl font-semibold font-['Inter']">
             ABOUT US
           </h1>
-          <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left text-lg">
+          <p className="leading-relaxed font-['Poppins'] overflow-hidden text-left text-lg">
             Welcome to MedCare HealthCert! At our school, we pride ourselves in
             gapping bridges for our students to become future MDs, PAs, and
             Nurses. Our school is open to all college students and graduates majoring in any
@@ -93,7 +93,7 @@ function About() {
             care hours for medical school, you came to the perfect institute.
           </p>
           <br></br>
-          <p className="leading-relaxed font-['Mingzat'] overflow-hidden text-left text-lg">
+          <p className="leading-relaxed font-['Poppins'] overflow-hidden text-left text-lg">
             We offer clinical training and certifications in Phlebotomy, Medical
             Assistant (CCMA), Patient Care Technician (PCT), EKG Technician,
             Medical Insurance, Billing and Coding (MIBC), Certified Medical

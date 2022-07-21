@@ -12,12 +12,12 @@ function Header() {
   }, []);
 
   return (
-    <section className="text-gray-600 body-font overflow-hidden">
+    <section className="text-gray-600 body-font overflow-x-hidden">
       <div
         className="
 
       // Base
-      container mx-auto flex px-5 pt-5 pb-5 flex-row lg:flex-col items-center
+      container mx-auto flex px-5 pt-5 pb-5 flex-row lg:flex-col items-center overflow-x-hidden overflow-y-hidden 
 
      // 1199px | almostlg
       almostlg:pb-5
@@ -37,6 +37,9 @@ function Header() {
         
         // Base
           flex-grow w-1/2 pl-24 pr-6 flex flex-col items-center text-center 
+
+          // ULTIMATE
+          ULTIMATE:text-left ULTIMATE:items-start ULTIMATE:pb-0
 
           // 1880px | 3xl 
           3xl:text-left 3xl:items-start 3xl:pb-0
@@ -86,11 +89,11 @@ function Header() {
           <h1 className="title-font sm:text-4xl text-6xl mb-4 font-semibold text-gray-900 w-full xl:text-4xl lg:text-5xl lg:w-full font-['Inter']">
             Welcome to MedCare HealthCert
           </h1>
-          <h2 className="title-font sm:text-4xl text-3xl mb-4 font-semibold drop-shadow-md text-sky-500 w-full xl:text-2xl lg:text-5xl lg:w-full font-['Mingzat'] italic">
+          <h2 className="title-font sm:text-4xl text-3xl mb-4  drop-shadow-md text-sky-500 w-full xl:text-2xl lg:text-5xl lg:w-full font-['Courgette'] italic">
             Where We Care
           </h2>
 
-          <p className="mb-8 leading-relaxed font-['Mingzat'] overflow-hidden text-lg">
+          <p className="mb-8 leading-relaxed font-['Poppins'] overflow-hidden text-lg">
             RSVP to one of our orientations using the link below and come
             experience how you can learn while having fun! Congratulations on
             taking your first step in becoming a medical professional by gaining

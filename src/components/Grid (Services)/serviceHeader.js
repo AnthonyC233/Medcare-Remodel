@@ -29,18 +29,24 @@ function ServiceHeader() {
           almosttherelg:w-2/3
           almostmd:w-11/12
           md:w-2/3
-          sm:pt-12
+          sm:pt-4
           sm:w-2/3
 
           // PHONES
-          iPhoneSE:pt-32
+          iPhoneSE:pt-32 
+          iPhoneSEH:text-start iPhoneSEH:pl-0
           iPhoneXR:pt-32
+          iPhoneXRH:text-start iPhoneXRH:pl-0
           iPhone12Pro:pt-32
+          iPhone12ProH:text-start iPhone12ProH:pl-0
           Pixel5:pt-32
+          Pixel5H:text-start Pixel5H:pl-0
           SamsungS8:pt-32
+          SamsungS8H:text-start SamsungS8H:pl-0
           SamsungS20Ultra:pt-32
+          SamsungS20UltraH:text-start SamsungS20UltraH:pl-0
           GalaxyFold:pt-32
-          GalaxyFoldH:p-5
+          GalaxyFoldH:text-start GalaxyFoldH:pl-0 GalaxyFoldH:p-5
           "
         >
           <h1
@@ -52,7 +58,7 @@ function ServiceHeader() {
             Our Services
           </h1>
           <h2
-            className="title-font text-3xl mb-4 font-semibold drop-shadow-md text-amber-400 w-full font-['Mingzat'] italic
+            className="title-font text-3xl mb-4 font-medium drop-shadow-md text-amber-400 w-full font-['Courgette'] italic
             
             sm:text-4xl 
             lg:text-5xl
@@ -61,7 +67,7 @@ function ServiceHeader() {
           >
             Where We Care
           </h2>
-          <p className="mb-4 leading-relaxed font-['Mingzat'] sm:text-base">
+          <p className="mb-4 leading-relaxed font-['Mingzat'] text-lg sm:text-base text-white drop-shadow-md">
             All the titles offered at MedCare HealthCert include: study
             materials for the title of your choice, unlimited hands-on
             clinicals, exam review and preparation. Once one obtains their

@@ -24,6 +24,9 @@ module.exports = {
     extend: {
       // Overwrites all tailwind classes (we use max-width now)
       screens: {
+        ULTIMATE: { max: '1920px' },
+        // => @media (max-width: 1920px) { ... }
+
         '3xl': { max: '1880px' },
         // => @media (max-width: 1800px) { ... }
 
@@ -142,10 +145,10 @@ module.exports = {
       theme: {
         // ...
       },
-      plugins: [
-        require('@tailwindcss/aspect-ratio'),
-        // ...
-      ],
+      // plugins: [
+      //   require('@tailwindcss/aspect-ratio'),
+      //   // ...
+      // ],
     },
   },
   plugins: [],
