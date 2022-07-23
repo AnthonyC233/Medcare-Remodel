@@ -57,9 +57,17 @@ width: 800px;
   justify-content: center;
   flex-direction: column; */
 }
-/* 
-@media (width: 667px) and (height: 375px) {
+
+/* iPad Air Vertical */
+@media (width: 820px) and (height: 1180px) {
   .gallery-header-container {
-    background:none
+    height: 50vh;
   }
-} */
+}
+
+/* iPad Mini Vertical */
+@media (width: 768px) and (height: 1024px) {
+  .gallery-header-container {
+    height: 60vh;
+  }
+}
