@@ -160,7 +160,7 @@ function Header() {
 
            
            ">
-             Where We Care
+            MedCare HealthCert Where We Care
            </h2>
            <p className="
            

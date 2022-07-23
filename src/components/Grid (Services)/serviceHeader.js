@@ -65,7 +65,7 @@ function ServiceHeader() {
             xl:text-2xl 
             "
           >
-            Where We Care
+            MedCare HealthCert Where We Care
           </h2>
           <p className="mb-4 leading-relaxed font-['Mingzat'] text-lg sm:text-base text-white drop-shadow-md">
             All the titles offered at MedCare HealthCert include: study

@@ -82,6 +82,22 @@ function Gallery1() {
       id: 12,
       imgSrc: picture3,
     },
+    {
+      id: 13,
+      imgSrc: picture1,
+    },
+    {
+      id: 14,
+      imgSrc: picture2,
+    },
+    {
+      id: 15,
+      imgSrc: picture4,
+    },
+    {
+      id: 16,
+      imgSrc: picture5,
+    },
   ]
 
   const [model, setModel] = useState(false);
