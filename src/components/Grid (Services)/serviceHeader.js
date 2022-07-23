@@ -47,6 +47,7 @@ function ServiceHeader() {
           SamsungS20UltraH:text-start SamsungS20UltraH:pl-0
           GalaxyFold:pt-32
           GalaxyFoldH:text-start GalaxyFoldH:pl-0 GalaxyFoldH:p-5
+          iPhone8Plus:pt-24 iPhone8Plus:pl-0
           "
         >
           <h1

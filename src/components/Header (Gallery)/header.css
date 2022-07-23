@@ -71,3 +71,21 @@ width: 800px;
     height: 60vh;
   }
 }
+
+@media screen and (max-width: 3440px) {
+  .gallery-header-container {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .gallery-header-container {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .gallery-header-container {
+    height: 75%;
+  }
+}

@@ -24,6 +24,9 @@ module.exports = {
     extend: {
       // Overwrites all tailwind classes (we use max-width now)
       screens: {
+        SUPERULTIMATE: { max: '3440px' },
+        // => @media (max-width: 3440px) { ... }
+        
         ULTIMATE: { max: '1920px' },
         // => @media (max-width: 1920px) { ... }
 
@@ -102,6 +105,9 @@ module.exports = {
         GalaxyFold: { raw: '(width: 653px) and (height: 280px)' },
         // GalaxyFold (Landscape) => @media (width: 653px) and (height: 280px)
 
+        iPhone8Plus: { raw: '(width: 736px) and (height: 414px)' },
+        // iPhone8 (Landscape) => @media (width: 736px) and (height: 414px)
+
         // VERTICAL
         // ----------
         iPhoneSEH: { raw: '(width: 375px) and (height: 667px)' },
@@ -130,6 +136,10 @@ module.exports = {
 
         GalaxyFoldH: { raw: '(width: 280px) and (height: 653px)' },
         // GalaxyFoldH (Vertical) => @media (width: 280px) and (height: 653px)
+
+        iPhone8PlusH: { raw: '(width: 414px) and (height: 736px)' },
+        // iPhone8 (Landscape) => @media (width: 414px) and (height: 736px)
+
       },
       // Adding hexcodes for colors to use with tailwind classes
       colors: {

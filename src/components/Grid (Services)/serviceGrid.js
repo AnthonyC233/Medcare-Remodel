@@ -29,6 +29,7 @@ function serviceGrid() {
       GalaxyFold:pl-12
       GalaxyFoldH:p-5
       GalaxyFoldH:py-10
+      iPhone8Plus:pl-12
       "
     >
       {/* START OF ICONS */}

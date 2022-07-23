@@ -40,6 +40,7 @@ function About() {
         GalaxyFold:pl-12
         GalaxyFoldH:p-2
         GalaxyFoldH:pt-10
+        iPhone8Plus:pl-12
         "
       >
         {/* TEXT DIV */}
@@ -80,6 +81,7 @@ function About() {
             SamsungS20UltraH:p-0
             GalaxyFold:pl-0
             GalaxyFoldH:p-10
+            iPhone8Plus:pl-0
             "
         >
           <h1 className="mb-5 text-3xl font-semibold font-['Inter']">

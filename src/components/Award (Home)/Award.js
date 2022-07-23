@@ -39,6 +39,7 @@ function Award() {
           iPadAirH:pl-24 iPadAirH:flex-row-reverse
           iPadMini:pl-24 iPadMini:flex-row-reverse
           iPadMiniH:pl-24 iPadMiniH:flex-row-reverse
+          iPhone8Plus:pl-24 iPhone8Plus:flex-row-reverse
 
           "
       >
@@ -79,6 +80,7 @@ function Award() {
               SamsungS20UltraH:p-0
               GalaxyFold:pl-0
               GalaxyFoldH:p-10
+              iPhone8Plus:p-10
               "
         >
           <h1
@@ -147,6 +149,7 @@ function Award() {
             iPadAirH:items-end iPadAirH:pl-0 iPadAirH:pt-0
             iPadMini:items-end iPadMini:pl-0 iPadMini:pt-0
             iPadMiniH:items-end iPadMiniH:pl-0 iPadMiniH:pt-0
+            iPhone8Plus:items-end iPhone8Plus:pl-0 iPhone8Plus:pt-0
 
               "
         >
