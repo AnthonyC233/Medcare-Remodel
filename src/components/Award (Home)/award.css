@@ -4,3 +4,8 @@ color: #0EA5E9;
 text-decoration: underline;
 }
 
+.one:hover{
+    color: #ffcc00;
+    transition: 0.3s;
+}
+
