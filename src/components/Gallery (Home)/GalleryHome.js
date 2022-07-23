@@ -47,6 +47,7 @@ function GalleryHome() {
         GalaxyFold:pl-12
         GalaxyFoldH:p-2
         GalaxyFoldH:pt-10
+        iPhone8Plus:pl-12
         "
       >
         {/* VIDEO DIV */}

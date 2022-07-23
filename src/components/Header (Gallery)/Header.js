@@ -49,44 +49,47 @@ function Header() {
         // Base
           flex-grow pl-24 pr-6 flex flex-col items-center text-center
 
-          // ULTIMATE 
+        // SUPERULTIMATE
+          SUPERULTIMATE:text-left SUPERULTIMATE:items-start SUPERULTIMATE:pb-0
+
+        // ULTIMATE 
           ULTIMATE:text-left ULTIMATE:items-start ULTIMATE:pb-0
 
-          // 1880px | 3xl 
+        // 1880px | 3xl 
           3xl:text-left 3xl:items-start 3xl:pb-0 
 
         // 1535px | 2xl 
           2xl:items-start 2xl:text-left 2xl:pt-10
 
-        // 1023px | lg
-          lg:mt-20
-
         // 639px | sm
-          sm:pl-0 sm:mt-0 sm:relative sm:bottom-20
+          sm:pl-0 sm:mt-20 sm:relative sm:bottom-20
 
         // iPhoneSE | Vertical
           iPhoneSEH:mr-0 iPhoneSEH:ml-0 iPhoneSEH:bottom-28
 
         // iPhoneSE | Landscape
-          iPhoneSE:pl-0 iPhoneSE:pt-0 
+          iPhoneSE:pl-0 iPhoneSE:pt-0 iPhoneSE:mt-20
 
         // iPhoneXR | Horizontal
-           iPhoneXR:pt-0 iPhoneXR:pl-5 
+           iPhoneXR:pt-0 iPhoneXR:pl-5 iPhoneXR:mt-20
 
         // iPhone12Pro | Horizontal
-          iPhone12Pro:pl-0 pb-10 iPhone12Pro:pt-0 iPhone12Pro:pt-0
+          iPhone12Pro:pl-0 pb-10 iPhone12Pro:pt-0 iPhone12Pro:pt-0 iPhone12Pro:mt-20
 
         // Pixel5 | Horizontal
-         Pixel5:pl-0 Pixel5:pt-0
+         Pixel5:pl-0 Pixel5:pt-0 Pixel5:mt-20
 
         // SamsungS8 | Horizontal
-         SamsungS8:pl-0 SamsungS8:pt-0
+         SamsungS8:pl-0 SamsungS8:pt-0 SamsungS8:mt-20
         
         // SamsungS20Ultra | Horizontal
-         SamsungS20Ultra:pl-0 SamsungS20Ultra:pt-0
+         SamsungS20Ultra:pl-0 SamsungS20Ultra:pt-0 SamsungS20Ultra:mt-20
 
         // GalaxyFold | Horizontal
-         GalaxyFold:pl-0 GalaxyFold:pt-0
+         GalaxyFold:pl-0 GalaxyFold:pt-0 GalaxyFold:mt-20
+
+         // iPhone8Plus | Landscape
+        iPhone8Plus:pt-20 iPhone8Plus:pl-0
  
         
         "

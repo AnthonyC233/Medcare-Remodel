@@ -38,6 +38,9 @@ function ContactForm() {
       // GalaxyFold
         GalaxyFold:pl-0
 
+      // iPhone8Plus
+       iPhone8Plus:pl-0
+
       "
       >
         <iframe
