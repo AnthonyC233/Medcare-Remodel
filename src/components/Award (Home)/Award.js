@@ -1,15 +1,13 @@
-import React, { useEffect } from 'react';
-import './award.css';
+import React, { useEffect } from "react";
+import "./award.css";
 
-import awardImg from '../../assets/medcare-award-1.png';
+import awardImg from "../../assets/medcare-award-1.png";
 
 function Award() {
-    
-  
-    return (
-      <section className='overflow-x-hidden'> 
-        <div
-          className="
+  return (
+    <section className="overflow-x-hidden">
+      <div
+        className="
   
           // BASE
           pl-32 py-2 pr-12 container mx-auto flex flex-row xl:flex-col items-center bg-yellow-100 overflow-x-hidden overflow-y-hidden
@@ -43,10 +41,10 @@ function Award() {
           iPadMiniH:pl-24 iPadMiniH:flex-row-reverse
 
           "
-        >
-          {/* TEXT DIV */}
-          <div
-            className="
+      >
+        {/* TEXT DIV */}
+        <div
+          className="
               // BASE
               flex-grow w-1/2 flex flex-col items-center text-center
   
@@ -82,8 +80,9 @@ function Award() {
               GalaxyFold:pl-0
               GalaxyFoldH:p-10
               "
-          >
-            <h1 className="
+        >
+          <h1
+            className="
             
             // BASE
             mb-5 text-3xl font-semibold font-['Courgette']
@@ -91,24 +90,33 @@ function Award() {
             // PHONE
             iPhoneSE:text-2xl iPhoneSE:
             
-            ">
-                We're Gapping The Bridge To Your Medical Career
-            </h1>
-            <h2 className="
+            "
+          >
+            We're Gapping The Bridge To Your Medical Career
+          </h1>
+          <h2
+            className="
             
             // BASE
             leading-relaxed font-['Courgette'] overflow-hidden text-lg 
             
             // PHONES
             
-            ">
-              Come see us on  <a class='one' href ="https://www.guidetogwinnett.com/lawrenceville/education-childcare/medcare-healthcert">guidetogwinnett!</a>
-            </h2>
-          </div>
-  
-          {/* AWARD IMG CONTAINER */}
-          <div
-            className="
+            "
+          >
+            Come see us on{" "}
+            <a
+              class="one"
+              href="https://www.guidetogwinnett.com/lawrenceville/education-childcare/medcare-healthcert"
+            >
+              Guide to Gwinnett!
+            </a>
+          </h2>
+        </div>
+
+        {/* AWARD IMG CONTAINER */}
+        <div
+          className="
       
             // BASE
             flex items-center
@@ -141,14 +149,12 @@ function Award() {
             iPadMiniH:items-end iPadMiniH:pl-0 iPadMiniH:pt-0
 
               "
-          >
-            <img src={awardImg} alt="MedCare award" className=''>
-
-            </img>
-          </div>
+        >
+          <img src={awardImg} alt="MedCare award" className=""></img>
         </div>
-      </section>
-    );
-  }
-  
-  export default Award;
+      </div>
+    </section>
+  );
+}
+
+export default Award;
