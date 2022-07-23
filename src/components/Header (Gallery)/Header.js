@@ -20,7 +20,7 @@ function Header() {
     
     iPhoneSE:overflow-visible
     
-    ">
+    "> 
       <div
         className="
 
@@ -169,6 +169,9 @@ function Header() {
            3xl:w-8/12
 
           // VERTICAL 
+           // iPhoneSEH | Vertical 
+            iPhoneSEH:mb-3
+           
            // iPhoneXRH | Vertical
             iPhoneXRH:text-xl
 
@@ -177,6 +180,9 @@ function Header() {
 
            // Pixel5H | Vertical
             Pixel5H:text-lg
+
+           // SamsungS8H | Vertical
+            SamsungS8H:mb-5
 
            // SamsungS20UltraH | Vertical
             SamsungS20UltraH:text-xl
