@@ -102,7 +102,7 @@ function Award() {
             // PHONES
             
             ">
-              We won Best Of Gwinnett 2021!
+              Come see us on  <a class='one' href ="https://www.guidetogwinnett.com/lawrenceville/education-childcare/medcare-healthcert">guidetogwinnett!</a>
             </h2>
           </div>
   

@@ -3,12 +3,14 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './gallery.css';
 
-import picture1 from '../../assets/gallery-1.jpeg';
-import picture2 from '../../assets/gallery-2.jpeg';
-import picture3 from '../../assets/gallery-3.jpeg';
-import picture4 from '../../assets/gallery-4.jpeg';
-import picture5 from '../../assets/gallery-5.jpeg';
-import picture6 from '../../assets/gallery-6.jpeg';
+import Vid1 from "../../assets/medcare_4.mp4";
+import Vid2 from "../../assets/medcare_5.mp4";
+import picture1 from "../../assets/gallery-1.jpeg";
+import picture2 from "../../assets/gallery-2.jpeg";
+import picture3 from "../../assets/gallery-3.jpeg";
+import picture4 from "../../assets/gallery-4.jpeg";
+import picture5 from "../../assets/gallery-5.jpeg";
+import picture6 from "../../assets/gallery-6.jpeg";
 import picture7 from "../../assets/gallery-7.jpeg";
 import picture8 from "../../assets/gallery-8.jpeg";
 import picture9 from "../../assets/gallery-9.jpeg";
@@ -79,6 +81,22 @@ function Gallery1() {
     {
       id: 12,
       imgSrc: picture3,
+    },
+    {
+      id: 13,
+      imgSrc: picture1,
+    },
+    {
+      id: 14,
+      imgSrc: picture2,
+    },
+    {
+      id: 15,
+      imgSrc: picture4,
+    },
+    {
+      id: 16,
+      imgSrc: picture5,
     },
   ]
 
