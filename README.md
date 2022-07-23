@@ -32,10 +32,10 @@ This version provides an advanced and more creative approach to UX/UI than that 
 ![Screen Shot 2022-07-01 at 3 36 48 PM](https://user-images.githubusercontent.com/100983245/176958897-91542ff4-d9ba-4c70-a6b9-b1e96e4642b1.png)
 
 * After
-![Screen Shot 2022-07-17 at 9 00 52 PM (3)](https://user-images.githubusercontent.com/100983245/179432335-77c87b95-6dae-4eb1-b22e-c280bd3701bd.png)
+![MedCare-HealthCert-Website-–-Figma](https://user-images.githubusercontent.com/100983245/180624642-802daa5f-1107-493f-969b-35efc15f1d34.png)
 
 * Mobile Responsiveness
-![Screen Shot 2022-07-17 at 9 17 20 PM (3)](https://user-images.githubusercontent.com/100983245/179433144-ce4f29d8-cafc-4954-8d37-4f5f896d5694.png)
+![MedCare-HealthCert-Website-–-Figma (1)](https://user-images.githubusercontent.com/100983245/180624648-1826841b-0a99-41b5-8373-cb9f4b89167f.png)
 
 ## Technologies
 ![JS Icon](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -66,6 +66,6 @@ This version provides an advanced and more creative approach to UX/UI than that 
 
 ## Deployment
 * [Github Repository](https://github.com/AnthonyC233/Medcare-Remodel)
-* [Heroku](https://medcare-healthcert.herokuapp.com/)
+* [Heroku](https://react-heroku-medcare.herokuapp.com/)
 * [GoDaddy]()
 
