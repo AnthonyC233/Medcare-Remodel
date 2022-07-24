@@ -97,6 +97,9 @@ function Nav() {
         // iPadMini
           iPadMini:overflow-y-hidden
 
+        // iPhone8Plus
+          iPhone8Plus:shadow-none iPhone8Plus:bg-white
+
         ${
           open ? 'sm:h-screen' : 'sm:h-24 sm:w-24'
         } sm:w-screen sm:duration-300 sm:shadow-none
@@ -135,6 +138,11 @@ function Nav() {
         ${
           open ? 'GalaxyFold:h-screen' : 'GalaxyFold:h-24'
         } GalaxyFold:w-screen GalaxyFold:duration-300
+
+        // iPhone8Plus (Landscape)
+        ${
+          open ? 'iPhone8Plus:h-screen' : 'iPhone8Plus:h-24'
+        } iPhone8Plus:w-screen iPhone8Plus:duration-300
 
         `}
         >
@@ -187,6 +195,11 @@ function Nav() {
           GalaxyFold:right-5 GalaxyFold:rotate-[-90deg] ${
             open && 'GalaxyFold:rotate-[-270deg] GalaxyFold:duration-300'
           } GalaxyFold:top-10
+
+          // iPhone8Plus (Landscape)
+          iPhone8Plus:right-5 iPhone8Plus:rotate-[-90deg] ${
+            open && 'iPhone8Plus:rotate-[-270deg] iPhone8Plus:duration-300'
+          } iPhone8Plus:top-10
 
 
           `}
@@ -248,6 +261,10 @@ function Nav() {
                 ${!open && 'GalaxyFold:scale-100'}
                 GalaxyFold:text-black
 
+                // iPhone8Plus (Landscape)
+                ${!open && 'iPhone8Plus:scale-100'}
+                iPhone8Plus:text-black
+
 
                 `}
               >
@@ -286,6 +303,9 @@ function Nav() {
               // GalaxyFold (Landscape)
               GalaxyFold:grid-cols-3
 
+              // iPhone8Plus (Landscape)
+              iPhone8Plus:grid-cols-3
+
 
           `}
           >
@@ -294,8 +314,10 @@ function Nav() {
               className={`
 
               // 1920px - 640px
-              pb-4
+              ULTIMATE:pb-4 ULTIMATE:pt-0
             
+              // SUPERULTIMATE
+              SUPERULTIMATE:pb-40 SUPERULTIMATE:pt-10
 
               // LANDSCAPE
               // ---------
@@ -325,6 +347,9 @@ function Nav() {
 
               // GalaxyFold (Landscape)
               GalaxyFold:pb-10
+
+              // iPhone8Plus (Landscape)
+              iPhone8Plus:pb-10
 
               // HORIZONTAL
               // ----------
@@ -407,6 +432,9 @@ function Nav() {
                     // GalaxyFold (Landscape)
                     ${!open && 'GalaxyFold:hidden'} GalaxyFold:grid grid-cols-4
 
+                    // iPhone8Plus (Landscape)
+                    ${!open && 'iPhone8Plus:hidden'} iPhone8Plus:grid grid-cols-4
+
 
                     `}
                     >
@@ -447,8 +475,10 @@ function Nav() {
               className={`
 
               // 1920px - 640px
-              pb-4
+              ULTIMATE:pb-4
 
+              // SUPERULTIMATE
+              SUPERULTIMATE:pb-40
 
               // LANDSCAPE
               // ---------
@@ -478,6 +508,9 @@ function Nav() {
 
               // GalaxyFold (Landscape)
               GalaxyFold:pb-20
+
+              // iPhone8Plus (Landscape)
+              iPhone8Plus:pb-0 iPhone8Plus:pt-6
 
               // HORIZONTAL
               // ---------
@@ -554,6 +587,8 @@ function Nav() {
                     // GalaxyFold (Landscape)
                     ${!open && 'GalaxyFold:hidden'} GalaxyFold:grid grid-cols-4
 
+                    // iPhone8Plus (Landscape)
+                    ${!open && 'iPhone8Plus:hidden'} iPhone8Plus:grid grid-cols-4
 
                     `}
                     >
@@ -592,7 +627,10 @@ function Nav() {
               className={`
 
             // 1920px - 640px
-            pb-16
+              ULTIMATE:pb-16
+
+            // SUPERULTIMATE
+              SUPERULTIMATE:pb-32
 
             // LANDSCAPE
             // ---------
@@ -623,6 +661,9 @@ function Nav() {
 
             // GalaxyFold (Landscape)
             GalaxyFold:pb-16
+
+            // iPhone8Plus (Landscape)
+            iPhone8Plus:pb-0 iPhone8Plus:pt-6
 
             // HORIZONTAL
             // ---------
@@ -698,6 +739,9 @@ function Nav() {
                     // GalaxyFold (Landscape)
                     ${!open && 'GalaxyFold:hidden'} GalaxyFold:grid grid-cols-4
 
+                    // iPhone8Plus (Landscape)
+                    ${!open && 'iPhone8Plus:hidden'} iPhone8Plus:grid grid-cols-4
+
 
                     `}
                     >
@@ -763,6 +807,9 @@ function Nav() {
           // GalaxyFold (Landscape)
           GalaxyFold:justify-end GalaxyFold:right-28
 
+          // iPhone8Plus (Landscape)
+          iPhone8Plus:justify-end iPhone8Plus:right-14
+
           `}
           >
             {/* BOTTOM MENU */}
@@ -812,6 +859,9 @@ function Nav() {
 
                       // GalaxyFold (Landscape)
                       ${!open && 'GalaxyFold:hidden'}
+
+                      // iPhone8Plus (Landscape)
+                      ${!open && 'iPhone8Plus:hidden'}
 
                       `}
                       src={`${menu.src}`}

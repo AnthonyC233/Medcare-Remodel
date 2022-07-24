@@ -102,6 +102,7 @@ function Testimonials() {
         iPhoneXR:pl-12
         iPhoneSE:pl-12 
         GalaxyFold:pl-12
+        iPhone8Plus:pl-12
         "
       >
         <h1 className="pb-3 text-3xl font-semibold font-['Inter'] text-center">
@@ -129,6 +130,7 @@ function Testimonials() {
         iPhoneXR:pl-12
         iPhoneSE:pl-12 
         GalaxyFold:pl-12
+        iPhone8Plus:pl-12
         "
       >
         <OwlCarousel

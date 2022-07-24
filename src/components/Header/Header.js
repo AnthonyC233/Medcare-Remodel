@@ -38,6 +38,9 @@ function Header() {
         // Base
           flex-grow w-1/2 pl-24 pr-6 flex flex-col items-center text-center 
 
+          // SUPERULTIMATE
+          SUPERULTIMATE:text-left SUPERULTIMATE:items-start SUPERULTIMATE:pb-0
+
           // ULTIMATE
           ULTIMATE:text-left ULTIMATE:items-start ULTIMATE:pb-0
 
@@ -82,6 +85,9 @@ function Header() {
 
         // GalaxyFold | Landscape
         GalaxyFold:pl-0 GalaxyFold:pt-20
+
+        // iPhone8Plus | Landscape
+        iPhone8Plus:pt-20 iPhone8Plus:pl-0
  
         
         "
@@ -150,6 +156,9 @@ function Header() {
         
         // Base
           w-4/5 mb-10
+
+        // SUPERULTIMATE
+          SUPERULTIMATE:w-6/12
 
         // 1880px | 3xl
           3xl:w-9/12
