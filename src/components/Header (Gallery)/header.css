@@ -72,6 +72,10 @@ width: 800px;
   }
 }
 
+/* .slogan {
+  color:#93C5FD;
+  font-family:  'Courgette';
+} */
 @media screen and (max-width: 3440px) {
   .gallery-header-container {
     height: 60vh;

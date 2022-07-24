@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
-import './gallery.css';
+import React, { useEffect, useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import "./gallery.css";
 
 import Vid1 from "../../assets/medcare_4.mp4";
 import Vid2 from "../../assets/medcare_5.mp4";
@@ -30,9 +30,7 @@ import picture22 from "../../assets/gallery-22.jpeg";
 
 import CloseIcon from "../../assets/close-outline.svg";
 
-
 function Gallery1() {
-
   let data = [
     {
       id: 1,
@@ -56,7 +54,7 @@ function Gallery1() {
     },
     {
       id: 6,
-      imgSrc: picture6,
+      imgSrc: picture17,
     },
     {
       id: 7,
@@ -72,11 +70,11 @@ function Gallery1() {
     },
     {
       id: 10,
-      imgSrc: picture16,
+      imgSrc: picture19,
     },
     {
       id: 11,
-      imgSrc: picture17,
+      imgSrc: picture6,
     },
     {
       id: 12,
@@ -84,7 +82,7 @@ function Gallery1() {
     },
     {
       id: 13,
-      imgSrc: picture1,
+      imgSrc: picture11,
     },
     {
       id: 14,
@@ -98,10 +96,11 @@ function Gallery1() {
       id: 16,
       imgSrc: picture5,
     },
-  ]
+    
+  ];
 
   const [model, setModel] = useState(false);
-  const [tempimgSrc, setTempImgSrc] = useState('');
+  const [tempimgSrc, setTempImgSrc] = useState("");
 
   const getImg = (imgSrc) => {
     // onClick will display something along the lines of: VM11615 react_devtools_backend.js:4026 /static/media/gallery-21.c11973aa3815ca6371ff.jpeg
@@ -109,11 +108,12 @@ function Gallery1() {
 
     setTempImgSrc(imgSrc);
     setModel(true);
-  }
+  };
 
   return (
     <>
-    <section className='
+      <section
+        className="
     
     // BASE
     ml-20 mt-10 sm:ml-0
@@ -142,24 +142,48 @@ function Gallery1() {
     // iPhone8Plus (Horizontal)
     iPhone8Plus:ml-0
 
-    '>
-      {/* onClick Overlay */}
-      <div className={model ? "model open" : "model"}>
-        <img src={tempimgSrc} alt="Something something"></img>
-        <img className='closeIconSvg' src={CloseIcon} onClick={() => setModel(false)}></img>
-      </div>
+    "
+      >
+        {/* onClick Overlay */}
+        <div className={model ? "model open" : "model"}>
+          <img src={tempimgSrc} alt="Something something"></img>
+          <img
+            className="closeIconSvg"
+            src={CloseIcon}
+            onClick={() => setModel(false)}
+          ></img>
+        </div>
 
-      {/* Gallery Image Container */}
-      <div className='gallery'>
-        {data.map((item, index) => {
-          return(
-            <div className='gallery-images' key={index} onClick={() => getImg(item.imgSrc)}>
-              <img src={item.imgSrc} alt="MedCare school stuff" style={{width: '100%'}}></img>
-            </div>
-          )
-        })}
-      </div>
-    </section>
+        {/* Gallery Image Container */}
+        <div className="gallery">
+          {data.map((item, index) => {
+            return (
+              <div
+                className="gallery-images"
+                key={index}
+                onClick={() => getImg(item.imgSrc)}
+              >
+                <img
+                  src={item.imgSrc}
+                  alt="MedCare school stuff"
+                  style={{ width: "100%" }}
+                ></img>
+              </div>
+            );
+          })}
+
+          <div className="App">
+            <video width="750" height="500" controls>
+              <source src={Vid1} type="video/mp4" />
+            </video>
+          </div>
+          <div className="App">
+            <video width="750" height="500" controls>
+              <source src={Vid2} type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
