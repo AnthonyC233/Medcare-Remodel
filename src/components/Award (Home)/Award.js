@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./award.css";
 
-import awardImg from "../../assets/medcare-award-1.png";
+import awardImg from "../../assets/new-award.png";
 
 function Award() {
   return (
@@ -122,6 +122,8 @@ function Award() {
       
             // BASE
             flex items-center
+
+            w-1/6
 
             // XL SCREEN
             xl:pt-12 xl:w-3/12 xl:pl-10
