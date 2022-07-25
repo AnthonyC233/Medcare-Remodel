@@ -123,10 +123,19 @@ function Award() {
             // BASE
             flex items-center
 
-            w-1/6
+            SUPERULTIMATE:w-1/12
+
+            3xl:w-3/12
+
+            2xl:w-4/12
+
+            w-2/12
+
+
+            
 
             // XL SCREEN
-            xl:pt-12 xl:w-3/12 xl:pl-10
+            xl:pt-12 xl:pl-10
 
             almostlg:pl-2 pr-2
 
