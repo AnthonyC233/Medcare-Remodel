@@ -6,6 +6,8 @@ import About from "../components/About (Home)/About";
 import Gallery from "../components/Gallery (Home)/GalleryHome";
 import Award from "../components/Award (Home)/Award";
 import Testimonials from "../components/Testimonials (Home)/Testimonials";
+import Credits from "../components/Credits Link/Credits";
+
 import { Helmet } from "react-helmet";
 
 const Home = () => {
@@ -22,6 +24,7 @@ const Home = () => {
       <Gallery />
       <Award />
       <Testimonials />
+      <Credits />
     </div>
   );
 };

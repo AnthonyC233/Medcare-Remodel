@@ -36,7 +36,7 @@ function Nav() {
   const MiddleMenu = [
     // Will have link to doc
     { title: 'Register', src: navImg5, pathway: 'https://docs.google.com/forms/d/e/1FAIpQLSeN5gkyLOgwY10k-v8oOXCGx2rJiw_BosrU5DJtsmaeWI25EQ/viewform' },
-    { title: 'Credit', src: navImg6, pathway: '/credit' },
+    // { title: 'Credit', src: navImg6, pathway: '/credit' },
   ];
 
   const RightMenu = [
@@ -627,7 +627,7 @@ function Nav() {
               className={`
 
             // 1920px - 640px
-              ULTIMATE:pb-16
+              ULTIMATE:pb-24
 
             // SUPERULTIMATE
               SUPERULTIMATE:pb-32
