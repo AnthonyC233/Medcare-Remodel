@@ -48,9 +48,9 @@ function Nav() {
   ];
 
   const BottomMenu = [
-    { title: '404- 944-2346', src: navImg11 },
+    { title: '404- 944-2346', src: navImg11, pathway: '/contact' },
     // { title: 'support@medcarehealthcert.com', src: navImg11 },
-    { title: '2022 MedCare HealthCert', src: navImg13 },
+    { title: 'Copyright Images', src: navImg13, pathway: '/credit' },
   ];
 
   return (
@@ -224,7 +224,7 @@ function Nav() {
 
                 // 1920px - 640px
 
-                text-white origin-left font-medium text-xl duration-300 ${
+                text-slate-40300 origin-left font-medium text-xl duration-300 ${
                   !open && 'hidden'
                 } drop-shadow-md hover:drop-shadow-xl
 
@@ -314,7 +314,7 @@ function Nav() {
               className={`
 
               // 1920px - 640px
-              ULTIMATE:pb-4 ULTIMATE:pt-0
+              ULTIMATE:pb-6 ULTIMATE:pt-0
             
               // SUPERULTIMATE
               SUPERULTIMATE:pb-40 SUPERULTIMATE:pt-10
@@ -346,7 +346,7 @@ function Nav() {
               iPadMini:pb-10
 
               // GalaxyFold (Landscape)
-              GalaxyFold:pb-10
+              GalaxyFold:pb-10 GalaxyFold:bottom-5 GalaxyFold:relative
 
               // iPhone8Plus (Landscape)
               iPhone8Plus:pb-10
@@ -385,7 +385,7 @@ function Nav() {
               <ul className="
               
               // Base
-              pt-6
+              pt-8
 
 
               
@@ -475,7 +475,7 @@ function Nav() {
               className={`
 
               // 1920px - 640px
-              ULTIMATE:pb-4
+              ULTIMATE:pb-6
 
               // SUPERULTIMATE
               SUPERULTIMATE:pb-40
@@ -507,7 +507,8 @@ function Nav() {
               iPadMini:pb-20
 
               // GalaxyFold (Landscape)
-              GalaxyFold:pb-20
+              GalaxyFold:pb-20 GalaxyFold:top-3
+              GalaxyFold:relative
 
               // iPhone8Plus (Landscape)
               iPhone8Plus:pb-0 iPhone8Plus:pt-6
@@ -627,7 +628,7 @@ function Nav() {
               className={`
 
             // 1920px - 640px
-              ULTIMATE:pb-24
+              ULTIMATE:pb-16
 
             // SUPERULTIMATE
               SUPERULTIMATE:pb-32
@@ -660,7 +661,8 @@ function Nav() {
             iPadMini:pb-16
 
             // GalaxyFold (Landscape)
-            GalaxyFold:pb-16
+            GalaxyFold:pb-16 GalaxyFold:top-5
+            GalaxyFold:relative
 
             // iPhone8Plus (Landscape)
             iPhone8Plus:pb-0 iPhone8Plus:pt-6
@@ -787,28 +789,28 @@ function Nav() {
           flex relative
 
           // iPhone SE (Landscape)
-          iPhoneSE:justify-end iPhoneSE:right-9
+          iPhoneSE:justify-end iPhoneSE:right-20
 
           // iPhoneXR (Landscape)
-          iPhoneXR:justify-end iPhoneXR:right-28
+          iPhoneXR:justify-end iPhoneXR:right-36
 
           // iPhone12Pro (Landscape)
-          iPhone12Pro:justify-end iPhone12Pro:right-24
+          iPhone12Pro:justify-end iPhone12Pro:right-32
         
           // Pixel5 (Landscape)
-          Pixel5:justify-end Pixel5:right-24
+          Pixel5:justify-end Pixel5:right-36
 
           // SamsungS8 (Landscape)
-          SamsungS8:justify-end SamsungS8:right-14        
+          SamsungS8:justify-end SamsungS8:right-24 SamsungS8:bottom-2     
 
           // SamsungS20Ultra (Landscape)
-          SamsungS20Ultra:justify-end SamsungS20Ultra:right-28
+          SamsungS20Ultra:justify-end SamsungS20Ultra:right-40
           
           // GalaxyFold (Landscape)
-          GalaxyFold:justify-end GalaxyFold:right-28
+          GalaxyFold:hidden
 
           // iPhone8Plus (Landscape)
-          iPhone8Plus:justify-end iPhone8Plus:right-14
+          iPhone8Plus:justify-end iPhone8Plus:right-24
 
           `}
           >
@@ -820,54 +822,62 @@ function Nav() {
             >
               <ul>
                 {BottomMenu.map((menu, index) => (
+                  <a href={`${menu.pathway}`}>
                   <li
                     key={index}
                     className={`
 
                   // 1920px - 640px
-                  text-zinc-900 text-xxs flex items-center gap-x-4 p-2 h-10 
-
+                  text-zinc-900 text-xxs flex items-center gap-x-4 p-2 h-8 hover:bg-slate-400 rounded-md ${
+                    menu.gap ? 'mt-9' : 'mt-2'
+                  }
+                  h-9
 
                   `}
                   >
-                    <img
-                      className={`
-                      
-                      // 1920px - 640px
-                      bottom-nav-icons
-                      
-                      // 639px (sm)
-                      ${!open && 'sm:hidden'}
+                    <span href={`${menu.pathway}`}>
+                      <img
+                        className={`
 
-                      // iPhoneSE (Landscape)
-                      ${!open && 'iPhoneSE:hidden'}
+                        
+                        
+                        // 1920px - 640px
+                        bottom-nav-icons
+                        
+                        // 639px (sm)
+                        ${!open && 'sm:hidden'}
 
-                      // iPhoneXR (Landscape)
-                      ${!open && 'iPhoneXR:hidden'}
+                        // iPhoneSE (Landscape)
+                        ${!open && 'iPhoneSE:hidden'}
 
-                      // iPhone12Pro (Landscape)
-                      ${!open && 'iPhone12Pro:hidden'}
+                        // iPhoneXR (Landscape)
+                        ${!open && 'iPhoneXR:hidden'}
 
-                      // Pixel5 (Landscape)
-                      ${!open && 'Pixel5:hidden'} 
+                        // iPhone12Pro (Landscape)
+                        ${!open && 'iPhone12Pro:hidden'}
 
-                      // SamsungS8 (Landscape)
-                      ${!open && 'SamsungS8:hidden'} 
+                        // Pixel5 (Landscape)
+                        ${!open && 'Pixel5:hidden'} 
 
-                      // SamsungS20Ultra (Landscape)
-                      ${!open && 'SamsungS20Ultra:hidden'} 
+                        // SamsungS8 (Landscape)
+                        ${!open && 'SamsungS8:hidden'} 
 
-                      // GalaxyFold (Landscape)
-                      ${!open && 'GalaxyFold:hidden'}
+                        // SamsungS20Ultra (Landscape)
+                        ${!open && 'SamsungS20Ultra:hidden'} 
 
-                      // iPhone8Plus (Landscape)
-                      ${!open && 'iPhone8Plus:hidden'}
+                        // GalaxyFold (Landscape)
+                        ${!open && 'GalaxyFold:hidden'}
 
-                      `}
-                      src={`${menu.src}`}
-                      alt="right nav images"
-                    ></img>
+                        // iPhone8Plus (Landscape)
+                        ${!open && 'iPhone8Plus:hidden'}
+
+                        `}
+                        src={`${menu.src}`}
+                        alt="right nav images"
+                      ></img>
+                      </span>
                     <span
+                      href={`${menu.pathway}`}
                       className={`
 
                       // 1920px - 640px
@@ -877,6 +887,7 @@ function Nav() {
                       {menu.title}
                     </span>
                   </li>
+                  </a>
                 ))}
               </ul>
             </div>

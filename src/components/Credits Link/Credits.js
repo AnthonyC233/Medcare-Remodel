@@ -1,10 +1,7 @@
 import React, { useEffect } from 'react';
 
 function Credits() {
-  
-    const CreditLink = [
-      { pathway: '/credit'}
-    ]
+
 
     return (
       <section className="
@@ -24,13 +21,8 @@ function Credits() {
       iPhone8Plus:ml-0 
       
       ">
-        <div className='flex items-center justify-center'>
-          {CreditLink.map((link) => (
-            <a href={`${link.pathway}`} target="_blank" rel="noreferrer">
-              <p className='hover:text-sky-300 transition ease-in-out duration-300 font-[Poppins]'>© Copyright Images</p>
-            </a>
-          ))}
-            
+        <div className='flex items-center justify-center'>       
+              <p className='font-[Poppins]'>© 2022 Medcare HealthCert</p>   
         </div>
       </section>
     );
