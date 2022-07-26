@@ -236,7 +236,3 @@ function Header() {
 }
 
 export default Header;
-
-// min-width vs max-width (Breakpoints)
-// md === 2xl
-//

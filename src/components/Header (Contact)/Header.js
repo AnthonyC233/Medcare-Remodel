@@ -114,6 +114,8 @@ function Header() {
 
       // iPhone8Plus | Landscape
       iPhone8Plus:hidden
+
+      GalaxyFold:hidden
       
       "
       >

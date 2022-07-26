@@ -5,8 +5,7 @@ import Header from '../components/Header (Contact)/Header';
 import ContactInfo from '../components/Info (Contact)/contactInfo';
 import ContactForm from '../components/Contact (Contact)/ContactForm';
 import {Helmet} from "react-helmet";
-
-
+import Credits from "../components/Credits Link/Credits";
 
 const Contact = () => {
   return (
@@ -20,6 +19,7 @@ const Contact = () => {
       <Header />
       <ContactInfo />
       <ContactForm />
+      <Credits />
     </div>
   );
 };
