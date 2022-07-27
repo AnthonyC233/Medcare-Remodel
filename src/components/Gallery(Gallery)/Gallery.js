@@ -5,6 +5,8 @@ import "./gallery.css";
 
 import Vid1 from "../../assets/medcare_4.mp4";
 import Vid2 from "../../assets/medcare_5.mp4";
+import Vid3 from "../../assets/medcare_6.mp4";
+
 import picture1 from "../../assets/gallery-1.jpeg";
 import picture2 from "../../assets/gallery-2.jpeg";
 import picture3 from "../../assets/gallery-3.jpeg";
@@ -27,6 +29,8 @@ import picture19 from "../../assets/gallery-19.jpeg";
 import picture20 from "../../assets/gallery-20.jpeg";
 import picture21 from "../../assets/gallery-21.jpeg";
 import picture22 from "../../assets/gallery-22.jpeg";
+import picture23 from "../../assets/gallery-23.jpg";
+import picture24 from "../../assets/gallery-24.jpg";
 
 import CloseIcon from "../../assets/close-outline.svg";
 
@@ -78,11 +82,11 @@ function Gallery1() {
     },
     {
       id: 12,
-      imgSrc: picture3,
+      imgSrc: picture11,
     },
     {
       id: 13,
-      imgSrc: picture11,
+      imgSrc: picture18,
     },
     {
       id: 14,
@@ -94,6 +98,14 @@ function Gallery1() {
     },
     {
       id: 16,
+      imgSrc: picture14,
+    },
+    {
+      id: 17,
+      imgSrc: picture23,
+    },
+    {
+      id: 18,
       imgSrc: picture5,
     },
     
@@ -180,6 +192,11 @@ function Gallery1() {
           <div className="App">
             <video width="750" height="500" controls>
               <source src={Vid2} type="video/mp4" />
+            </video>
+          </div>
+          <div className="App">
+            <video width="750" height="500" controls>
+              <source src={Vid3} type="video/mp4" />
             </video>
           </div>
         </div>
