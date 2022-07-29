@@ -156,6 +156,7 @@ function Award() {
             SamsungS20Ultra:items-end SamsungS20Ultra:pl-0 SamsungS20Ultra:pt-0
             SamsungS20UltraH:pt-5 SamsungS20UltraH:w-7/12
             GalaxyFold:items-end GalaxyFold:pl-0 GalaxyFold:pt-0
+            GalaxyFoldH:w-5/12 GalaxyFoldH:pt-0
             iPadAir:items-end iPadAir:pl-0 iPadAir:pt-0
             iPadAirH:items-end iPadAirH:pl-0 iPadAirH:pt-0
             iPadMini:items-end iPadMini:pl-0 iPadMini:pt-0
