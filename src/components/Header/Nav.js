@@ -378,7 +378,7 @@ function Nav() {
               iPadMiniH:pb-20
 
               // GalaxyFold (Horizontal)
-              GalaxyFoldH:pb-20
+              GalaxyFoldH:pb-6
 
             `}
             >
@@ -694,7 +694,7 @@ function Nav() {
             iPadMiniH:pb-52
             
             //GalaxyFold (Horizontal)
-            GalaxyFoldH:pb-52
+            GalaxyFoldH:pb-8
 
             `}
             >
