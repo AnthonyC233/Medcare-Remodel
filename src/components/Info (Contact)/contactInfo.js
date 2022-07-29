@@ -69,7 +69,7 @@ function contactInfo() {
 
         SamsungS20Ultra:mr-16
 
-        GalaxyFold:mr-16
+        GalaxyFold:mr-16        
 
         iPhone8Plus:mr-16
         
@@ -90,7 +90,6 @@ function contactInfo() {
 
                     // 639px | sm
                         sm:pl-0 sm:mr-11 sm:pt-0
-                    
 
                     "
           >
@@ -99,7 +98,9 @@ function contactInfo() {
                         
                         // Base
                         flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col
-                         
+
+                        // GalaxyFoldH | Vertical
+                          GalaxyFoldH:p-8
 
                         "
             >
@@ -120,7 +121,7 @@ function contactInfo() {
               </div>
 
               {/* Text Container */}
-              <div className="flex-grow">
+              <div className="flex-grow GalaxyFoldH:overflow-hidden">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
                   Email us
                 </h2>
@@ -129,7 +130,6 @@ function contactInfo() {
                                 
                                 // Base
                                 text-gray-900 text-base title-font font-medium mb-3
-                                
                                 
                                 // 639px | sm
                                 sm:text-smaller
@@ -161,10 +161,14 @@ function contactInfo() {
 
                                 // SamsungS20UltraH | Vertical
                                     SamsungS20UltraH:flex SamsungS20UltraH:flex-wrap
+
+                                // GalaxyFoldH | Vertical
+                                    GalaxyFoldH:flex GalaxyFoldH:flex-wrap
                                 
                                 "
                   >
-                    support<span className="">@medcarehealthcert.com</span>
+                    support@<span>medcare</span>
+                    <span>healthcert.com</span>
                   </span>
                 </h3>
 
@@ -191,11 +195,15 @@ function contactInfo() {
                    
                     // 639px | sm
                     sm:pl-0 sm:mr-11 sm:pt-0
-                    
-                    
+
                     "
           >
-            <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+            <div
+              className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col                         
+              
+              // GalaxyFoldH | Vertical
+                GalaxyFoldH:p-10"
+            >
               {/* Icon Container */}
               <div
                 className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-500 flex-shrink-0 bg-sky-200
@@ -257,7 +265,6 @@ function contactInfo() {
                     // 639px | sm
                     sm:pl-0 sm:mr-11 sm:pt-0
                     
-                    
                     "
           >
             <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
@@ -301,8 +308,8 @@ function contactInfo() {
                   </span>
                 </h3>
                 <p className="leading-relaxed text-base">
-                  Come check out our facility here in Georgia. New students
-                  are always welcome!{' '}
+                  Come check out our facility here in Georgia. New students are
+                  always welcome!{' '}
                 </p>
               </div>
             </div>
