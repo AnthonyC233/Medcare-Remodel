@@ -99,6 +99,9 @@ function contactInfo() {
                         // Base
                         flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col
 
+                        // GalaxyFoldH | Vertical
+                          GalaxyFoldH:p-8
+
                         "
             >
               {/* Icon Container */}
@@ -127,7 +130,6 @@ function contactInfo() {
                                 
                                 // Base
                                 text-gray-900 text-base title-font font-medium mb-3
-                                
                                 
                                 // 639px | sm
                                 sm:text-smaller
@@ -194,13 +196,13 @@ function contactInfo() {
                     // 639px | sm
                     sm:pl-0 sm:mr-11 sm:pt-0
 
-                    
-                    
                     "
           >
             <div
-              className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col 
-                    GalaxyFoldH:bg-yellow-400"
+              className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col                         
+              
+              // GalaxyFoldH | Vertical
+                GalaxyFoldH:p-10"
             >
               {/* Icon Container */}
               <div
@@ -262,7 +264,6 @@ function contactInfo() {
 
                     // 639px | sm
                     sm:pl-0 sm:mr-11 sm:pt-0
-                    
                     
                     "
           >
