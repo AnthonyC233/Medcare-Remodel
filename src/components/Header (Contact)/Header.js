@@ -42,8 +42,8 @@ function Header() {
       GalaxyFold:pl-12 GalaxyFold:bg-white
       iPhone8Plus:bg-white
 
-      GalaxyFoldH:p-2
-      GalaxyFoldH:pt-10
+      GalaxyFoldH:p-2 
+      GalaxyFoldH:pt-20
 
 
       // PHONES | VERTICAL
