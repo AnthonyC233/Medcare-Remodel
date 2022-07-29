@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import video from '../../assets/medcare_3.mp4';
+import video2 from '../../assets/medcare_7.mp4';
+
 
 // PATH TO GALLERY PAGE FROM BUTTON
 import { useNavigate } from 'react-router-dom';

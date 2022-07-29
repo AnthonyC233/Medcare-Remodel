@@ -22,7 +22,7 @@ function Credits() {
       
       ">
         <div className='flex items-center justify-center'>       
-              <p className='font-[Poppins]'>© 2011 Medcare HealthCert</p>   
+              <p className='font-[Poppins]'>© 2022 Medcare HealthCert</p>   
         </div>
       </section>
     );
