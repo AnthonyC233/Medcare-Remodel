@@ -100,7 +100,7 @@ function contactInfo() {
                         flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col
 
                         // GalaxyFoldH | Vertical
-                          GalaxyFoldH:p-8
+                          GalaxyFoldH:p-8 
 
                         "
             >
