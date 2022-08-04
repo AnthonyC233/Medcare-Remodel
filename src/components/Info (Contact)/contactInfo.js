@@ -223,7 +223,7 @@ function contactInfo() {
               {/* Text Container */}
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-base title-font font-medium mb-3">
-                  Call us
+                  Text us
                 </h2>
                 <h3
                   className="
@@ -242,8 +242,7 @@ function contactInfo() {
                   <span className="text-yellow-500">404-944-2346</span>
                 </h3>
                 <p className="leading-relaxed text-base">
-                  Need a 1-on-1 talk directly? You can hit our number here for
-                  any questions.
+                  Need a 1-on-1 talk directly? You can text our student hotline number above.
                 </p>
               </div>
             </div>

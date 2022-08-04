@@ -6,6 +6,7 @@ import "./gallery.css";
 import Vid1 from "../../assets/medcare_4.mp4";
 import Vid2 from "../../assets/medcare_5.mp4";
 import Vid3 from "../../assets/medcare_6.mp4";
+import Vid4 from "../../assets/medcare_7.mp4";
 
 import picture1 from "../../assets/gallery-1.jpeg";
 import picture2 from "../../assets/gallery-2.jpeg";
@@ -62,7 +63,7 @@ function Gallery1() {
     },
     {
       id: 7,
-      imgSrc: picture15,
+      imgSrc: picture24,
     },
     {
       id: 8,
@@ -108,7 +109,6 @@ function Gallery1() {
       id: 18,
       imgSrc: picture5,
     },
-    
   ];
 
   const [model, setModel] = useState(false);

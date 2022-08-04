@@ -1,16 +1,16 @@
-import React, { useEffect } from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
-import video from '../../assets/medcare_3.mp4';
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import GalleryCarousel from "../Gallery (Homecarousel)/GalleryCarousel";
 
 // PATH TO GALLERY PAGE FROM BUTTON
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function GalleryHome() {
   let navigate = useNavigate();
 
   function galleryLink() {
-    navigate('/gallery');
+    navigate("/gallery");
   }
 
   useEffect(() => {
@@ -68,14 +68,8 @@ function GalleryHome() {
           SamsungS20UltraH:pb-14
           "
         >
-          <div class="">
-            <video
-              width="640"
-              height="320"
-              src={video}
-              type="video/mp4"
-              controls
-            />
+          <div class="App">
+            <GalleryCarousel></GalleryCarousel>
           </div>
         </div>
 
