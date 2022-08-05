@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import "./award.css";
+import AwardCarousel from "../Award (Carousel)/AwardCarousel.js";
 
-import awardImg from "../../assets/new-award.png";
+// import awardImg from "../../assets/new-award.png";
+// import awardImg2 from "../../assets/medcare_award2.png";
 
 function Award() {
   return (
@@ -165,7 +167,9 @@ function Award() {
 
               "
         >
-          <img src={awardImg} alt="MedCare award" className=""></img>
+          <div class="App">
+            <AwardCarousel></AwardCarousel>
+          </div>{" "}
         </div>
       </div>
     </section>
