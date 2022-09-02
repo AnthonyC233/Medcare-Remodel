@@ -1,9 +1,6 @@
-import React, { useEffect } from "react";
-import "./award.css";
-import AwardCarousel from "../Award (Carousel)/AwardCarousel.js";
-
-// import awardImg from "../../assets/new-award.png";
-// import awardImg2 from "../../assets/medcare_award2.png";
+import React from 'react';
+import './award.css';
+import AwardCarousel from '../Award (Carousel)/AwardCarousel.js';
 
 function Award() {
   return (
@@ -108,7 +105,7 @@ function Award() {
             
             "
           >
-            Come see us on{" "}
+            Come see us on{' '}
             <a
               class="one"
               href="https://www.guidetogwinnett.com/lawrenceville/education-childcare/medcare-healthcert"
@@ -132,9 +129,6 @@ function Award() {
             2xl:w-4/12
 
             w-2/12
-
-
-            
 
             // XL SCREEN
             xl:pt-12 xl:pl-10
@@ -169,7 +163,7 @@ function Award() {
         >
           <div class="App">
             <AwardCarousel></AwardCarousel>
-          </div>{" "}
+          </div>{' '}
         </div>
       </div>
     </section>

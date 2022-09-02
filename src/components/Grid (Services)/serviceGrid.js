@@ -92,10 +92,10 @@ function serviceGrid() {
         <p className="leading-relaxed text-center font-['Mingzat']">
           If you love the clinical/lab aspect of healthcare training, then
           Phlebotomy is for you. In our Phlebotomy program, you are taught how
-          to obtain specimens using a variety of techniques. You also recieve an introduction for
-          specific labs that might be drawn and the different tubes you will
-          use for each. The specimens are obtained for treatment, prevention of
-          diseases, and testing for a diagnosis.
+          to obtain specimens using a variety of techniques. You also recieve an
+          introduction for specific labs that might be drawn and the different
+          tubes you will use for each. The specimens are obtained for treatment,
+          prevention of diseases, and testing for a diagnosis.
         </p>
       </div>
 
@@ -112,8 +112,8 @@ function serviceGrid() {
         </h2>
         <p className="leading-relaxed text-center font-['Mingzat']">
           As a Personal Care Technician, you will be taking care of homebound
-          patients of all ages. PCT will assist in activities of daily
-          living (ADL), communication, and basic caregiving skills needed to provide
+          patients of all ages. PCT will assist in activities of daily living
+          (ADL), communication, and basic caregiving skills needed to provide
           the best quality care for patients. In addition, you will be taught
           your role as a PCA, your responsibilities, as well as how to relate to
           other family members.

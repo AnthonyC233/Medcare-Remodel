@@ -1,8 +1,6 @@
 import React from 'react';
 import './contact.css';
 
-import InputField from './InputField';
-
 // NO MEDIA QUERY ON THIS AS OF 7/7/22, 9:09PM
 function ContactForm() {
   return (
