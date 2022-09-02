@@ -1,5 +1,8 @@
 module.exports = {
-  content: ['./src/**/*.{html,js,jsx,ts,tsx}','./node_modules/tw-elements/dist/js/**/*.js'],
+  content: [
+    './src/**/*.{html,js,jsx,ts,tsx}',
+    './node_modules/tw-elements/dist/js/**/*.js',
+  ],
   theme: {
     // Can now customize font sizes
     fontSize: {
@@ -26,7 +29,7 @@ module.exports = {
       screens: {
         SUPERULTIMATE: { max: '3440px' },
         // => @media (max-width: 3440px) { ... }
-        
+
         ULTIMATE: { max: '1920px' },
         // => @media (max-width: 1920px) { ... }
 
@@ -139,7 +142,6 @@ module.exports = {
 
         iPhone8PlusH: { raw: '(width: 414px) and (height: 736px)' },
         // iPhone8 (Landscape) => @media (width: 414px) and (height: 736px)
-
       },
       // Adding hexcodes for colors to use with tailwind classes
       colors: {
@@ -155,10 +157,6 @@ module.exports = {
       theme: {
         // ...
       },
-      // plugins: [
-      //   require('@tailwindcss/aspect-ratio'),
-      //   // ...
-      // ],
     },
   },
   plugins: [require('tw-elements/dist/plugin')],

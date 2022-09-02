@@ -11,7 +11,7 @@ function About() {
   }, []);
 
   return (
-    <section className='overflow-x-hidden'> 
+    <section className="overflow-x-hidden">
       <div
         className="container mx-auto flex flex-row xl:flex-col items-center bg-sky-300 overflow-x-hidden overflow-y-hidden
 
@@ -45,7 +45,7 @@ function About() {
       >
         {/* TEXT DIV */}
         <div
-        data-aos="fade-up"
+          data-aos="fade-up"
           className="
             // BASE
             flex-grow w-1/2 flex flex-col items-center
@@ -90,9 +90,10 @@ function About() {
           <p className="leading-relaxed font-['Poppins'] overflow-hidden text-left text-lg">
             Welcome to MedCare HealthCert! At our school, we pride ourselves in
             gapping bridges for our students to become future MDs, PAs, and
-            Nurses. Our school is open to all college students and graduates majoring in any
-            of the sciences. Also, if you are mandated to obtain direct patient
-            care hours for medical school, you came to the perfect institute.
+            Nurses. Our school is open to all college students and graduates
+            majoring in any of the sciences. Also, if you are mandated to obtain
+            direct patient care hours for medical school, you came to the
+            perfect institute.
           </p>
           <br></br>
           <p className="leading-relaxed font-['Poppins'] overflow-hidden text-left text-lg">
@@ -106,7 +107,7 @@ function About() {
 
         {/* PROGRESS BARS DIV */}
         <div
-        data-aos="fade-up"
+          data-aos="fade-up"
           className="flex justify-center items-center flex-col
       
             // BASE

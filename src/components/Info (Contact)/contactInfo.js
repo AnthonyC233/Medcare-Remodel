@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import './contactInfo.css';
+import React from 'react';
 
 // Ionicon icons for row divs
 import contactIcon1 from '../../assets/mail-outline.svg';
@@ -242,7 +241,8 @@ function contactInfo() {
                   <span className="text-yellow-500">404-944-2346</span>
                 </h3>
                 <p className="leading-relaxed text-base">
-                  Need a 1-on-1 talk directly? You can text our student hotline number above.
+                  Need a 1-on-1 talk directly? You can text our student hotline
+                  number above.
                 </p>
               </div>
             </div>

@@ -28,11 +28,6 @@
   background: #fffafb;
 }
 
-/* .header-image img {
-height: 500px;
-width: 800px;
-} */
-
 /* 639 changes */
 .page {
   grid-template-columns: 60vw auto;
@@ -48,14 +43,11 @@ width: 800px;
   /* background-color: #4fc7f9; */
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../../assets/gallery.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(../../assets/gallery.avif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: center;
-  flex-direction: column; */
 }
 
 /* iPad Air Vertical */
@@ -72,10 +64,6 @@ width: 800px;
   }
 }
 
-/* .slogan {
-  color:#93C5FD;
-  font-family:  'Courgette';
-} */
 @media screen and (max-width: 3440px) {
   .gallery-header-container {
     height: 60vh;

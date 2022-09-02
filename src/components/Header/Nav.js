@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Header from './Header';
 import './header.css';
 
 // Images
@@ -9,7 +8,6 @@ import navImg2 from '../../assets/create-outline.svg';
 import navImg3 from '../../assets/images-outline.svg';
 import navImg4 from '../../assets/mail-outline.svg';
 import navImg5 from '../../assets/clipboard-outline.svg';
-import navImg6 from '../../assets/receipt-outline.svg';
 
 // Social Media Icons
 import navImg7 from '../../assets/logo-facebook.svg';
@@ -35,26 +33,46 @@ function Nav() {
 
   const MiddleMenu = [
     // Will have link to doc
-    { title: 'Register', src: navImg5, pathway: 'https://docs.google.com/forms/d/e/1FAIpQLSeN5gkyLOgwY10k-v8oOXCGx2rJiw_BosrU5DJtsmaeWI25EQ/viewform' },
-    // { title: 'Credit', src: navImg6, pathway: '/credit' },
+    {
+      title: 'Register',
+      src: navImg5,
+      pathway:
+        'https://docs.google.com/forms/d/e/1FAIpQLSeN5gkyLOgwY10k-v8oOXCGx2rJiw_BosrU5DJtsmaeWI25EQ/viewform',
+    },
   ];
 
   const RightMenu = [
     // Will have social media links
-    { title: 'Facebook', src: navImg7, pathway: 'https://www.facebook.com/MedCares' },
-    { title: 'Instagram', src: navImg8, pathway: 'https://www.instagram.com/medcares1/' },
-    { title: 'Twitter', src: navImg9, pathway: 'https://twitter.com/medcareinfos' },
-    { title: 'TikTok', src: navImg10, pathway: 'https://www.tiktok.com/@medcarehealthcert?_d=secCgYIASAHKAESPgo8YjzpuiEzdiXkwtR4WHk1rEZmUX%2FwbR6Ga8IavRLz0Qc0s26a6GIzSmXcHA5S0EfM9RTxMxQnOY795fjUGgA%3D&_r=1&checksum=7c45a515ed653b87c284f387c46073fd7b812aaa83c24dfba7d55b59da727b95&language=en&sec_uid=MS4wLjABAAAAPC_xK2YrNZ0cRjxmdwtC5HBLT3AXRYxvY1CGimeGM4z_zGpz7J2j3291u9iC18pI&sec_user_id=MS4wLjABAAAA4k_eoBxI4CR7LkPoAa4PSsLTamC82-65BUg9bbY8ISfV9mZVCZJykVPZ6q7chhtA&share_app_id=1233&share_author_id=6810637229493601285&share_link_id=0D717981-37C7-4180-AF4F-FFF24F0AB1F0&source=h5_m&timestamp=1658421640&tt_from=copy&u_code=db0h334f0g1bc5&ug_btm=b7200%2Cb5836&user_id=6794243478852207621&utm_campaign=client_share&utm_medium=ios&utm_source=copy' },
+    {
+      title: 'Facebook',
+      src: navImg7,
+      pathway: 'https://www.facebook.com/MedCares',
+    },
+    {
+      title: 'Instagram',
+      src: navImg8,
+      pathway: 'https://www.instagram.com/medcares1/',
+    },
+    {
+      title: 'Twitter',
+      src: navImg9,
+      pathway: 'https://twitter.com/medcareinfos',
+    },
+    {
+      title: 'TikTok',
+      src: navImg10,
+      pathway:
+        'https://www.tiktok.com/@medcarehealthcert?_d=secCgYIASAHKAESPgo8YjzpuiEzdiXkwtR4WHk1rEZmUX%2FwbR6Ga8IavRLz0Qc0s26a6GIzSmXcHA5S0EfM9RTxMxQnOY795fjUGgA%3D&_r=1&checksum=7c45a515ed653b87c284f387c46073fd7b812aaa83c24dfba7d55b59da727b95&language=en&sec_uid=MS4wLjABAAAAPC_xK2YrNZ0cRjxmdwtC5HBLT3AXRYxvY1CGimeGM4z_zGpz7J2j3291u9iC18pI&sec_user_id=MS4wLjABAAAA4k_eoBxI4CR7LkPoAa4PSsLTamC82-65BUg9bbY8ISfV9mZVCZJykVPZ6q7chhtA&share_app_id=1233&share_author_id=6810637229493601285&share_link_id=0D717981-37C7-4180-AF4F-FFF24F0AB1F0&source=h5_m&timestamp=1658421640&tt_from=copy&u_code=db0h334f0g1bc5&ug_btm=b7200%2Cb5836&user_id=6794243478852207621&utm_campaign=client_share&utm_medium=ios&utm_source=copy',
+    },
   ];
 
   const BottomMenu = [
     { title: '404- 944-2346', src: navImg11, pathway: '/contact' },
-    // { title: 'support@medcarehealthcert.com', src: navImg11 },
     { title: 'Copyright Images', src: navImg13, pathway: '/credit' },
   ];
 
   return (
-    <header className='overflow-x-visible'>
+    <header className="overflow-x-visible">
       {/* Navbar */}
       <nav className="flex z-50">
         {/* Nav Width (w-72 === 18rem || 288px; w-20 === 5rem || 80px) */}
@@ -65,7 +83,9 @@ function Nav() {
         z-40 shadow-lg shadow-black overflow-hidden
           
         // 1920px - 640px
-        ${open ? 'w-80 sm:bg-sky-300 ' : 'w-20'}  h-screen p-5 pt-8 bg-slate-200 fixed 
+        ${
+          open ? 'w-80 sm:bg-sky-300 ' : 'w-20'
+        }  h-screen p-5 pt-8 bg-slate-200 fixed 
 
         639px | sm
         sm:bg-white
@@ -209,7 +229,7 @@ function Nav() {
           ></img>
 
           {/* Nav Logo */}
-          
+
           <a href={`/`}>
             <div className="nav-list flex gap-x-4 items-center overflow-hidden">
               <img
@@ -270,7 +290,7 @@ function Nav() {
               >
                 MedCare HealthCert
               </h1>
-            </div> 
+            </div>
           </a>
 
           {/* NAV LIST PARENT DIV */}
@@ -382,14 +402,16 @@ function Nav() {
 
             `}
             >
-              <ul className="
+              <ul
+                className="
               
               // Base
               pt-8
 
 
               
-              ">
+              "
+              >
                 {LeftMenu.map((menu, index) => (
                   <a href={`${menu.pathway}`}>
                     <li
@@ -433,7 +455,9 @@ function Nav() {
                     ${!open && 'GalaxyFold:hidden'} GalaxyFold:grid grid-cols-4
 
                     // iPhone8Plus (Landscape)
-                    ${!open && 'iPhone8Plus:hidden'} iPhone8Plus:grid grid-cols-4
+                    ${
+                      !open && 'iPhone8Plus:hidden'
+                    } iPhone8Plus:grid grid-cols-4
 
 
                     `}
@@ -543,7 +567,7 @@ function Nav() {
               GalaxyFold:pb-36
 
 
-            `} 
+            `}
             >
               <ul>
                 {MiddleMenu.map((menu, index) => (
@@ -589,7 +613,9 @@ function Nav() {
                     ${!open && 'GalaxyFold:hidden'} GalaxyFold:grid grid-cols-4
 
                     // iPhone8Plus (Landscape)
-                    ${!open && 'iPhone8Plus:hidden'} iPhone8Plus:grid grid-cols-4
+                    ${
+                      !open && 'iPhone8Plus:hidden'
+                    } iPhone8Plus:grid grid-cols-4
 
                     `}
                     >
@@ -742,14 +768,18 @@ function Nav() {
                     ${!open && 'GalaxyFold:hidden'} GalaxyFold:grid grid-cols-4
 
                     // iPhone8Plus (Landscape)
-                    ${!open && 'iPhone8Plus:hidden'} iPhone8Plus:grid grid-cols-4
+                    ${
+                      !open && 'iPhone8Plus:hidden'
+                    } iPhone8Plus:grid grid-cols-4
 
 
                     `}
                     >
-                      <span href={`${menu.pathway}
+                      <span
+                        href={`${menu.pathway}
                       
-                      `}>
+                      `}
+                      >
                         <img
                           className={`
                           
@@ -823,9 +853,9 @@ function Nav() {
               <ul>
                 {BottomMenu.map((menu, index) => (
                   <a href={`${menu.pathway}`}>
-                  <li
-                    key={index}
-                    className={`
+                    <li
+                      key={index}
+                      className={`
 
                   // 1920px - 640px
                   text-zinc-900 text-xxs flex items-center gap-x-4 p-2 h-8 hover:bg-slate-400 rounded-md ${
@@ -834,10 +864,10 @@ function Nav() {
                   h-9
 
                   `}
-                  >
-                    <span href={`${menu.pathway}`}>
-                      <img
-                        className={`
+                    >
+                      <span href={`${menu.pathway}`}>
+                        <img
+                          className={`
 
                         
                         
@@ -872,21 +902,21 @@ function Nav() {
                         ${!open && 'iPhone8Plus:hidden'}
 
                         `}
-                        src={`${menu.src}`}
-                        alt="right nav images"
-                      ></img>
+                          src={`${menu.src}`}
+                          alt="right nav images"
+                        ></img>
                       </span>
-                    <span
-                      href={`${menu.pathway}`}
-                      className={`
+                      <span
+                        href={`${menu.pathway}`}
+                        className={`
 
                       // 1920px - 640px
                       ${!open && 'hidden'} origin-left duration-200 
                     `}
-                    >
-                      {menu.title}
-                    </span>
-                  </li>
+                      >
+                        {menu.title}
+                      </span>
+                    </li>
                   </a>
                 ))}
               </ul>
@@ -894,8 +924,6 @@ function Nav() {
           </div>
         </div>
       </nav>
-      {/* Header */}
-      {/* <Header /> */}
     </header>
   );
 }

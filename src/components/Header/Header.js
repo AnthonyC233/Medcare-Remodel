@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './header.css';
 
 // Images for the header change per page
-import header1 from '../../assets/homepage-header.jpg';
+import header1 from '../../assets/homepage-header.avif';
 
 function Header() {
   useEffect(() => {

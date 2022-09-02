@@ -1,16 +1,16 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import GalleryCarousel from "../Gallery (Homecarousel)/GalleryCarousel";
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import GalleryCarousel from '../Gallery (Homecarousel)/GalleryCarousel';
 
 // PATH TO GALLERY PAGE FROM BUTTON
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 function GalleryHome() {
   let navigate = useNavigate();
 
   function galleryLink() {
-    navigate("/gallery");
+    navigate('/gallery');
   }
 
   useEffect(() => {

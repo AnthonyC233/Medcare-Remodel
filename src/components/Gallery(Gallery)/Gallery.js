@@ -1,39 +1,30 @@
-import React, { useEffect, useState } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import "./gallery.css";
+import React, { useState } from 'react';
+import './gallery.css';
 
-import Vid1 from "../../assets/medcare_4.mp4";
-import Vid2 from "../../assets/medcare_5.mp4";
-import Vid3 from "../../assets/medcare_6.mp4";
-import Vid4 from "../../assets/medcare_7.mp4";
+import Vid1 from '../../assets/medcare_4.mp4';
+import Vid2 from '../../assets/medcare_5.mp4';
+import Vid3 from '../../assets/medcare_6.mp4';
 
-import picture1 from "../../assets/gallery-1.jpeg";
-import picture2 from "../../assets/gallery-2.jpeg";
-import picture3 from "../../assets/gallery-3.jpeg";
-import picture4 from "../../assets/gallery-4.jpeg";
-import picture5 from "../../assets/gallery-5.jpeg";
-import picture6 from "../../assets/gallery-6.jpeg";
-import picture7 from "../../assets/gallery-7.jpeg";
-import picture8 from "../../assets/gallery-8.jpeg";
-import picture9 from "../../assets/gallery-9.jpeg";
-import picture10 from "../../assets/gallery-10.jpeg";
-import picture11 from "../../assets/gallery-11.jpeg";
-import picture12 from "../../assets/gallery-12.jpeg";
-import picture13 from "../../assets/gallery-13.jpeg";
-import picture14 from "../../assets/gallery-14.jpeg";
-import picture15 from "../../assets/gallery-15.jpeg";
-import picture16 from "../../assets/gallery-16.jpeg";
-import picture17 from "../../assets/gallery-17.jpeg";
-import picture18 from "../../assets/gallery-18.jpeg";
-import picture19 from "../../assets/gallery-19.jpeg";
-import picture20 from "../../assets/gallery-20.jpeg";
-import picture21 from "../../assets/gallery-21.jpeg";
-import picture22 from "../../assets/gallery-22.jpeg";
-import picture23 from "../../assets/gallery-23.jpg";
-import picture24 from "../../assets/gallery-24.jpg";
+import picture2 from '../../assets/gallery-2.jpeg';
+import picture3 from '../../assets/gallery-3.jpeg';
+import picture4 from '../../assets/gallery-4.jpeg';
+import picture5 from '../../assets/gallery-5.jpeg';
+import picture6 from '../../assets/gallery-6.jpeg';
+import picture7 from '../../assets/gallery-7.jpeg';
+import picture8 from '../../assets/gallery-8.jpeg';
+import picture9 from '../../assets/gallery-9.jpeg';
+import picture11 from '../../assets/gallery-11.jpeg';
+import picture14 from '../../assets/gallery-14.jpeg';
+import picture17 from '../../assets/gallery-17.jpeg';
+import picture18 from '../../assets/gallery-18.jpeg';
+import picture19 from '../../assets/gallery-19.jpeg';
+import picture20 from '../../assets/gallery-20.jpeg';
+import picture21 from '../../assets/gallery-21.jpeg';
+import picture22 from '../../assets/gallery-22.jpeg';
+import picture23 from '../../assets/gallery-23.jpg';
+import picture24 from '../../assets/gallery-24.jpg';
 
-import CloseIcon from "../../assets/close-outline.svg";
+import CloseIcon from '../../assets/close-outline.svg';
 
 function Gallery1() {
   let data = [
@@ -112,7 +103,7 @@ function Gallery1() {
   ];
 
   const [model, setModel] = useState(false);
-  const [tempimgSrc, setTempImgSrc] = useState("");
+  const [tempimgSrc, setTempImgSrc] = useState('');
 
   const getImg = (imgSrc) => {
     // onClick will display something along the lines of: VM11615 react_devtools_backend.js:4026 /static/media/gallery-21.c11973aa3815ca6371ff.jpeg
@@ -157,10 +148,11 @@ function Gallery1() {
     "
       >
         {/* onClick Overlay */}
-        <div className={model ? "model open" : "model"}>
+        <div className={model ? 'model open' : 'model'}>
           <img src={tempimgSrc} alt="Something something"></img>
           <img
             className="closeIconSvg"
+            alt="close icon"
             src={CloseIcon}
             onClick={() => setModel(false)}
           ></img>
@@ -178,7 +170,7 @@ function Gallery1() {
                 <img
                   src={item.imgSrc}
                   alt="MedCare school stuff"
-                  style={{ width: "100%" }}
+                  style={{ width: '100%' }}
                 ></img>
               </div>
             );

@@ -1,11 +1,9 @@
 .one {
-font-family: 'Courgette';
-color: #0EA5E9;
-/* text-decoration: underline; */
+  font-family: 'Courgette';
+  color: #0ea5e9;
 }
 
-.one:hover{
-    color: #ffcc00;
-    transition: 0.3s;
+.one:hover {
+  color: #ffcc00;
+  transition: 0.3s;
 }
-
